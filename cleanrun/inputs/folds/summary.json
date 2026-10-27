@@ -1,0 +1,53 @@
+{
+ "1": {
+  "n_train_pairs_available": 3417,
+  "n_directional_examples": 6834,
+  "n_directional_examples_before_exclusion": 6978,
+  "excluded_systems_file": "outputs/clean_protocol_v1/excluded_systems.json",
+  "n_folds": 5,
+  "held_out_fold": 1,
+  "n_fit_examples": 5830,
+  "n_dev_examples": 1004,
+  "n_fit_targets": 270,
+  "n_dev_targets": 72,
+  "old_fit": 5972,
+  "old_dev": 1006,
+  "removed": 144,
+  "fit_targets": 270,
+  "dev_targets": 72
+ },
+ "2": {
+  "n_train_pairs_available": 3417,
+  "n_directional_examples": 6834,
+  "n_directional_examples_before_exclusion": 6978,
+  "excluded_systems_file": "outputs/clean_protocol_v1/excluded_systems.json",
+  "n_folds": 5,
+  "held_out_fold": 2,
+  "n_fit_examples": 5808,
+  "n_dev_examples": 1026,
+  "n_fit_targets": 232,
+  "n_dev_targets": 110,
+  "old_fit": 5926,
+  "old_dev": 1052,
+  "removed": 144,
+  "fit_targets": 232,
+  "dev_targets": 110
+ },
+ "3": {
+  "n_train_pairs_available": 3417,
+  "n_directional_examples": 6834,
+  "n_directional_examples_before_exclusion": 6978,
+  "excluded_systems_file": "outputs/clean_protocol_v1/excluded_systems.json",
+  "n_folds": 5,
+  "held_out_fold": 3,
+  "n_fit_examples": 5808,
+  "n_dev_examples": 1026,
+  "n_fit_targets": 290,
+  "n_dev_targets": 52,
+  "old_fit": 5944,
+  "old_dev": 1034,
+  "removed": 144,
+  "fit_targets": 290,
+  "dev_targets": 52
+ }
+}

@@ -1,0 +1,50 @@
+{
+  "tier_primary": "R",
+  "tier_secondary": "A",
+  "headline_tier_after_A3.3": "A",
+  "operating_point_sensitive": true,
+  "max_abs_sstar_dev_minus_fit": 0.8550980915072399,
+  "blocking_conditions": {
+    "primary": {
+      "B1": false,
+      "B2": false,
+      "B3_projection_ON": false,
+      "B3_any_variant": false,
+      "B4": null
+    },
+    "secondary": {
+      "B1": true,
+      "B2": false,
+      "B3_projection_ON": true,
+      "B3_any_variant": true,
+      "B4": null
+    }
+  },
+  "note": "blocking conditions downgrade/block the headline but never create a tier; section 6 forbids inventing tiers"
+}
+{
+  "primary": {
+    "n_examples": 1406,
+    "n_targets": 59,
+    "mean_difference": -1.0345370741889486,
+    "median_difference": -1.0382800971519195,
+    "ci95": [
+      -1.2630491532844437,
+      -0.9175040040418141
+    ],
+    "excludes_zero": true,
+    "fraction_first_lower": 0.980796586059744
+  },
+  "secondary": {
+    "n_examples": 1406,
+    "n_targets": 59,
+    "mean_difference": -0.9398116062667465,
+    "median_difference": -0.9416673378761782,
+    "ci95": [
+      -1.1692730494428738,
+      -0.8403609010210444
+    ],
+    "excludes_zero": true,
+    "fraction_first_lower": 0.968705547652916
+  }
+}

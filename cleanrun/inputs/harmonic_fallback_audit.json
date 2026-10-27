@@ -1,0 +1,194 @@
+{
+ "n_distinct_products_probed": 2048,
+ "folds": {
+  "train_only_large": {
+   "fold1_fit": {
+    "n_examples": 5830,
+    "n_distinct_molecules": 1649,
+    "distinct_by_branch": {
+     "ok": 1649
+    },
+    "examples_by_branch": {
+     "ok": 5830
+    },
+    "fraction_examples_isotropic_fallback": 0.0,
+    "n_rigid_counts": {
+     "6": 1646,
+     "8": 2,
+     "9": 1
+    }
+   },
+   "fold1_dev": {
+    "n_examples": 1004,
+    "n_distinct_molecules": 399,
+    "distinct_by_branch": {
+     "ok": 399
+    },
+    "examples_by_branch": {
+     "ok": 1004
+    },
+    "fraction_examples_isotropic_fallback": 0.0,
+    "n_rigid_counts": {
+     "6": 398,
+     "9": 1
+    }
+   },
+   "fold2_fit": {
+    "n_examples": 5808,
+    "n_distinct_molecules": 1542,
+    "distinct_by_branch": {
+     "ok": 1542
+    },
+    "examples_by_branch": {
+     "ok": 5808
+    },
+    "fraction_examples_isotropic_fallback": 0.0,
+    "n_rigid_counts": {
+     "6": 1540,
+     "9": 2
+    }
+   },
+   "fold2_dev": {
+    "n_examples": 1026,
+    "n_distinct_molecules": 506,
+    "distinct_by_branch": {
+     "ok": 506
+    },
+    "examples_by_branch": {
+     "ok": 1026
+    },
+    "fraction_examples_isotropic_fallback": 0.0,
+    "n_rigid_counts": {
+     "6": 504,
+     "8": 2
+    }
+   },
+   "fold3_fit": {
+    "n_examples": 5808,
+    "n_distinct_molecules": 1670,
+    "distinct_by_branch": {
+     "ok": 1670
+    },
+    "examples_by_branch": {
+     "ok": 5808
+    },
+    "fraction_examples_isotropic_fallback": 0.0,
+    "n_rigid_counts": {
+     "6": 1667,
+     "8": 2,
+     "9": 1
+    }
+   },
+   "fold3_dev": {
+    "n_examples": 1026,
+    "n_distinct_molecules": 378,
+    "distinct_by_branch": {
+     "ok": 378
+    },
+    "examples_by_branch": {
+     "ok": 1026
+    },
+    "fraction_examples_isotropic_fallback": 0.0,
+    "n_rigid_counts": {
+     "6": 377,
+     "9": 1
+    }
+   }
+  },
+  "legacy": {
+   "fold1_fit": {
+    "n_examples": 5830,
+    "n_distinct_molecules": 1649,
+    "distinct_by_branch": {
+     "ok": 1649
+    },
+    "examples_by_branch": {
+     "ok": 5830
+    },
+    "fraction_examples_isotropic_fallback": 0.0,
+    "n_rigid_counts": {
+     "6": 1646,
+     "8": 2,
+     "9": 1
+    }
+   },
+   "fold1_dev": {
+    "n_examples": 1004,
+    "n_distinct_molecules": 399,
+    "distinct_by_branch": {
+     "ok": 399
+    },
+    "examples_by_branch": {
+     "ok": 1004
+    },
+    "fraction_examples_isotropic_fallback": 0.0,
+    "n_rigid_counts": {
+     "6": 398,
+     "9": 1
+    }
+   },
+   "fold2_fit": {
+    "n_examples": 5808,
+    "n_distinct_molecules": 1542,
+    "distinct_by_branch": {
+     "ok": 1542
+    },
+    "examples_by_branch": {
+     "ok": 5808
+    },
+    "fraction_examples_isotropic_fallback": 0.0,
+    "n_rigid_counts": {
+     "6": 1540,
+     "9": 2
+    }
+   },
+   "fold2_dev": {
+    "n_examples": 1026,
+    "n_distinct_molecules": 506,
+    "distinct_by_branch": {
+     "ok": 506
+    },
+    "examples_by_branch": {
+     "ok": 1026
+    },
+    "fraction_examples_isotropic_fallback": 0.0,
+    "n_rigid_counts": {
+     "6": 504,
+     "8": 2
+    }
+   },
+   "fold3_fit": {
+    "n_examples": 5808,
+    "n_distinct_molecules": 1670,
+    "distinct_by_branch": {
+     "ok": 1670
+    },
+    "examples_by_branch": {
+     "ok": 5808
+    },
+    "fraction_examples_isotropic_fallback": 0.0,
+    "n_rigid_counts": {
+     "6": 1667,
+     "8": 2,
+     "9": 1
+    }
+   },
+   "fold3_dev": {
+    "n_examples": 1026,
+    "n_distinct_molecules": 378,
+    "distinct_by_branch": {
+     "ok": 378
+    },
+    "examples_by_branch": {
+     "ok": 1026
+    },
+    "fraction_examples_isotropic_fallback": 0.0,
+    "n_rigid_counts": {
+     "6": 377,
+     "9": 1
+    }
+   }
+  }
+ },
+ "note": "measurement only; the fallback code is unchanged and the clean HARM runs were trained as-is"
+}

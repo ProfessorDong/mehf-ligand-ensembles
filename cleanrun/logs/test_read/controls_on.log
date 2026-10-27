@@ -1,0 +1,3 @@
+test: 1452 requested, 1452 usable, 0 rejected []
+  control A s=4.0: n=1452
+  control A s=5.0: n=1452

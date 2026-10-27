@@ -1,0 +1,118 @@
+{
+ "before_exclusion": {
+  "train": {
+   "targets": 345,
+   "pairs": 3489,
+   "pairs_with_mapping": 3489,
+   "directed_examples": 6978,
+   "directed_targets": 345
+  },
+  "val": {
+   "targets": 106,
+   "pairs": 696,
+   "pairs_with_mapping": 696,
+   "directed_examples": 1392,
+   "directed_targets": 106
+  },
+  "test": {
+   "targets": 66,
+   "pairs": 728,
+   "pairs_with_mapping": 728,
+   "directed_examples": 1456,
+   "directed_targets": 66
+  },
+  "total": {
+   "targets": 517,
+   "pairs": 4913,
+   "pairs_with_mapping": 4913,
+   "directed_examples": 9826,
+   "directed_targets": 517
+  }
+ },
+ "after_exclusion": {
+  "train": {
+   "targets": 342,
+   "pairs": 3417,
+   "pairs_with_mapping": 3417,
+   "directed_examples": 6834,
+   "directed_targets": 342
+  },
+  "val": {
+   "targets": 105,
+   "pairs": 687,
+   "pairs_with_mapping": 687,
+   "directed_examples": 1374,
+   "directed_targets": 105
+  },
+  "test": {
+   "targets": 65,
+   "pairs": 726,
+   "pairs_with_mapping": 726,
+   "directed_examples": 1452,
+   "directed_targets": 65
+  },
+  "total": {
+   "targets": 512,
+   "pairs": 4830,
+   "pairs_with_mapping": 4830,
+   "directed_examples": 9660,
+   "directed_targets": 512
+  }
+ },
+ "arithmetic": {
+  "ok_rows": 6230,
+  "ok_rows_dropped": 93,
+  "usable_pairs_before": 4913,
+  "usable_pairs_dropped": 83,
+  "usable_pairs_dropped_by_split": {
+   "train": 72,
+   "val": 9,
+   "test": 2
+  },
+  "usable_pairs_after": 4830,
+  "directed_examples_dropped_if_only_excluded_product_removed": 87,
+  "targets_lost_entirely": [
+   "D0C9L6",
+   "O00481",
+   "P00651",
+   "Q16637",
+   "Q9QLL6"
+  ]
+ },
+ "alternative_requester_list_of_20": {
+  "note": "same arithmetic under the 20-system list supplied by the requester (all-ligand-atom distances incl. H); NOT used for training",
+  "ok_rows_dropped": 75,
+  "usable_pairs_dropped": 71,
+  "after_exclusion": {
+   "train": {
+    "targets": 343,
+    "pairs": 3426,
+    "pairs_with_mapping": 3426,
+    "directed_examples": 6852,
+    "directed_targets": 343
+   },
+   "val": {
+    "targets": 105,
+    "pairs": 690,
+    "pairs_with_mapping": 690,
+    "directed_examples": 1380,
+    "directed_targets": 105
+   },
+   "test": {
+    "targets": 65,
+    "pairs": 726,
+    "pairs_with_mapping": 726,
+    "directed_examples": 1452,
+    "directed_targets": 65
+   },
+   "total": {
+    "targets": 513,
+    "pairs": 4842,
+    "pairs_with_mapping": 4842,
+    "directed_examples": 9684,
+    "directed_targets": 513
+   }
+  }
+ },
+ "note": "usable pairs = status ok & transformation_agrees & split_a==split_b (4,913); directed = 2 x pairs with atom mapping; split = target_disjoint_split(seed 20260918) on the PRE-exclusion corpus, then rows dropped"
+}

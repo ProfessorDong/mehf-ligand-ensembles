@@ -1,0 +1,14 @@
+fold 1 fit: 96 requested, 96 usable, 0 rejected []
+  harm_source s=1.0: n=96
+  harm_source s=2.0: n=96
+  harm_source s=3.0: n=96
+  harm_source s=4.0: n=96
+  harm_source s=5.0: n=96
+  harm_source s=6.0: n=96
+fold 1 dev: 160 requested, 160 usable, 0 rejected []
+  harm_source s=1.0: n=160
+  harm_source s=2.0: n=160
+  harm_source s=3.0: n=160
+  harm_source s=4.0: n=160
+  harm_source s=5.0: n=160
+  harm_source s=6.0: n=160

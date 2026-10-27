@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/home/ieb24002/MEHF/scripts/harmonic_fallback_audit.py", line 86, in <module>
+    main()
+  File "/home/ieb24002/MEHF/scripts/harmonic_fallback_audit.py", line 71, in main
+    st = prods.map(status)
+  File "/home/ieb24002/anaconda3/envs/MDWM/lib/python3.10/site-packages/pandas/core/series.py", line 4719, in map
+    new_values = self._map_values(arg, na_action=na_action)
+  File "/home/ieb24002/anaconda3/envs/MDWM/lib/python3.10/site-packages/pandas/core/base.py", line 925, in _map_values
+    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
+  File "/home/ieb24002/anaconda3/envs/MDWM/lib/python3.10/site-packages/pandas/core/algorithms.py", line 1743, in map_array
+    return lib.map_infer(values, mapper, convert=convert)
+  File "pandas/_libs/lib.pyx", line 2999, in pandas._libs.lib.map_infer
+  File "/home/ieb24002/MEHF/scripts/harmonic_fallback_audit.py", line 70, in status
+    return r["branch"] if r["branch"] == "b_live_lt_4" else r[tau]["branch"]
+KeyError: 'branch'

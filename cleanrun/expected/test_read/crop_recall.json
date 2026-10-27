@@ -1,0 +1,54 @@
+{
+ "definition": "P7 / section 5.2.6 crop diagnostics, no model.  For every post-exclusion system of the corpus (status == ok rows of\npairs.csv, minus the 28 excluded) with more stored pocket atoms than the 96-atom cap:\n  overlap      = |crop0 & crop_min| / 96   (crop0 = frame-0 heavy-atom ranking, crop_min = the store's all-frame minimum\n                 distance ranking, i.e. the legacy crop; both exactly as mmp_transfer.pocket_ranking_distance)\n  recall_pair  = fraction of (pocket heavy atom, ligand heavy atom) pairs that come below 4.0 A at ANY of the stored frames\n                 whose pocket atom lies inside crop0\n  recall_atom  = same at the level of pocket atoms (a pocket atom is a contact atom if any ligand heavy atom is < 4 A at any frame)\nReported on the whole corpus and on the systems that are products of the clean test list.\n",
+ "all_corpus_post_exclusion": {
+  "n_systems": 3791,
+  "n_capped": 3791,
+  "overlap": {
+   "n": 3791,
+   "mean": 0.8159978677569684,
+   "median": 0.8229166666666666,
+   "min": 0.375,
+   "frac_below_0.90": 0.9316802954365603
+  },
+  "recall_pair": {
+   "n": 3791,
+   "mean": 0.9160538482982866,
+   "median": 0.9301310043668122,
+   "min": 0.3772455089820359,
+   "frac_below_0.90": 0.3376417831706674
+  },
+  "recall_atom": {
+   "n": 3791,
+   "mean": 0.8644718911835714,
+   "median": 0.875,
+   "min": 0.3805309734513274,
+   "frac_below_0.90": 0.6003692957003429
+  }
+ },
+ "test_list_systems": {
+  "n_systems": 487,
+  "n_capped": 487,
+  "overlap": {
+   "n": 487,
+   "mean": 0.8143394934976044,
+   "median": 0.8229166666666666,
+   "min": 0.5833333333333334,
+   "frac_below_0.90": 0.9589322381930184
+  },
+  "recall_pair": {
+   "n": 487,
+   "mean": 0.9178364892498809,
+   "median": 0.9293286219081273,
+   "min": 0.6393939393939394,
+   "frac_below_0.90": 0.3408624229979466
+  },
+  "recall_atom": {
+   "n": 487,
+   "mean": 0.863356017781004,
+   "median": 0.875,
+   "min": 0.5703703703703704,
+   "frac_below_0.90": 0.6119096509240246
+  }
+ },
+ "P7_recall_pair_corpus_mean": 0.9160538482982866
+}

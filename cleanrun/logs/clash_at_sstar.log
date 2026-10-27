@@ -1,0 +1,374 @@
+{
+ "primary/ISO/f1/fit": {
+  "s_star": 1.5474482221487433,
+  "n": 96,
+  "full": {
+   "n_examples": 96,
+   "frame_rate_mean": 0.0,
+   "frame_rate_median": 0.0,
+   "pairs_per_frame_mean": 0.0,
+   "pairs_per_frame_median": 0.0,
+   "pair_fraction_mean": 0.0,
+   "examples_with_any_clash": 0.0
+  },
+  "crop": {
+   "n_examples": 96,
+   "frame_rate_mean": 0.0,
+   "frame_rate_median": 0.0,
+   "pairs_per_frame_mean": 0.0,
+   "pairs_per_frame_median": 0.0,
+   "pair_fraction_mean": 0.0,
+   "examples_with_any_clash": 0.0
+  },
+  "torsion_ratio": 0.9987357865398316
+ },
+ "primary/ISO/f1/dev": {
+  "s_star": 1.5474482221487433,
+  "n": 160,
+  "full": {
+   "n_examples": 160,
+   "frame_rate_mean": 0.0,
+   "frame_rate_median": 0.0,
+   "pairs_per_frame_mean": 0.0,
+   "pairs_per_frame_median": 0.0,
+   "pair_fraction_mean": 0.0,
+   "examples_with_any_clash": 0.0
+  },
+  "crop": {
+   "n_examples": 160,
+   "frame_rate_mean": 0.0,
+   "frame_rate_median": 0.0,
+   "pairs_per_frame_mean": 0.0,
+   "pairs_per_frame_median": 0.0,
+   "pair_fraction_mean": 0.0,
+   "examples_with_any_clash": 0.0
+  },
+  "torsion_ratio": 1.0885116161784292
+ },
+ "primary/ISO/f2/fit": {
+  "s_star": 1.2620987538250512,
+  "n": 96,
+  "full": {
+   "n_examples": 96,
+   "frame_rate_mean": 0.0,
+   "frame_rate_median": 0.0,
+   "pairs_per_frame_mean": 0.0,
+   "pairs_per_frame_median": 0.0,
+   "pair_fraction_mean": 0.0,
+   "examples_with_any_clash": 0.0
+  },
+  "crop": {
+   "n_examples": 96,
+   "frame_rate_mean": 0.0,
+   "frame_rate_median": 0.0,
+   "pairs_per_frame_mean": 0.0,
+   "pairs_per_frame_median": 0.0,
+   "pair_fraction_mean": 0.0,
+   "examples_with_any_clash": 0.0
+  },
+  "torsion_ratio": 1.003652756499259
+ },
+ "primary/ISO/f2/dev": {
+  "s_star": 1.2620987538250512,
+  "n": 160,
+  "full": {
+   "n_examples": 160,
+   "frame_rate_mean": 0.0,
+   "frame_rate_median": 0.0,
+   "pairs_per_frame_mean": 0.0,
+   "pairs_per_frame_median": 0.0,
+   "pair_fraction_mean": 0.0,
+   "examples_with_any_clash": 0.0
+  },
+  "crop": {
+   "n_examples": 160,
+   "frame_rate_mean": 0.0,
+   "frame_rate_median": 0.0,
+   "pairs_per_frame_mean": 0.0,
+   "pairs_per_frame_median": 0.0,
+   "pair_fraction_mean": 0.0,
+   "examples_with_any_clash": 0.0
+  },
+  "torsion_ratio": 0.8591310760392761
+ },
+ "primary/ISO/f3/fit": {
+  "s_star": 1.5455534264901918,
+  "n": 96,
+  "full": {
+   "n_examples": 96,
+   "frame_rate_mean": 0.0,
+   "frame_rate_median": 0.0,
+   "pairs_per_frame_mean": 0.0,
+   "pairs_per_frame_median": 0.0,
+   "pair_fraction_mean": 0.0,
+   "examples_with_any_clash": 0.0
+  },
+  "crop": {
+   "n_examples": 96,
+   "frame_rate_mean": 0.0,
+   "frame_rate_median": 0.0,
+   "pairs_per_frame_mean": 0.0,
+   "pairs_per_frame_median": 0.0,
+   "pair_fraction_mean": 0.0,
+   "examples_with_any_clash": 0.0
+  },
+  "torsion_ratio": 0.9995782107479504
+ },
+ "primary/ISO/f3/dev": {
+  "s_star": 1.5455534264901918,
+  "n": 160,
+  "full": {
+   "n_examples": 160,
+   "frame_rate_mean": 0.0,
+   "frame_rate_median": 0.0,
+   "pairs_per_frame_mean": 0.0,
+   "pairs_per_frame_median": 0.0,
+   "pair_fraction_mean": 0.0,
+   "examples_with_any_clash": 0.0
+  },
+  "crop": {
+   "n_examples": 160,
+   "frame_rate_mean": 0.0,
+   "frame_rate_median": 0.0,
+   "pairs_per_frame_mean": 0.0,
+   "pairs_per_frame_median": 0.0,
+   "pair_fraction_mean": 0.0,
+   "examples_with_any_clash": 0.0
+  },
+  "torsion_ratio": 1.0681866350120268
+ },
+ "primary/HARM/f1/fit": {
+  "s_star": 3.746087541521619,
+  "n": 96,
+  "full": {
+   "n_examples": 96,
+   "frame_rate_mean": 0.00020833333333333335,
+   "frame_rate_median": 0.0,
+   "pairs_per_frame_mean": 0.00020833333333333335,
+   "pairs_per_frame_median": 0.0,
+   "pair_fraction_mean": 1.6855447680690398e-08,
+   "examples_with_any_clash": 0.010416666666666666
+  },
+  "crop": {
+   "n_examples": 96,
+   "frame_rate_mean": 0.00020833333333333335,
+   "frame_rate_median": 0.0,
+   "pairs_per_frame_mean": 0.00020833333333333335,
+   "pairs_per_frame_median": 0.0,
+   "pair_fraction_mean": 7.233796296296296e-08,
+   "examples_with_any_clash": 0.010416666666666666
+  },
+  "torsion_ratio": 1.000941709956219
+ },
+ "primary/HARM/f1/dev": {
+  "s_star": 3.746087541521619,
+  "n": 160,
+  "full": {
+   "n_examples": 160,
+   "frame_rate_mean": 0.002625,
+   "frame_rate_median": 0.0,
+   "pairs_per_frame_mean": 0.00275,
+   "pairs_per_frame_median": 0.0,
+   "pair_fraction_mean": 1.888411234731106e-07,
+   "examples_with_any_clash": 0.09375
+  },
+  "crop": {
+   "n_examples": 160,
+   "frame_rate_mean": 0.0025,
+   "frame_rate_median": 0.0,
+   "pairs_per_frame_mean": 0.0026249999999999997,
+   "pairs_per_frame_median": 0.0,
+   "pair_fraction_mean": 7.891517570785335e-07,
+   "examples_with_any_clash": 0.0875
+  },
+  "torsion_ratio": 0.9163401813412928
+ },
+ "primary/HARM/f2/fit": {
+  "s_star": 3.3387370321094494,
+  "n": 96,
+  "full": {
+   "n_examples": 96,
+   "frame_rate_mean": 0.00020833333333333335,
+   "frame_rate_median": 0.0,
+   "pairs_per_frame_mean": 0.00020833333333333335,
+   "pairs_per_frame_median": 0.0,
+   "pair_fraction_mean": 1.7211940956157743e-08,
+   "examples_with_any_clash": 0.010416666666666666
+  },
+  "crop": {
+   "n_examples": 96,
+   "frame_rate_mean": 0.00020833333333333335,
+   "frame_rate_median": 0.0,
+   "pairs_per_frame_mean": 0.00020833333333333335,
+   "pairs_per_frame_median": 0.0,
+   "pair_fraction_mean": 6.382761437908496e-08,
+   "examples_with_any_clash": 0.010416666666666666
+  },
+  "torsion_ratio": 1.00214472883561
+ },
+ "primary/HARM/f2/dev": {
+  "s_star": 3.3387370321094494,
+  "n": 160,
+  "full": {
+   "n_examples": 160,
+   "frame_rate_mean": 0.000375,
+   "frame_rate_median": 0.0,
+   "pairs_per_frame_mean": 0.000625,
+   "pairs_per_frame_median": 0.0,
+   "pair_fraction_mean": 3.476240997942387e-08,
+   "examples_with_any_clash": 0.0125
+  },
+  "crop": {
+   "n_examples": 160,
+   "frame_rate_mean": 0.000375,
+   "frame_rate_median": 0.0,
+   "pairs_per_frame_mean": 0.000625,
+   "pairs_per_frame_median": 0.0,
+   "pair_fraction_mean": 1.6637731481481481e-07,
+   "examples_with_any_clash": 0.0125
+  },
+  "torsion_ratio": 0.8436332307214843
+ },
+ "primary/HARM/f3": "UNMATCHED, not run",
+ "secondary/ISO/f1/fit": {
+  "s_star": 1.4076217951622483,
+  "n": 96,
+  "full": {
+   "n_examples": 96,
+   "frame_rate_mean": 0.0,
+   "frame_rate_median": 0.0,
+   "pairs_per_frame_mean": 0.0,
+   "pairs_per_frame_median": 0.0,
+   "pair_fraction_mean": 0.0,
+   "examples_with_any_clash": 0.0
+  },
+  "crop": {
+   "n_examples": 96,
+   "frame_rate_mean": 0.0,
+   "frame_rate_median": 0.0,
+   "pairs_per_frame_mean": 0.0,
+   "pairs_per_frame_median": 0.0,
+   "pair_fraction_mean": 0.0,
+   "examples_with_any_clash": 0.0
+  },
+  "torsion_ratio": 0.9258954366879433
+ },
+ "secondary/ISO/f1/dev": {
+  "s_star": 1.4076217951622483,
+  "n": 160,
+  "full": {
+   "n_examples": 160,
+   "frame_rate_mean": 0.0,
+   "frame_rate_median": 0.0,
+   "pairs_per_frame_mean": 0.0,
+   "pairs_per_frame_median": 0.0,
+   "pair_fraction_mean": 0.0,
+   "examples_with_any_clash": 0.0
+  },
+  "crop": {
+   "n_examples": 160,
+   "frame_rate_mean": 0.0,
+   "frame_rate_median": 0.0,
+   "pairs_per_frame_mean": 0.0,
+   "pairs_per_frame_median": 0.0,
+   "pair_fraction_mean": 0.0,
+   "examples_with_any_clash": 0.0
+  },
+  "torsion_ratio": 1.0002383063583569
+ },
+ "secondary/ISO/f2/fit": {
+  "s_star": 1.4941402926913012,
+  "n": 96,
+  "full": {
+   "n_examples": 96,
+   "frame_rate_mean": 0.0,
+   "frame_rate_median": 0.0,
+   "pairs_per_frame_mean": 0.0,
+   "pairs_per_frame_median": 0.0,
+   "pair_fraction_mean": 0.0,
+   "examples_with_any_clash": 0.0
+  },
+  "crop": {
+   "n_examples": 96,
+   "frame_rate_mean": 0.0,
+   "frame_rate_median": 0.0,
+   "pairs_per_frame_mean": 0.0,
+   "pairs_per_frame_median": 0.0,
+   "pair_fraction_mean": 0.0,
+   "examples_with_any_clash": 0.0
+  },
+  "torsion_ratio": 1.1653828982997918
+ },
+ "secondary/ISO/f2/dev": {
+  "s_star": 1.4941402926913012,
+  "n": 160,
+  "full": {
+   "n_examples": 160,
+   "frame_rate_mean": 0.0,
+   "frame_rate_median": 0.0,
+   "pairs_per_frame_mean": 0.0,
+   "pairs_per_frame_median": 0.0,
+   "pair_fraction_mean": 0.0,
+   "examples_with_any_clash": 0.0
+  },
+  "crop": {
+   "n_examples": 160,
+   "frame_rate_mean": 0.0,
+   "frame_rate_median": 0.0,
+   "pairs_per_frame_mean": 0.0,
+   "pairs_per_frame_median": 0.0,
+   "pair_fraction_mean": 0.0,
+   "examples_with_any_clash": 0.0
+  },
+  "torsion_ratio": 1.000122970800641
+ },
+ "secondary/ISO/f3/fit": {
+  "s_star": 1.4354820841918712,
+  "n": 96,
+  "full": {
+   "n_examples": 96,
+   "frame_rate_mean": 0.0,
+   "frame_rate_median": 0.0,
+   "pairs_per_frame_mean": 0.0,
+   "pairs_per_frame_median": 0.0,
+   "pair_fraction_mean": 0.0,
+   "examples_with_any_clash": 0.0
+  },
+  "crop": {
+   "n_examples": 96,
+   "frame_rate_mean": 0.0,
+   "frame_rate_median": 0.0,
+   "pairs_per_frame_mean": 0.0,
+   "pairs_per_frame_median": 0.0,
+   "pair_fraction_mean": 0.0,
+   "examples_with_any_clash": 0.0
+  },
+  "torsion_ratio": 0.928484085489578
+ },
+ "secondary/ISO/f3/dev": {
+  "s_star": 1.4354820841918712,
+  "n": 160,
+  "full": {
+   "n_examples": 160,
+   "frame_rate_mean": 0.0,
+   "frame_rate_median": 0.0,
+   "pairs_per_frame_mean": 0.0,
+   "pairs_per_frame_median": 0.0,
+   "pair_fraction_mean": 0.0,
+   "examples_with_any_clash": 0.0
+  },
+  "crop": {
+   "n_examples": 160,
+   "frame_rate_mean": 0.0,
+   "frame_rate_median": 0.0,
+   "pairs_per_frame_mean": 0.0,
+   "pairs_per_frame_median": 0.0,
+   "pair_fraction_mean": 0.0,
+   "examples_with_any_clash": 0.0
+  },
+  "torsion_ratio": 0.9986351523777102
+ },
+ "secondary/HARM/f1": "UNMATCHED, not run",
+ "secondary/HARM/f2": "UNMATCHED, not run",
+ "secondary/HARM/f3": "UNMATCHED, not run"
+}

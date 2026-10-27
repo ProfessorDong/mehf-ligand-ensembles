@@ -1,0 +1,16 @@
+{
+ "preregistration_sha256": "3863992a30606022fa11736e86104faa4bcf6c6d36d76273a9f678e4ae9f4daf",
+ "frozen_operating_points": "outputs/clean_protocol_v1/s_star_frozen_v2.json sha256 dabcd5f38db88b6b770a91289c0d24a32d33987ca477da6eec8b5b06bc3e1072",
+ "example_list": "outputs/clean_protocol_v1/test_examples_clean.csv sha256 5756bdbb2ce58adcb644d1a0d3a66f99fb867e87cd169a2877395b794841f9aa (1452 rows, 726 pairs, 65 targets)",
+ "inference_flags_all_arms": "--rigid 0.32 --steps 16 (default) --seed 20260918 (default) --impropers --restore off --angle-target-width 0.0 --projection-iterations 8 --projection-angle-relaxation 0.5 --angle-projection on --full-pocket-clash --all-examples --examples-csv test_examples_clean.csv",
+ "runs": "clean ISO/HARM x folds 1-3 x {primary, secondary} s* (12); leaky ISO/GS/SIGMA/LAP x folds 1-3 at own frozen s* (12, clash secondary only); model-free controls A (s_i 4.0, 5.0) and B, projection off/on (6 json)",
+ "scripts_sha256": {
+  "clean_protocol_test_decision.py": "405cc82bdee227172ba824ebf6a1d65cb4e9a9e1236595d66159e3fd65383624",
+  "clean_protocol_test_controls.py": "fd1014f5012ac4fb218d836d20fa0530007e999d01abf5c901975097ef9fb8b1",
+  "clean_protocol_crop_recall.py": "13d3c07b95bdb11f2d1987507b381d08274bc817e690dcb5cf14e36c57db9f41",
+  "clean_protocol_test_lane.sh": "f5d9aaa00bceb42427015a8ef56738ea168ca57c5b049bcad0ec1258c864c322",
+  "clean_protocol_test_controls.sh": "19329c059e44e11105903a1552742753eee2a39f6adf8534b941160d843f4a77",
+  "mehf_internal_geometry_spectrum.py": "023815a7895958a43783cd76d1b6d9013007e45b0bced6505df3418268c76dca"},
+ "env": "conda MDWM, PYTHONPATH=src:scripts, CUDA_VISIBLE_DEVICES=1 only",
+ "start": "2026-10-24 13:53:18", "end": "2026-10-24 19:23:01", "failures": 0, "restarts": 0
+}

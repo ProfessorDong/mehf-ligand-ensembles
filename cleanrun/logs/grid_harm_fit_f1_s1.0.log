@@ -1,0 +1,79 @@
+{
+  "checkpoint": "outputs/clean_protocol_v1/harm_f1/checkpoint.pt",
+  "rigid_scale": 0.32,
+  "internal_scale": 1.0,
+  "n_examples_sampled": 96,
+  "steps": 16,
+  "heavy_atoms_only": true,
+  "prediction": "bond_length > bond_angle > dihedral, all above 1",
+  "angle_loss_weight": 0.0,
+  "angle_projection": true,
+  "restore_projection_amplitude": false,
+  "angle_target_width_radian": 0.0,
+  "projection_iterations": 8,
+  "projection_angle_relaxation": 0.5,
+  "config_check": {
+    "pocket_selection": "frame0",
+    "max_pocket_atoms": 96,
+    "harmonic_tau_set": "train_only_large",
+    "example_source": "fit_examples.csv"
+  },
+  "full_pocket_clash": {
+    "n_examples": 96,
+    "frame_rate_mean": 0.0,
+    "frame_rate_median": 0.0,
+    "pairs_per_frame_mean": 0.0,
+    "pairs_per_frame_median": 0.0,
+    "pair_fraction_mean": 0.0,
+    "examples_with_any_clash": 0.0
+  },
+  "crop_pocket_clash": {
+    "n_examples": 96,
+    "frame_rate_mean": 0.0,
+    "frame_rate_median": 0.0,
+    "pairs_per_frame_mean": 0.0,
+    "pairs_per_frame_median": 0.0,
+    "pair_fraction_mean": 0.0,
+    "examples_with_any_clash": 0.0
+  },
+  "bond_length": {
+    "ratio_median": 0.2959979986040302,
+    "ratio_q25": 0.24922785502634548,
+    "ratio_q75": 0.36855446858742485,
+    "reference_median": 0.0324317481753236,
+    "generated_median": 0.009621680724534433,
+    "n_examples": 96
+  },
+  "bond_angle": {
+    "ratio_median": 0.2971352973580773,
+    "ratio_q25": 0.23577436960087247,
+    "ratio_q75": 0.3862140262776822,
+    "reference_median": 2.751974585549164,
+    "generated_median": 0.8278722191625556,
+    "n_examples": 96
+  },
+  "dihedral": {
+    "ratio_median": 0.33136511693721105,
+    "ratio_q25": 0.2021745392846488,
+    "ratio_q75": 0.4758325402507965,
+    "reference_median": 15.83579281288242,
+    "generated_median": 4.71878780892051,
+    "n_examples": 96
+  },
+  "internal_rmsf": {
+    "ratio_median": 0.45576757383578004,
+    "ratio_q25": 0.30440857871383054,
+    "ratio_q75": 0.6223773711491928,
+    "reference_median": 0.44186317428902494,
+    "generated_median": 0.19505950097328814,
+    "n_examples": 96
+  },
+  "planar_improper": {
+    "ratio_median": 0.47866899685810715,
+    "ratio_q25": 0.3871523835073051,
+    "ratio_q75": 0.6702562987636003,
+    "reference_median": 6.325647391117184,
+    "generated_median": 3.100848005930213,
+    "n_examples": 82
+  }
+}

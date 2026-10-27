@@ -1,0 +1,64 @@
+train-target systems: 2330 (excluded removed: 21)
+{
+ "bond": {
+  "n_systems": 2330,
+  "n_targets": 344,
+  "tau_large": 0.03275677838383294,
+  "se_system_bootstrap": 3.2606375011514646e-05,
+  "se_target_cluster_bootstrap": 8.671931834809651e-05,
+  "current_constant": 0.032637,
+  "rel_change_vs_current": 0.003670018195083502,
+  "earlier_small_sample": {
+   "n": 73,
+   "value": 0.0324516934526607,
+   "se": 0.00022095413367906552
+  },
+  "rel_change_vs_small": 0.009401202178163315
+ },
+ "angle": {
+  "n_systems": 2330,
+  "n_targets": 344,
+  "tau_large": 2.7707469663417585,
+  "se_system_bootstrap": 0.004719618828967106,
+  "se_target_cluster_bootstrap": 0.01595200090915059,
+  "current_constant": 2.774,
+  "rel_change_vs_current": -0.0011726869712478383,
+  "earlier_small_sample": {
+   "n": 247,
+   "value": 2.7689192924707644,
+   "se": 0.009784981983578005
+  },
+  "rel_change_vs_small": 0.0006600675851997639
+ },
+ "torsion": {
+  "n_systems": 2330,
+  "n_targets": 344,
+  "tau_large": 14.12894962939264,
+  "se_system_bootstrap": 0.1589558031487912,
+  "se_target_cluster_bootstrap": 0.40744368669468284,
+  "current_constant": 14.600000000000001,
+  "rel_change_vs_current": -0.032263724014202855,
+  "earlier_small_sample": {
+   "n": 247,
+   "value": 14.162180993580918,
+   "se": 0.48496815319019265
+  },
+  "rel_change_vs_small": -0.0023464863359210497
+ },
+ "oop": {
+  "n_systems": 1998,
+  "n_targets": 299,
+  "tau_large": 6.465122828119934,
+  "se_system_bootstrap": 0.015515783602431414,
+  "se_target_cluster_bootstrap": 0.02905765253279403,
+  "current_constant": 6.48,
+  "rel_change_vs_current": -0.002295859858034821,
+  "earlier_small_sample": {
+   "n": 15,
+   "value": 6.415573887321512,
+   "se": 0.1461908909076537
+  },
+  "rel_change_vs_small": 0.0077232281427452865
+ }
+}
+wall 4.994025945663452

@@ -1,0 +1,386 @@
+clean_protocol_v1 -- chain of custody
+Purpose: close two methodological gaps (frame-0 pocket selection; train-split-only
+tau), retrain ISO + HARM (+LAP if time), reselect s* on fitting folds, read test ONCE.
+This is the THIRD read of this test set (1: sigma_star confirmatory, 2: laplacian arm).
+
+[2026-10-23 ~18:00] Verified MEHF store intact before starting: 16,536/16,536 npz
+                    present, 0 empty, 7.57 GB = manifest expected, all sha256 pass.
+[2026-10-23 ~18:00] Measured the pocket-selection change on a 60-system sample:
+                    mean overlap 0.823, median 0.833, min 0.604, 0 identical sets.
+                    So the change is substantive, not cosmetic.
+[2026-10-23 18:0x] GPU 1 freed for this work. [REDACTED for publication: details of an
+                    unrelated job paused to free the GPU, and of an unrelated service on
+                    GPU 0. See REDACTIONS.md.]
+[2026-10-23 18:0x] Launched three agents: code (loader change, tau, baselines,
+                    configs), theory (PREREGISTRATION.md), audit (sweep the data
+                    path for any other all-frames leak into conditioning).
+[2026-10-23 18:0x] GATE: no training starts until the auditor has checked the
+                    frame-0 change. GATE: no test read until PREREGISTRATION.md is
+                    final and its sha256 is recorded here.
+[2026-10-23 18:53] PREREGISTRATION.md DRAFT 1 hashed BEFORE any clean-protocol training: a51668b7af5d8ba9ec4243597fbcf1046ba9e72bebd7ee6c661cad5590ff322e
+[2026-10-23 18:5x] USER DECISIONS: (1) exclude the 20 pool-limited systems everywhere;
+                    (2) re-estimate tau on a much larger train-split-only sample;
+                    (3) s* primary = fitting folds (unchanged rule), secondary = dev folds;
+                    (4) blocking condition B2 adopted, full-uncropped-pocket clash rate
+                        is a required secondary; (5) submission version is the 13-page
+                        PDF with Sections I-V and no appendices.
+                    Training released, GPU 1 only, max 3 concurrent.
+[2026-10-23 18:5x] Relaunched the code agent (exclusions -> larger tau -> train -> grid
+                    -> freeze s*) and the theory agent (amend the hashed draft 1).
+                    GATE STILL CLOSED: no test read until the amended PREREGISTRATION.md
+                    is final and its sha256 is recorded here.
+[2026-10-23 19:1x] Submission source received at paper/MEHF_TCBB/ (main.tex 1667 lines,
+                    Sections I-V, no appendices). Verified against it:
+                      - the 96-atom pocket cap is never stated anywhere in the paper
+                        (the only "96" is the hidden dimension, line 1073);
+                      - the projection's third step (clash push, relaxation 1.0 vs 0.5
+                        for bond/angle) is absent; lines 865-868 say the procedure
+                        "acts directly on bond lengths and bond angles";
+                      - "clash" occurs only as the training loss and in the DiffSBDD table.
+                    These are manuscript edits required regardless of how the clean
+                    protocol turns out.
+
+[2026-10-23 ~19:15] TASK A/B/C continuation (second code agent).
+  Exclusion list re-derived: 28 systems, not 20 (20 requester systems all included; +1XNZ 2Q94 3L0V 4A4E 4A4G 4DE3 4G0P 4KZA).
+  Cause: requester's 96th-nearest distance used ALL ligand atoms incl. H; loader frame0 ranking uses HEAVY atoms only.
+  Exclusions applied after split+fold assignment (no target moves). See outputs/clean_protocol_v1/excluded_systems.json, split_counts_clean.json.
+  Large-sample tau (all 2,330 train-target systems; 1,998 for oop; estimator reproduces stored originals bit-exactly): tau_train_only_large.json.
+  Configs switched to harmonic_tau_set=train_only_large + data.excluded_systems. Tests: 7 pass (pocket_selection 4, exclusion 2, pocket_clash 1).
+  Smoke (4 steps) passed, peak mem 8.0 GB. Launching 3 lanes (folds 1-3), each ISO then HARM then grids, GPU 1 only.
+[2026-10-23 19:12:46] train iso f1 START
+[2026-10-23 19:12:46] train iso f3 START
+[2026-10-23 19:12:46] train iso f2 START
+[2026-10-23 19:16:45] launched model-free controls (CPU), proj off+on, post-exclusion lists, per coordinator request; old baselines/ dir is pre-exclusion/stale
+[2026-10-23 19:4x] Exclusion list CONFIRMED at 28 (not my 20). My criterion used all
+                    ligand atoms incl. H; pocket_ranking_distance("frame0") ranks on
+                    heavy atoms only, and heavy distance >= all-atom distance. Three
+                    independent derivations agree; 28 is a strict superset of the 20.
+                    Cost 93/6230 ok pairs (1.49%).
+[2026-10-23 19:4x] PREREGISTRATION.md FINAL (1,765 lines, amendments 1-6).
+                    sha256 = abe0804930d6c2300ee791df9811222e357b4eaae421e28e50caf3401c23ffd2
+                    Draft 1 remains byte-verifiable within it:
+                      head -638 PREREGISTRATION.md | head -c -1 | sha256sum
+                      = a51668b7af5d8ba9ec4243597fbcf1046ba9e72bebd7ee6c661cad5590ff322e
+                    TEST GATE: may now open once training, grid and the s* freeze are
+                    done and the analysis script is hashed with zero test_*.json on disk.
+[2026-10-23 19:4x] F6, verified independently against paper/MEHF_TCBB/main.tex:1577-1583.
+                    The SUBMITTED paper already prints a model-free direct draw from
+                    Sigma* with width ratios 1.15 / 0.85 / 0.56 / 0.78. Its max-min is
+                    0.59, BELOW the method's headline test spread of 0.770. This is a
+                    live referee-facing vulnerability independent of the clean protocol.
+[2026-10-23 19:22:33] controls f2 done (off+on)
+[2026-10-23 19:22:54] controls f3 done (off+on)
+[2026-10-23 19:23:34] controls f1 done (off+on)
+[2026-10-23 20:30:39] train iso f3 END rc=0 wall=4673s
+[2026-10-23 20:30:39] train harm f3 START
+[2026-10-23 20:30:45] train iso f1 END rc=0 wall=4679s
+[2026-10-23 20:30:45] train harm f1 START
+[2026-10-23 20:30:56] train iso f2 END rc=0 wall=4690s
+[2026-10-23 20:30:56] train harm f2 START
+[2026-10-23 22:27:06] train harm f3 END rc=0 wall=6987s
+[2026-10-23 22:27:06] grid iso fit f3 start
+[2026-10-23 22:28:05] train harm f1 END rc=0 wall=7040s
+[2026-10-23 22:28:05] grid iso fit f1 start
+[2026-10-23 22:33:12] train harm f2 END rc=0 wall=7336s
+[2026-10-23 22:33:12] grid iso fit f2 start
+[2026-10-23 22:49:31] grid iso dev f3 start
+[2026-10-23 22:52:11] grid iso dev f1 start
+[2026-10-23 22:56:29] grid iso dev f2 start
+[2026-10-23 23:31:46] grid harm fit f3 start
+[2026-10-23 23:35:29] grid harm fit f1 start
+[2026-10-23 23:36:03] grid harm fit f2 start
+[2026-10-24 00:02:46] grid harm dev f3 start
+[2026-10-24 00:07:13] grid harm dev f2 start
+[2026-10-24 00:07:37] grid harm dev f1 start
+[2026-10-24 00:58:21] lane f3 DONE (train + grids)
+[2026-10-24 00:58:30] lane f2 DONE (train + grids)
+[2026-10-24 01:04:01] lane f1 DONE (train + grids)
+[2026-10-24 01:04:27] s* FROZEN: outputs/clean_protocol_v1/s_star_frozen.json sha256 f92d7f95722f87867698593e35713423d02e6fd5b58e5b9ab0d064b718d49538. PRIMARY(fit): ISO 1.547/1.262/1.546; HARM 3.746/3.339/UNMATCHED(f3 max 0.940). SECONDARY(dev): ISO 1.408/1.494/1.435; HARM UNMATCHED all 3 folds (max 0.964/0.968/0.877). No extrapolation per rule. test NOT read.
+[2026-10-24 01:55:53] Task1: extending grid with s=4.5 5.0 (all arms, fit+dev); old s_star_frozen.json kept. Task2: fallback audit running (CPU).
+[2026-10-24] Deleted /home/ieb24002/MEHF.tar.gz (8.5 GB, 2026-10-22 16:26) at the
+             user's request to reclaim disk; free space 23 GB -> 31 GB.
+             BEFORE deleting: the clean_protocol_v1 edits had put eight live source
+             files out of agreement with CHECKSUMS.sha256 (10 FAILED lines), and the
+             archive was the only remaining copy of the source those checksums refer
+             to. src/ and scripts/ were therefore extracted from it into
+             MEHF/frozen_source_v1/ (1.1 MB); all 73 ./src/ and ./scripts/ entries of
+             CHECKSUMS.sha256 verify against that copy with zero mismatches.
+             The original results must be re-checked against frozen_source_v1/, not
+             against the live src/.
+[2026-10-24 02:37:37] grid-extend f2 scales 4.5 5.0 DONE
+[2026-10-24 02:38:54] grid-extend f3 scales 4.5 5.0 DONE
+[2026-10-24 02:40:14] grid-extend f1 scales 4.5 5.0 DONE
+[2026-10-24 02:40:42] s* v2 FROZEN: outputs/clean_protocol_v1/s_star_frozen_v2.json sha256 dabcd5f38db88b6b770a91289c0d24a32d33987ca477da6eec8b5b06bc3e1072 (grid to 5.0, all cells matched; v1 freeze f92d7f95... kept). Fallback audit: 0 fallbacks. test NOT read.
+[2026-10-24 03:xx] Grid extended [1.0..4.0] -> [1.0..5.0] after HARM failed to bracket
+                    torsion ratio 1 (fit f3 max 0.940; dev 0.964/0.968/0.877). Applied
+                    symmetrically to all arms and both samples; matched_torsion_fit.py
+                    unchanged, so s* is still interpolated between MEASURED bracketing
+                    points. All 12 cells now matched. New freeze s_star_frozen_v2.json;
+                    the superseded s_star_frozen.json is kept.
+                    PRIMARY fit  ISO s* 1.547/1.262/1.546 spread 1.917/1.576/1.863
+                                 HARM s* 3.746/3.339/4.349 spread 0.448/0.462/0.391
+                    SECONDARY dev ISO s* 1.408/1.494/1.435 spread 1.677/1.946/1.693
+                                 HARM s* 4.199/4.194/4.758 spread 0.511/0.535/0.497
+                    This is a post-hoc widening of a pre-registered range and is being
+                    recorded as Amendment 7 before any test read.
+[2026-10-24 02:07] Silent-fallback audit CLEAN: the isotropic fallback in
+                    _harmonic_local_noise fired on 0 of 20,502 examples across all six
+                    fold x split sets, under BOTH tau sets. The HARM arm is not
+                    contaminated with isotropic noise.
+[2026-10-24 03:xx] Dispatched: Amendment 7 (theory) and B2's second half, the full-pocket
+                    clash rates of the FROZEN LEAKY checkpoints (code). TEST GATE REMAINS
+                    CLOSED until Amendment 7 is final and re-hashed.
+[2026-10-24] PREREGISTRATION.md FINAL v2 after Amendment 7 (2,066 lines).
+             sha256 = 3863992a30606022fa11736e86104faa4bcf6c6d36d76273a9f678e4ae9f4daf
+             Draft 1 still verifies byte-for-byte inside it.
+             Grid-extension integrity VERIFIED independently: all 8 previously matched
+             cells are bit-identical between s_star_frozen.json and _v2.json, and the
+             7-point torsion curves are exact prefixes of the 9-point ones. The
+             extension is strictly additive.
+             CORRECTION to my earlier claim: the -3.23% torsion width is NOT established
+             as the cause of the grid ceiling. A paired source-only A/B (same seed, only
+             tau differing) moves the torsion channel by +0.14% on average, with the +2%
+             landing in bond and angle; and the observed s* shifts (+0.50/+0.01/+0.56)
+             fit no single tau-driven mechanism. Cause unknown; the extension is
+             justified by the ceiling's existence, which is measured.
+             P1a REFUTED, P1b wrong by its own pre-registered bound.
+[2026-10-24] Applied the test-INDEPENDENT manuscript edits to paper/MEHF_TCBB/main.tex
+             (backup: main_before_clean_protocol_edits_2026-10-24.tex):
+               E1 dataset counts + Table I -> 342/3,417/6,834, 105/687/1,374,
+                  65/726/1,452, total 512/4,830/9,660, plus the exclusion sentence;
+               E2 the 96-atom pocket crop, its cardinality and its frame-0 rule, stated
+                  for the first time, cross-referenced to the clash loss and projection;
+               E3/E4 the projection's third step given its own equation, with
+                  gamma_b = gamma_a = 0.5 vs gamma_c = 1.0 stated, and the false
+                  "acts directly on bond lengths and bond angles" removed along with the
+                  unsupported source/projection separation sentence;
+               E6 psi defined in III-C with the matched-amplitude safeguard;
+               E7 Limitations repaired: spread 0.59 vs 0.770 addressed explicitly,
+                  psi 0.707 vs 0.485 given;
+               E8 tau sentence replaced by the train-split-only measurement with Ns,
+                  bootstrap SEs and the source-only A/B.
+             Compiles: 0 errors, 0 undefined refs, 0 overfull. 13 -> 14 pages, which is
+             AT the TCBB regular-paper limit.
+             NOT yet done: E5 (IV-D separation rewrite), E9 (leakage paragraph), E11
+             (test-dependent numbers), E12 (controls in Table IV) - all need the test read
+             or further text. The manuscript's 4.7% near-zero-modes claim (now ~0.195% in
+             the audit) is still unresolved.
+[2026-10-24 11:43] B2 SECOND HALF COMPLETE -> B2 DOES NOT FIRE.
+             Full-pocket frame clash rate, mean over 6 fold x sample cells:
+               leaky SIGMA 0.00155 | clean HARM primary 0.00106 (LOWER, not higher)
+               leaky ISO/ANISO 0.00000 | clean ISO 0.00000 | leaky LAP 0.00002
+             Outside the frame-0 crop: leaky SIGMA 0.00003 -> clean HARM 0.00016.
+             Pre-registered tolerance (max pairwise difference among leaky arms):
+               full 0.003542, outside 0.000208.
+             Observed clean-minus-leaky change: full -0.00049 (an improvement),
+             outside +0.00013. Both inside tolerance, so B2 does not fire.
+             M3 is therefore refuted on its own pre-registered test: removing the
+             all-frames crop did not cost the clean arm a protective fence.
+             Note for the paper: ISO never clashes in any configuration; only the
+             Sigma* family does (~0.1% of frames), a direct consequence of its ~4x
+             wider ensembles.
+[2026-10-24] PRE-TEST GATE CHECKLIST, all satisfied:
+               - PREREGISTRATION.md final, sha256 3863992a3060...; draft 1 verifiable.
+               - Grid extension strictly additive (8/8 prior cells bit-identical).
+               - Silent isotropic fallback 0 / 20,502.
+               - B2 does not fire.
+               - s_star_frozen_v2.json frozen, all 12 cells matched.
+               - No test_*.json or TEST_* exists under either clean_protocol_v1 folder.
+               - Analysis scripts hashed:
+                   mehf_internal_geometry_spectrum.py 023815a7895958a4...
+                   matched_torsion_fit.py             ca54723b142a141a...
+                   sigma_star_test_decision.py        d4888ed0b2954030...
+             AWAITING the user's explicit go-ahead to open the test gate. One session,
+             read once, no batching.
+[2026-10-24 12:09] TEST GATE OPENED on the user's explicit go-ahead. Third and final read of this test set. One session, read once, no batching, no mid-course adjustment.
+[2026-10-24] Second batch of test-INDEPENDENT manuscript edits (page limit waived by user):
+               E9  new subsection "Protocol and Leakage Controls" after III-D, carrying
+                   all five items including the crop-rule history with the 0.823 overlap
+                   and, for the first time anywhere in the submission, the statement that
+                   this test split has been read three times under three hashed
+                   pre-registrations;
+               E10 the dual s* sentence, with the explicit note that the development
+                   folds are NOT held out (they select checkpoints);
+               E5  IV-D rewritten to three mechanisms: the source; the bond/angle sweeps
+                   which remove stiff-channel distortion; and the clash step which, by
+                   the paper's own Wilson relation, introduces it. The "complementary
+                   rather than interchangeable" claim is replaced. The projection-OFF
+                   comparison is identified as unaffected.
+                   "Enabling projection primarily changes..." qualified as a net of two
+                   counteracting terms.
+               4.7% near-zero modes corrected to 0.195% (12 of 6,144 fold molecules);
+                   the old figure came from a 60-system sample and overstated the rate by
+                   >20x. Added what the record says and the paper did not: for those
+                   molecules the affected bending direction receives NO noise from the
+                   harmonic term and is not covered by the rigid term either.
+             Compiles 0 errors / 0 undefined refs / 0 overfull, still 14 pages.
+             Remaining edits all depend on the test read: E11 (numbers), E12 (controls
+             and the psi/clash columns in Table IV), E13 (Limitations sentences).
+[2026-10-24 13:5x] THE 12:09 TEST READ NEVER STARTED. Verified exhaustively: no file
+             anywhere under /home/ieb24002 or the session scratch matching test/TEST/
+             RESULT was written after 12:09; the only writes under MEHF since then are
+             paper/MEHF_TCBB/main.tex (my manuscript edits) and this CHAIN.log. No
+             partial per-example CSV, no per-fold JSON, no new run log. GPU 1 returned
+             to 5 MiB with no process of ours running.
+             Cause: the executing agent became unresponsive (two consecutive task
+             notifications with an unchanged tool-use count and no report delivered).
+             This is NOT a failed read and NOT a partial read. Nothing was read, so the
+             test split remains at TWO reads, and the pre-registered single read is
+             still available, unaltered and uncontaminated. No restart exemption is
+             even needed: there is nothing to restart.
+             Relaunching the read with a fresh agent under identical instructions, the
+             same frozen s_star_frozen_v2.json and the same hashed analysis scripts.
+[2026-10-24 TEST READ SESSION (executing agent, third and final read)] START = see next timestamp line.
+             Pre-launch hashes (taken with zero test_*.json / test_*.csv outputs on disk; test_read/ is empty):
+               PREREGISTRATION.md                      3863992a30606022fa11736e86104faa4bcf6c6d36d76273a9f678e4ae9f4daf (verified)
+               s_star_frozen_v2.json                   dabcd5f38db88b6b770a91289c0d24a32d33987ca477da6eec8b5b06bc3e1072
+               test_examples_clean.csv (1,452 rows / 65 targets / 726 pairs; frozen read-1 list minus the 28 excluded, by PDB id)
+                                                       5756bdbb2ce58adcb644d1a0d3a66f99fb867e87cd169a2877395b794841f9aa
+               mehf_internal_geometry_spectrum.py      023815a7895958a43783cd76d1b6d9013007e45b0bced6505df3418268c76dca (unchanged)
+               matched_torsion_fit.py                  ca54723b142a141ade9b0fec78eaf27a19a10ca71a280a234647567f97a33bc3 (unchanged)
+               clean_protocol_test_decision.py (ANALYSIS) 405cc82bdee227172ba824ebf6a1d65cb4e9a9e1236595d66159e3fd65383624
+               clean_protocol_test_controls.py         fd1014f5012ac4fb218d836d20fa0530007e999d01abf5c901975097ef9fb8b1
+               clean_protocol_crop_recall.py           13d3c07b95bdb11f2d1987507b381d08274bc817e690dcb5cf14e36c57db9f41
+               clean_protocol_test_lane.sh             f5d9aaa00bceb42427015a8ef56738ea168ca57c5b049bcad0ec1258c864c322
+               clean_protocol_test_controls.sh         19329c059e44e11105903a1552742753eee2a39f6adf8534b941160d843f4a77
+             Analysis script smoke-tested on dev-sample outputs relabelled as a fixture (scratchpad, not test data).
+             Decisions made BEFORE any test number, recorded so they cannot be adjusted afterwards:
+               (1) LAP was never trained under the clean protocol and LAP_DECISION.txt was never written; B4 is conditional on
+                   LAP being trained, so B4 is reported NOT APPLICABLE; leaky LAP is quoted cross-protocol only.
+               (2) Control A is evaluated at s_i=4.0 (the controls' frozen-grid top, the point P8 names) AND at 5.0 (the arms'
+                   Amendment-7 grid top; the amendment does not say whether it covers the controls). Both are run now, both are
+                   reported; if either is matched (torsion in [0.85,1.25]) B3(a) applies to it. Neither is chosen after the fact.
+               (3) B1 is evaluated per fold AND pooled; any arm/fold outside [0.85,1.25] at either operating point counts as fired.
+               (4) B2 uses Amendment 4's pinned definition (pooled pair fraction, tolerance over {ISO,GS,LAP,SIGMA} leaky arms at their
+                   own frozen operating points, fresh inference on the post-exclusion test list); frame-rate and 3-arm variants are
+                   reported alongside.  The earlier "B2 does not fire" (11:43) was measured on fit/dev samples, not on test.
+               (5) Leaky arms are re-run on the clean test list ONLY for the clash secondary (A4.3); their spread comparisons use the
+                   frozen per-example CSVs (A1.4.2), and the fresh runs are checked against them.
+             GPU 1 now also hosts another user's process [REDACTED, see REDACTIONS.md] (28 GB); not ours, not touched.
+[2026-10-24 13:53:18] TEST READ START (clean lanes f1-f3 launched; test split read begins)
+[2026-10-24 13:58:16] leaky lanes f1-f3 and controls launched (GPU 1)
+[2026-10-24 14:40:57] test read controls DONE (off+on)
+[2026-10-24 19:13:56] test read lane leaky f1 DONE
+[2026-10-24 19:20:56] test read lane leaky f3 DONE
+[2026-10-24 19:21:18] test read lane leaky f2 DONE
+[2026-10-24 19:21:50] test read lane clean f1 DONE
+[2026-10-24 19:22:51] test read lane clean f3 DONE
+[2026-10-24 19:23:01] test read lane clean f2 DONE
+[2026-10-24 19:24:06] TEST READ END. 30 inference runs (12 clean arm, 12 leaky-clash, 6 control), 0 failures, 0 restarts; 62 files in test_read/ (incl. crop_recall); analysis script sha256 405cc82b... run once -> reference_outputs/clean_protocol_v1/TEST_RESULT.json
+[2026-10-24] TEST RESULT WRITTEN INTO THE MANUSCRIPT (E11-E13).
+             Headline per Amendment 3's downgrade-only rule: Tier A (attenuated),
+             operating-point-sensitive; B1 and B3 fire at the SECONDARY point only.
+               primary   Delta -1.0345 [-1.263, -0.918], HARM 0.796 / ISO 1.902, 98.1%
+               secondary Delta -0.9398 [-1.169, -0.840], HARM 0.872 / ISO 1.904
+               1,406 usable examples from 59 targets; B2 does not fire at either point.
+             Manuscript changes:
+               - abstract gains the replication result and the control caveat;
+               - Table III caption now states it is the original full-trajectory crop,
+                 and points to the new table;
+               - NEW subsection IV-E "Replication Under a Conditioning-Frame Pocket
+                 Protocol" with Table \ref{tab:clean}: both operating points, both
+                 model-free controls, psi and full-pocket clash columns, the unmatched
+                 footnote for Control A, and the explicit statement that GS and LAP were
+                 not retrained;
+               - Conclusion rewritten: the "complementary roles" claim is replaced by the
+                 three-mechanism account, and the control result is stated;
+               - Limitations now give the RMSF 1.54 vs 0.41 over-dispersion, the linear-
+                 group gap, the un-retrained arms, and separating the learned velocity
+                 field from the projection as future work.
+             CORRECTION made during this pass: Table I had been switched to the
+             post-exclusion counts, but the four-arm results are on the pre-exclusion set
+             (1,410 from 60 targets). Table I is restored to 517 / 4,913 / 9,826 and the
+             exclusion is now described only where the replication is described
+             (4,830 pairs / 512 targets; test 726 / 65; 1,406 usable). Otherwise the
+             paper would have implied 1,452 - 46 = 1,406 for a result computed on 1,410.
+             Compiles 0 errors / 0 undefined refs / 0 overfull, 15 pages.
+[2026-10-24] Checked whether the all-zero ISO clash rates are an instrument failure.
+             They are not, and the check is recorded because the zeros look suspicious:
+               - the same counter fires on other arms in the SAME run: copy-the-parent
+                 791/1452 examples (max frame rate 0.92), HARM 9-75, leaky Sigma* 22-47,
+                 Control A at s=5.0 89. A dead counter could not produce those.
+               - zero is not specific to ISO: leaky GS is also 0/1452 on every fold and
+                 leaky LAP is 0/1/1, i.e. every under-dispersed arm gives zero.
+               - clash rate increases monotonically with internal RMSF across arms.
+               - decisive: in the REFERENCE MD itself (40 random systems) the minimum
+                 ligand-heavy / pocket-heavy separation has median 2.55 A, p5 2.48 A and
+                 never falls below 2.43 A. No system ever reaches 2.0 A, let alone 1.2 A.
+             So 1.2 A is a severe-penetration threshold that real trajectories never
+             cross, and zero is the correct and expected value for any ensemble that
+             stays near the input pose.
+             CONSEQUENCE, and a manuscript fix: the clash column is floor-saturated and
+             is NOT a quality ranking. As first written, Table \ref{tab:clean} showed
+             ISO 0.0% beside HARM 1.8% in a lower-is-better column, which a referee would
+             read as the isotropic arm being physically better. The caption and the text
+             now state that the threshold is about half a real contact distance, that the
+             reference trajectories never reach it, that an under-dispersed ensemble
+             scores zero regardless of quality, and that the rate is informative only
+             where non-zero.
+[2026-10-24 21:19:41] LAP arm: launching 3 lanes (train + grid 1.0-5.0 fit/dev), GPU 1 only, test NOT read. LAP_DECISION.txt sha f9bcc97d..., PREREG sha 3863992a... verified.
+[2026-10-24 21:19:41] train lap f2 START
+[2026-10-24 21:19:41] train lap f1 START
+[2026-10-24 21:19:41] train lap f3 START
+[2026-10-24] Leaky-arm per-example discrepancy DIAGNOSED. Cause: batch-composition
+             dependence of the sampling seed. build_batches (run_subspace_plane.py:
+             70-120) batches 4 consecutive rows and seeds one generator per batch from
+             the FIRST example's key, so a draw depends on which example leads the batch
+             and on the members' atom counts. The clean list drops 4 of 1,456 rows (at
+             frozen positions 347, 675, 1075, 1403), shifting every later boundary.
+             Measured: unchanged-batch examples reproduce the frozen CSVs to 4.6e-7
+             (321/396 exactly equal); a rerun at batch size 4 reproduces to 7e-7; batch
+             sizes 3 and 1 disagree with 4 by median 0.04-0.09, max 0.52-0.82 - the same
+             magnitude as fresh-vs-frozen. So the frozen per-example values were never
+             reproducible against any other draw. The pipeline IS deterministic given a
+             fixed list, order and batch size. The live-vs-frozen source plays no part.
+             NOTHING REPORTED CHANGES. The Tier used the frozen CSVs; the primary
+             contrast pairs clean HARM against clean ISO on the same list, hence the
+             same batches and seeds, i.e. common random numbers. The cross-protocol DiD
+             pairs frozen leaky draws against fresh clean ones and so carries an
+             unpaired-draw noise term the example-level bootstrap does not model; it was
+             already diagnostic-only and was not recomputed.
+             Corrections made: RESULT.md's "and/or the live-vs-frozen source" hedge
+             replaced by the diagnosis; REPRODUCIBILITY.md gains section 3 item 0 stating
+             that per-example values are specific to the list, its order and the batch
+             size, and the float32-reduction paragraph now points at it.
+[2026-10-24 22:44:51] train lap f3 END rc=0 wall=5110s
+[2026-10-24 22:44:51] grid lap fit f3 start
+[2026-10-24 22:44:57] train lap f1 END rc=0 wall=5116s
+[2026-10-24 22:44:57] grid lap fit f1 start
+[2026-10-24 22:45:31] train lap f2 END rc=0 wall=5150s
+[2026-10-24 22:45:31] grid lap fit f2 start
+[2026-10-24 23:14:45] grid lap dev f3 start
+[2026-10-24 23:15:39] grid lap dev f2 start
+[2026-10-24 23:17:03] grid lap dev f1 start
+[2026-10-25 00:07:30] lap lane f2 DONE (train + grids 1.0-5.0)
+[2026-10-25 00:08:44] lap lane f3 DONE (train + grids 1.0-5.0)
+[2026-10-25 00:10:15] lap lane f1 DONE (train + grids 1.0-5.0)
+[2026-10-25 00:10:47] LAP s* FROZEN: outputs/clean_protocol_v1/s_star_frozen_lap.json sha256 44d4307807d01d52b47c58cceb4a757228e47dcec9172a2ccec7159dbc8aefac (grid 1.0-5.0, all 6 cells matched, single crossing each, no extension needed; rule matched_torsion_fit.py unchanged). LAP train walls 5110/5116/5150s. test NOT read; awaiting release.
+[2026-10-25 08:38:01] LAP TEST GATE released by coordinator/user (4th read). Verified: mehf_internal_geometry_spectrum.py 023815a7..., matched_torsion_fit.py ca54723b..., s_star_frozen_lap.json 44d43078..., decision.py 405cc82b.... No clean-LAP test output on disk. New scripts hashed: clean_protocol_lap_test_decision.py c3516b6733de5d96f34dbd5f3b0d21840f00c9ebd0a20301a541298dc93cfb24, clean_protocol_lap_test_lane.sh (clean_protocol_lap_test_lane.sh) 30da19c2b1030a11cd578c177f7254a5d2ca4d49e9598ae3578cee1328e51244
+[2026-10-25 08:38:01] LAP TEST READ START
+[2026-10-25 09:57:26] LAP test read lane f3 DONE
+[2026-10-25 09:57:33] LAP test read lane f2 DONE
+[2026-10-25 09:57:35] LAP test read lane f1 DONE
+[2026-10-25 09:57:48] LAP TEST READ END: 6 runs (3 folds x primary/secondary), 12 files (6 json + 6 per_example.csv), 0 failures, 0 restarts
+[2026-10-25 09:58:36] RESULT_LAP.md / TEST_RESULT_LAP.json written to reference_outputs/clean_protocol_v1/ (4th read; B4 not fired; Sigma*-LAP -0.531 / -0.477)
+[2026-10-25] READ 4 (clean MEHF-LAP) COMPLETE. B4 DOES NOT FIRE; B1 does not fire.
+               LAP primary   S 1.382  psi 0.733  RMSF 0.94  torsion 1.10
+               LAP secondary S 1.420  psi 0.732  RMSF 0.97  torsion 1.14
+               Sigma* - LAP  -0.531 [-0.675, -0.386] primary, Sigma* lower on 85.6%
+                             -0.477 [-0.603, -0.353] secondary
+               LAP - ISO     -0.504 [-0.650, -0.403] primary
+               Ordering on test: ISO 1.902 -> LAP 1.382 -> Sigma* 0.796, two steps of
+               similar size. The script reproduced Sigma* - ISO as -1.0345 with an
+               identical CI, confirming the analysis path is consistent across reads.
+             NOTABLE, and written into the paper because it cuts both ways:
+               - the Sigma* advantage over LAP is PROTOCOL-INVARIANT (0.582 original
+                 vs 0.586 / 0.548 clean), so the pocket leak never inflated it;
+               - but LAP is far better calibrated in amplitude (RMSF 0.94 vs 1.54) and
+                 barely degrades fit->test (1.33 -> 1.38) where Sigma* degrades ~1.9x.
+             The LAP_DECISION.txt prediction scored half right: the ordering and the
+             sign were confirmed, the primary band 1.1-1.4 held (1.382), the secondary
+             missed by 0.02 (1.420, not rounded in), and the stated leak-attenuation
+             mechanism is NOT supported - clean LAP is slightly higher than leaky 1.352.
+             Manuscript updated: LAP rows added to the clean table at both operating
+             points, the two contrasts and the protocol-invariance of the gap written
+             into IV-E, and the "not retrained" statements corrected to name only the
+             Gauss-Seidel arm. Compiles 0/0/0, 16 pages.

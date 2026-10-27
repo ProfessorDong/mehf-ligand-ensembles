@@ -1,0 +1,58 @@
+{
+  "criterion": "systems whose PDB entry has UniProt target in split 'train' of target_disjoint_split(load_usable_pairs(DEFAULT_PAIRS)); val, test and not-in-corpus systems excluded; median over systems of per-system mean per-coordinate std, heavy atoms only; oop restricted to centres with reference mean deviation < 10 deg (as recorded in theory_modules_v1)",
+  "sources": {
+    "bond": "wilson_b_theory_v1/wilson_b.csv",
+    "angle_torsion": "isotropic_noise_cost_v1/per_system.csv",
+    "oop": "theory_modules_v1/results.json"
+  },
+  "widths": {
+    "bond_angstrom": {
+      "n_systems_total": 600,
+      "n_train": 73,
+      "n_val": 21,
+      "n_test": 15,
+      "n_not_in_corpus": 491,
+      "current_constant": 0.032637,
+      "median_all_systems": 0.03263738626924825,
+      "train_only": 0.0324516934526607,
+      "relative_change_vs_current": -0.005677805782985601,
+      "bootstrap_se_of_median": 0.00022095413367906552
+    },
+    "angle_deg": {
+      "n_systems_total": 2000,
+      "n_train": 247,
+      "n_val": 86,
+      "n_test": 62,
+      "n_not_in_corpus": 1605,
+      "current_constant": 2.774,
+      "median_all_systems": 2.7730481429698726,
+      "train_only": 2.7689192924707644,
+      "relative_change_vs_current": -0.0018315456125579388,
+      "bootstrap_se_of_median": 0.009784981983578005
+    },
+    "torsion_deg": {
+      "n_systems_total": 2000,
+      "n_train": 247,
+      "n_val": 86,
+      "n_test": 62,
+      "n_not_in_corpus": 1605,
+      "current_constant": 14.600000000000001,
+      "median_all_systems": 14.595613489670836,
+      "train_only": 14.162180993580918,
+      "relative_change_vs_current": -0.02998760317938931,
+      "bootstrap_se_of_median": 0.48496815319019265
+    },
+    "oop_deg": {
+      "n_systems_total": 130,
+      "n_train": 15,
+      "n_val": 8,
+      "n_test": 4,
+      "n_not_in_corpus": 103,
+      "current_constant": 6.48,
+      "median_all_systems": 6.480006204251406,
+      "train_only": 6.415573887321512,
+      "relative_change_vs_current": -0.009942301339272985,
+      "bootstrap_se_of_median": 0.1461908909076537
+    }
+  }
+}

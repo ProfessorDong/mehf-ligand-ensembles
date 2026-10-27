@@ -1,0 +1,308 @@
+{
+ "excluded": [
+  "1O0F",
+  "1RGK",
+  "1XNZ",
+  "1Z6D",
+  "1ZZ1",
+  "2A3B",
+  "2EA2",
+  "2Q93",
+  "2Q94",
+  "2YBS",
+  "3L0V",
+  "4A4E",
+  "4A4G",
+  "4DE3",
+  "4G0P",
+  "4IKS",
+  "4JKW",
+  "4JX9",
+  "4KZA",
+  "4U54",
+  "4YXO",
+  "5EFC",
+  "5FLS",
+  "5U2F",
+  "5W7U",
+  "5X4Q",
+  "6HSZ",
+  "6MO9"
+ ],
+ "n_excluded": 28,
+ "matches_user_list": false,
+ "extra_vs_requester_list": [
+  "1XNZ",
+  "2Q94",
+  "3L0V",
+  "4A4E",
+  "4A4G",
+  "4DE3",
+  "4G0P",
+  "4KZA"
+ ],
+ "missing_vs_requester_list": [],
+ "why_different": "requester's 20 correspond to 96th-nearest frame-0 distance measured to ALL ligand atoms incl. H; the loader's frame0 ranking (pocket_ranking_distance) uses ligand HEAVY atoms only (>= all-atom distance), and the store pool is built from all-atom distances, so the provable-identity argument must use the heavy-atom distance",
+ "derivation": "Task A of the clean protocol: derive the systems whose frame-0 pocket crop cannot be\nrepresented by the stored candidate pool, and write the post-exclusion split counts.\n\nThe store keeps protein heavy atoms within R=8 A of the ligand at ANY stored frame, capped at\n600 atoms (closest by all-frame minimum distance). For a system let d0_j be the frame-0 distance\nof pool atom j to the nearest ligand HEAVY atom (exactly `pocket_ranking_distance(.., 'frame0')`)\nand D96 the 96th smallest d0 over the pool. Any protein atom outside the pool has\nd0 >= m_j > B, where B = 8 if the pool is untruncated, else B = min(8, max_pool all-frame min\ndistance) (outside atoms had all-frame min distance >= the largest kept one). Hence if D96 <= B the\nframe-0 top-96 of the pool IS the frame-0 top-96 of the whole protein. A system is excluded iff\nD96 > B (or the pool has fewer than 96 atoms).\nReads store npz + pairs.csv only. Does not read any coordinates of a test-split system for any\npurpose other than this geometric check (the check is split-blind, by system), and builds no model input.\n",
+ "criterion": "D96 > B; crop=96, radius=8.0, store cap=600",
+ "n_systems_measured": 3819,
+ "population": "all pdb_a/pdb_b of status=='ok' rows of outputs/mmp_transfer_corpus_v1/pairs.csv",
+ "d96_median": 5.684056242862528,
+ "d96_p99": 7.764991423711436,
+ "per_excluded_system": [
+  {
+   "pdb": "1O0F",
+   "n_pool": 273,
+   "d96": 8.474483154421499,
+   "truncated_at_cap": false,
+   "bound": 8.0,
+   "n_d0_le_8": 87,
+   "min_over_frames_max": 7.973124027252197
+  },
+  {
+   "pdb": "1RGK",
+   "n_pool": 189,
+   "d96": 8.347284138895292,
+   "truncated_at_cap": false,
+   "bound": 8.0,
+   "n_d0_le_8": 86,
+   "min_over_frames_max": 7.996825218200684
+  },
+  {
+   "pdb": "1XNZ",
+   "n_pool": 227,
+   "d96": 8.209449245795097,
+   "truncated_at_cap": false,
+   "bound": 8.0,
+   "n_d0_le_8": 92,
+   "min_over_frames_max": 7.972815990447998
+  },
+  {
+   "pdb": "1Z6D",
+   "n_pool": 335,
+   "d96": 11.415087140661983,
+   "truncated_at_cap": false,
+   "bound": 8.0,
+   "n_d0_le_8": 32,
+   "min_over_frames_max": 7.990757942199707
+  },
+  {
+   "pdb": "1ZZ1",
+   "n_pool": 415,
+   "d96": 10.136904351268088,
+   "truncated_at_cap": false,
+   "bound": 8.0,
+   "n_d0_le_8": 45,
+   "min_over_frames_max": 7.993551731109619
+  },
+  {
+   "pdb": "2A3B",
+   "n_pool": 255,
+   "d96": 8.899946786320822,
+   "truncated_at_cap": false,
+   "bound": 8.0,
+   "n_d0_le_8": 67,
+   "min_over_frames_max": 7.983442783355713
+  },
+  {
+   "pdb": "2EA2",
+   "n_pool": 251,
+   "d96": 8.792032421748926,
+   "truncated_at_cap": false,
+   "bound": 8.0,
+   "n_d0_le_8": 65,
+   "min_over_frames_max": 7.993569850921631
+  },
+  {
+   "pdb": "2Q93",
+   "n_pool": 229,
+   "d96": 10.262605063801946,
+   "truncated_at_cap": false,
+   "bound": 8.0,
+   "n_d0_le_8": 53,
+   "min_over_frames_max": 7.976997375488281
+  },
+  {
+   "pdb": "2Q94",
+   "n_pool": 223,
+   "d96": 8.362581921423404,
+   "truncated_at_cap": false,
+   "bound": 8.0,
+   "n_d0_le_8": 90,
+   "min_over_frames_max": 7.976905822753906
+  },
+  {
+   "pdb": "2YBS",
+   "n_pool": 272,
+   "d96": 10.110609134308108,
+   "truncated_at_cap": false,
+   "bound": 8.0,
+   "n_d0_le_8": 38,
+   "min_over_frames_max": 7.996463298797607
+  },
+  {
+   "pdb": "3L0V",
+   "n_pool": 305,
+   "d96": 8.168576991059709,
+   "truncated_at_cap": false,
+   "bound": 8.0,
+   "n_d0_le_8": 91,
+   "min_over_frames_max": 7.944254398345947
+  },
+  {
+   "pdb": "4A4E",
+   "n_pool": 162,
+   "d96": 8.000468321311347,
+   "truncated_at_cap": false,
+   "bound": 8.0,
+   "n_d0_le_8": 95,
+   "min_over_frames_max": 7.941597938537598
+  },
+  {
+   "pdb": "4A4G",
+   "n_pool": 156,
+   "d96": 8.086380169860275,
+   "truncated_at_cap": false,
+   "bound": 8.0,
+   "n_d0_le_8": 90,
+   "min_over_frames_max": 7.97455358505249
+  },
+  {
+   "pdb": "4DE3",
+   "n_pool": 307,
+   "d96": 8.06755345358596,
+   "truncated_at_cap": false,
+   "bound": 8.0,
+   "n_d0_le_8": 94,
+   "min_over_frames_max": 7.994958400726318
+  },
+  {
+   "pdb": "4G0P",
+   "n_pool": 233,
+   "d96": 8.377035958652467,
+   "truncated_at_cap": false,
+   "bound": 8.0,
+   "n_d0_le_8": 89,
+   "min_over_frames_max": 7.960026264190674
+  },
+  {
+   "pdb": "4IKS",
+   "n_pool": 345,
+   "d96": 9.280727277156426,
+   "truncated_at_cap": false,
+   "bound": 8.0,
+   "n_d0_le_8": 71,
+   "min_over_frames_max": 7.978356838226318
+  },
+  {
+   "pdb": "4JKW",
+   "n_pool": 189,
+   "d96": 9.88856756900127,
+   "truncated_at_cap": false,
+   "bound": 8.0,
+   "n_d0_le_8": 53,
+   "min_over_frames_max": 7.952975749969482
+  },
+  {
+   "pdb": "4JX9",
+   "n_pool": 222,
+   "d96": 8.680440728000919,
+   "truncated_at_cap": false,
+   "bound": 8.0,
+   "n_d0_le_8": 77,
+   "min_over_frames_max": 7.9948930740356445
+  },
+  {
+   "pdb": "4KZA",
+   "n_pool": 197,
+   "d96": 8.000284187002135,
+   "truncated_at_cap": false,
+   "bound": 8.0,
+   "n_d0_le_8": 95,
+   "min_over_frames_max": 7.981646537780762
+  },
+  {
+   "pdb": "4U54",
+   "n_pool": 487,
+   "d96": 9.08326050585081,
+   "truncated_at_cap": false,
+   "bound": 8.0,
+   "n_d0_le_8": 64,
+   "min_over_frames_max": 7.98753547668457
+  },
+  {
+   "pdb": "4YXO",
+   "n_pool": 225,
+   "d96": 9.200616878607184,
+   "truncated_at_cap": false,
+   "bound": 8.0,
+   "n_d0_le_8": 65,
+   "min_over_frames_max": 7.991504669189453
+  },
+  {
+   "pdb": "5EFC",
+   "n_pool": 217,
+   "d96": 8.96617914555188,
+   "truncated_at_cap": false,
+   "bound": 8.0,
+   "n_d0_le_8": 74,
+   "min_over_frames_max": 7.996477127075195
+  },
+  {
+   "pdb": "5FLS",
+   "n_pool": 277,
+   "d96": 9.119012457230955,
+   "truncated_at_cap": false,
+   "bound": 8.0,
+   "n_d0_le_8": 63,
+   "min_over_frames_max": 7.968475818634033
+  },
+  {
+   "pdb": "5U2F",
+   "n_pool": 272,
+   "d96": 10.279731370594988,
+   "truncated_at_cap": false,
+   "bound": 8.0,
+   "n_d0_le_8": 52,
+   "min_over_frames_max": 7.985253810882568
+  },
+  {
+   "pdb": "5W7U",
+   "n_pool": 294,
+   "d96": 9.089618913532465,
+   "truncated_at_cap": false,
+   "bound": 8.0,
+   "n_d0_le_8": 47,
+   "min_over_frames_max": 7.958686351776123
+  },
+  {
+   "pdb": "5X4Q",
+   "n_pool": 222,
+   "d96": 8.626176410791826,
+   "truncated_at_cap": false,
+   "bound": 8.0,
+   "n_d0_le_8": 84,
+   "min_over_frames_max": 7.932710647583008
+  },
+  {
+   "pdb": "6HSZ",
+   "n_pool": 429,
+   "d96": 9.08744772360705,
+   "truncated_at_cap": false,
+   "bound": 8.0,
+   "n_d0_le_8": 68,
+   "min_over_frames_max": 7.939393043518066
+  },
+  {
+   "pdb": "6MO9",
+   "n_pool": 191,
+   "d96": 26.070787055494137,
+   "truncated_at_cap": false,
+   "bound": 8.0,
+   "n_d0_le_8": 0,
+   "min_over_frames_max": 7.942341327667236
+  }
+ ],
+ "n_truncated_at_cap_in_population": 33,
+ "rule": "a pair is dropped entirely (both directions) if either pdb is excluded; applied AFTER the split and fold assignment (target->split and target->fold maps are those of the pre-exclusion corpus)"
+}

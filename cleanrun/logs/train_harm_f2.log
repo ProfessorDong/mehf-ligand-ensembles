@@ -1,0 +1,42 @@
+{"epoch": 1.0, "steps": 1472.0, "learning_rate": 0.0003, "fit_loss": 2.9827317845724197, "fit_coarse_flow_loss": 2.5099853680104665, "fit_fine_flow_loss": 0.46193483221830556, "fit_mean_path_loss": 1.853485816563277, "fit_coarse_context_mae_angstrom": 0.0, "fit_bond_geometry_loss": 0.010139988833306352, "fit_angle_geometry_loss": 0.010798448600088823, "fit_pocket_clash_loss": 6.715967086020978e-05, "dev_loss": 2.5125228007936657, "dev_coarse_flow_loss": 2.1538536251724447, "dev_fine_flow_loss": 0.3496560280993864, "dev_mean_path_loss": 1.6313990898458677, "dev_coarse_context_mae_angstrom": 0.0, "dev_bond_geometry_loss": 0.0072532825295002455, "dev_angle_geometry_loss": 0.008224944717750067, "dev_pocket_clash_loss": 0.00017598507308752036, "rigid_noise_scale": 0.35, "internal_noise_scale": 3.5, "selectable": 1.0}
+{"epoch": 2.0, "steps": 2944.0, "learning_rate": 0.00028896253221413656, "fit_loss": 2.8972293920005145, "fit_coarse_flow_loss": 2.439398646881075, "fit_fine_flow_loss": 0.4470010570493405, "fit_mean_path_loss": 1.8541806186144443, "fit_coarse_context_mae_angstrom": 0.0, "fit_bond_geometry_loss": 0.010150512254214213, "fit_angle_geometry_loss": 0.010906612077119264, "fit_pocket_clash_loss": 6.791739229130645e-05, "dev_loss": 2.634059393133954, "dev_coarse_flow_loss": 2.2780293999062744, "dev_fine_flow_loss": 0.3472788589138948, "dev_mean_path_loss": 1.6313990898458677, "dev_coarse_context_mae_angstrom": 0.0, "dev_bond_geometry_loss": 0.007061263565381302, "dev_angle_geometry_loss": 0.007946526572398643, "dev_pocket_clash_loss": 0.00016898661231481909, "rigid_noise_scale": 0.35, "internal_noise_scale": 3.5, "selectable": 1.0}
+{"epoch": 3.0, "steps": 4416.0, "learning_rate": 0.0002575304832720494, "fit_loss": 2.8668618940383843, "fit_coarse_flow_loss": 2.411155171368433, "fit_fine_flow_loss": 0.4448592705125718, "fit_mean_path_loss": 1.8543096054750292, "fit_coarse_context_mae_angstrom": 0.0, "fit_bond_geometry_loss": 0.010163556343405102, "fit_angle_geometry_loss": 0.010848405447493702, "fit_pocket_clash_loss": 6.8389178634343e-05, "dev_loss": 2.544630147885007, "dev_coarse_flow_loss": 2.1937893416038485, "dev_fine_flow_loss": 0.34209810806431246, "dev_mean_path_loss": 1.6313990898458677, "dev_coarse_context_mae_angstrom": 0.0, "dev_bond_geometry_loss": 0.007049396245903247, "dev_angle_geometry_loss": 0.008042394556282195, "dev_pocket_clash_loss": 0.00016933144366761601, "rigid_noise_scale": 0.35, "internal_noise_scale": 3.5, "selectable": 1.0}
+{"epoch": 4.0, "steps": 5888.0, "learning_rate": 0.00021048909769293803, "fit_loss": 2.853320510329112, "fit_coarse_flow_loss": 2.4023824101718874, "fit_fine_flow_loss": 0.4401376325049964, "fit_mean_path_loss": 1.8528429503026216, "fit_coarse_context_mae_angstrom": 0.0, "fit_bond_geometry_loss": 0.010145091562979202, "fit_angle_geometry_loss": 0.01087131622799738, "fit_pocket_clash_loss": 6.553762574548161e-05, "dev_loss": 2.544337787782285, "dev_coarse_flow_loss": 2.191312411892097, "dev_fine_flow_loss": 0.34411475119028706, "dev_mean_path_loss": 1.6313990898458677, "dev_coarse_context_mae_angstrom": 0.0, "dev_bond_geometry_loss": 0.0072147575053899855, "dev_angle_geometry_loss": 0.00813028783831363, "dev_pocket_clash_loss": 0.00016958565196391968, "rigid_noise_scale": 0.35, "internal_noise_scale": 3.5, "selectable": 1.0}
+{"epoch": 5.0, "steps": 7360.0, "learning_rate": 0.000155, "fit_loss": 2.825478651398874, "fit_coarse_flow_loss": 2.3751725583620695, "fit_fine_flow_loss": 0.43955274773559166, "fit_mean_path_loss": 1.852671820893074, "fit_coarse_context_mae_angstrom": 0.0, "fit_bond_geometry_loss": 0.010096009030941945, "fit_angle_geometry_loss": 0.01089408982917793, "fit_pocket_clash_loss": 6.573331973916031e-05, "dev_loss": 2.482475766210955, "dev_coarse_flow_loss": 2.131332786590881, "dev_fine_flow_loss": 0.3424176684520544, "dev_mean_path_loss": 1.6313990898458677, "dev_coarse_context_mae_angstrom": 0.0, "dev_bond_geometry_loss": 0.0070352255713775355, "dev_angle_geometry_loss": 0.008062027565632086, "dev_pocket_clash_loss": 0.00016900666298287653, "rigid_noise_scale": 0.35, "internal_noise_scale": 3.5, "selectable": 1.0}
+{"epoch": 6.0, "steps": 8832.0, "learning_rate": 9.9510902307062e-05, "fit_loss": 2.8312476081368714, "fit_coarse_flow_loss": 2.3809540683970503, "fit_fine_flow_loss": 0.43954106692589173, "fit_mean_path_loss": 1.8537556563261086, "fit_coarse_context_mae_angstrom": 0.0, "fit_bond_geometry_loss": 0.010085586859334042, "fit_angle_geometry_loss": 0.010868262155860935, "fit_pocket_clash_loss": 6.66897056942579e-05, "dev_loss": 2.4800321452971192, "dev_coarse_flow_loss": 2.1269864709658313, "dev_fine_flow_loss": 0.3442086117915781, "dev_mean_path_loss": 1.6313990898458677, "dev_coarse_context_mae_angstrom": 0.0, "dev_bond_geometry_loss": 0.007146552329468665, "dev_angle_geometry_loss": 0.008044195071061074, "dev_pocket_clash_loss": 0.0001690507173841104, "rigid_noise_scale": 0.35, "internal_noise_scale": 3.5, "selectable": 1.0}
+{"epoch": 7.0, "steps": 10304.0, "learning_rate": 5.246951672795062e-05, "fit_loss": 2.846395712588792, "fit_coarse_flow_loss": 2.4003739388983534, "fit_fine_flow_loss": 0.43534109350698796, "fit_mean_path_loss": 1.852677223475083, "fit_coarse_context_mae_angstrom": 0.0, "fit_bond_geometry_loss": 0.010000756784828136, "fit_angle_geometry_loss": 0.010974527685112147, "fit_pocket_clash_loss": 6.79917717495638e-05, "dev_loss": 2.4649288756312524, "dev_coarse_flow_loss": 2.109524036994905, "dev_fine_flow_loss": 0.34652253761604257, "dev_mean_path_loss": 1.6313990898458677, "dev_coarse_context_mae_angstrom": 0.0, "dev_bond_geometry_loss": 0.007194300333990542, "dev_angle_geometry_loss": 0.008153457643407549, "dev_pocket_clash_loss": 0.00016879823531769795, "rigid_noise_scale": 0.35, "internal_noise_scale": 3.5, "selectable": 1.0}
+{"epoch": 8.0, "steps": 11776.0, "learning_rate": 2.1037467785863426e-05, "fit_loss": 2.7872484736549468, "fit_coarse_flow_loss": 2.3422496224875036, "fit_fine_flow_loss": 0.4343021553029995, "fit_mean_path_loss": 1.8561993664454506, "fit_coarse_context_mae_angstrom": 0.0, "fit_bond_geometry_loss": 0.010021299062392918, "fit_angle_geometry_loss": 0.010908690569719867, "fit_pocket_clash_loss": 6.75400007137833e-05, "dev_loss": 2.5070416757362426, "dev_coarse_flow_loss": 2.1536750600818446, "dev_fine_flow_loss": 0.344533874281459, "dev_mean_path_loss": 1.6313990898458677, "dev_coarse_context_mae_angstrom": 0.0, "dev_bond_geometry_loss": 0.007128579301685236, "dev_angle_geometry_loss": 0.00802223801704924, "dev_pocket_clash_loss": 0.0001704164693341742, "rigid_noise_scale": 0.35, "internal_noise_scale": 3.5, "selectable": 1.0}
+{
+  "n_train_pairs_available": 3417,
+  "n_directional_examples": 6834,
+  "n_directional_examples_before_exclusion": 6978,
+  "excluded_systems_file": "outputs/clean_protocol_v1/excluded_systems.json",
+  "n_folds": 5,
+  "held_out_fold": 2,
+  "n_fit_examples": 5808,
+  "n_dev_examples": 1026,
+  "n_fit_targets": 232,
+  "n_dev_targets": 110,
+  "n_parameters": 1440598,
+  "rigid_noise_scale": 0.35,
+  "internal_noise_scale": 3.5,
+  "internal_scale_head": false,
+  "internal_scale_head_parameters": 0,
+  "scale_calibration_history": null,
+  "device": "cuda:0",
+  "cuda_visible_devices": "1",
+  "peak_gpu_memory_gb": 11.82111406326294,
+  "epochs_run": 8,
+  "steps_done": 11776,
+  "best_selection_value": 2.4649288756312524,
+  "selection_metric": "dev_loss",
+  "checkpoint": "outputs/clean_protocol_v1/harm_f2/checkpoint.pt",
+  "product_init_mode": "product_frame0",
+  "frame_alignment": "pocket",
+  "max_pocket_atoms": 96,
+  "pocket_selection": "frame0",
+  "harmonic_tau_set": "train_only_large",
+  "config_sha256": "a9a6095ed50e006112769c053a9eeec60a5c4548a6b1fb85ec35634677e9c65a",
+  "train_seed": 2026,
+  "disable_mapping": false
+}
