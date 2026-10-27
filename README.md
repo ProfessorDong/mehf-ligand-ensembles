@@ -1,11 +1,11 @@
-# MEHF: ligand conformational ensembles by flow matching with chemistry-aware noise
+# MEHF: ligand conformational ensembles by flow matching with stiffness-aware noise
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23700541.svg)](https://doi.org/10.5281/zenodo.23700541)
 
 Code, trained checkpoints, and the complete result record for
 
 > T. Ding, D. Xiang, and L. Dong, "Generating Ligand Conformational Ensembles by Flow Matching
-> with Chemistry-Aware Noise," submitted to *IEEE Transactions on Computational Biology and
+> with Stiffness-Aware Noise," submitted to *IEEE Transactions on Computational Biology and
 > Bioinformatics*.
 
 Archived on Zenodo: version v1.0.0 (as submitted) is

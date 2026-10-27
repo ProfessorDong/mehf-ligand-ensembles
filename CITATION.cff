@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code or data, please cite the paper below and the MISATO dataset."
-title: "MEHF: ligand conformational ensembles by flow matching with chemistry-aware noise"
+title: "MEHF: ligand conformational ensembles by flow matching with stiffness-aware noise"
 type: software
 license: MIT
 doi: "10.5281/zenodo.23700541"
@@ -27,7 +27,7 @@ authors:
     orcid: "https://orcid.org/0000-0002-8585-1087"
 preferred-citation:
   type: article
-  title: "Generating Ligand Conformational Ensembles by Flow Matching with Chemistry-Aware Noise"
+  title: "Generating Ligand Conformational Ensembles by Flow Matching with Stiffness-Aware Noise"
   authors:
     - family-names: Ding
       given-names: Tianqi
