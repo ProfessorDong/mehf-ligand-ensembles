@@ -1,0 +1,176 @@
+usable examples 1406, targets 59
+OK       primary ISO median S                          mine=1.902224 theirs=1.902224
+OK       primary ISO median psi                        mine=1.168730 theirs=1.168730
+OK       primary ISO RMSF                              mine=0.407358 theirs=0.407358
+OK       primary ISO any-clash share                   mine=0.000000 theirs=0.000000
+OK       primary HARM median S                         mine=0.795911 theirs=0.795911
+OK       primary HARM median psi                       mine=0.539431 theirs=0.539431
+OK       primary HARM RMSF                             mine=1.542332 theirs=1.542332
+OK       primary HARM any-clash share                  mine=0.018255 theirs=0.018255
+OK       primary HARM-ISO mean                         mine=-1.034537 theirs=-1.034537
+OK       primary CI lo                                 mine=-1.263049 theirs=-1.263049
+OK       primary CI hi                                 mine=-0.917504 theirs=-0.917504
+OK       primary share HARM lower                      mine=0.980797 theirs=0.980797
+OK       primary LAP median S                          mine=1.381787 theirs=1.381787
+OK       primary LAP psi                               mine=0.733273 theirs=0.733273
+OK       primary HARM-LAP mean                         mine=-0.531030 theirs=-0.531030
+OK       primary HARM-LAP CI lo                        mine=-0.675154 theirs=-0.675154
+OK       primary HARM-LAP CI hi                        mine=-0.385921 theirs=-0.385921
+OK       secondary ISO median S                        mine=1.904142 theirs=1.904142
+OK       secondary ISO median psi                      mine=1.169023 theirs=1.169023
+OK       secondary ISO RMSF                            mine=0.405875 theirs=0.405875
+OK       secondary ISO any-clash share                 mine=0.000000 theirs=0.000000
+OK       secondary HARM median S                       mine=0.872290 theirs=0.872290
+OK       secondary HARM median psi                     mine=0.521818 theirs=0.521818
+OK       secondary HARM RMSF                           mine=1.747962 theirs=1.747962
+OK       secondary HARM any-clash share                mine=0.036747 theirs=0.036747
+OK       secondary HARM-ISO mean                       mine=-0.939812 theirs=-0.939812
+OK       secondary CI lo                               mine=-1.169273 theirs=-1.169273
+OK       secondary CI hi                               mine=-0.840361 theirs=-0.840361
+OK       secondary share HARM lower                    mine=0.968706 theirs=0.968706
+OK       secondary LAP median S                        mine=1.419772 theirs=1.419772
+OK       secondary LAP psi                             mine=0.731706 theirs=0.731706
+OK       secondary HARM-LAP mean                       mine=-0.477027 theirs=-0.477027
+OK       secondary HARM-LAP CI lo                      mine=-0.603002 theirs=-0.603002
+OK       secondary HARM-LAP CI hi                      mine=-0.352925 theirs=-0.352925
+OK       control A_s4.0_off S                          mine=1.084200 theirs=1.084200
+OK       control A_s4.0_off psi                        mine=0.884685 theirs=0.884685
+OK       control A_s4.0_off torsion                    mine=0.683398 theirs=0.683398
+OK       control A_s4.0_off any-clash share            mine=0.010669 theirs=0.010669
+OK       control A_s4.0_on S                           mine=0.586780 theirs=0.586780
+OK       control A_s4.0_on psi                         mine=0.702647 theirs=0.702647
+OK       control A_s4.0_on torsion                     mine=0.664256 theirs=0.664256
+OK       control A_s4.0_on any-clash share             mine=0.000000 theirs=0.000000
+OK       control A_s5.0_off S                          mine=1.572001 theirs=1.572001
+OK       control A_s5.0_off psi                        mine=0.984925 theirs=0.984925
+OK       control A_s5.0_off torsion                    mine=0.836222 theirs=0.836222
+OK       control A_s5.0_off any-clash share            mine=0.056188 theirs=0.056188
+OK       control A_s5.0_on S                           mine=0.666839 theirs=0.666839
+OK       control A_s5.0_on psi                         mine=0.644753 theirs=0.644753
+OK       control A_s5.0_on torsion                     mine=0.801933 theirs=0.801933
+OK       control A_s5.0_on any-clash share             mine=0.000711 theirs=0.000711
+OK       control B_off S                               mine=3.356338 theirs=3.356338
+OK       control B_off psi                             mine=1.549903 theirs=1.549903
+OK       control B_off torsion                         mine=0.860774 theirs=0.860774
+OK       control B_off any-clash share                 mine=0.540541 theirs=0.540541
+OK       control B_on S                                mine=0.835815 theirs=0.835815
+OK       control B_on psi                              mine=0.749977 theirs=0.749977
+OK       control B_on torsion                          mine=0.877064 theirs=0.877064
+OK       control B_on any-clash share                  mine=0.205548 theirs=0.205548
+MISMATCH count: 0
+OK       primary LAP-ISO mean                          mine=-0.503507 theirs=-0.503507
+OK       primary LAP-ISO CI lo                         mine=-0.649652 theirs=-0.649652
+OK       primary LAP-ISO CI hi                         mine=-0.403092 theirs=-0.403092
+OK       primary fold1 HARM-ISO mean                   mine=-1.116890 theirs=-1.116890
+OK       primary fold1 HARM torsion median             mine=1.201209 theirs=1.201209
+OK       primary fold2 HARM-ISO mean                   mine=-0.916672 theirs=-0.916672
+OK       primary fold2 HARM torsion median             mine=1.028588 theirs=1.028588
+OK       primary fold3 HARM-ISO mean                   mine=-1.070049 theirs=-1.070049
+OK       primary fold3 HARM torsion median             mine=1.186119 theirs=1.186119
+OK       primary HARM channel bond                     mine=1.675539 theirs=1.675539
+OK       secondary LAP-ISO mean                        mine=-0.462785 theirs=-0.462785
+OK       secondary LAP-ISO CI lo                       mine=-0.616521 theirs=-0.616521
+OK       secondary LAP-ISO CI hi                       mine=-0.351733 theirs=-0.351733
+OK       secondary fold1 HARM-ISO mean                 mine=-0.894577 theirs=-0.894577
+OK       secondary fold1 HARM torsion median           mine=1.294778 theirs=1.294778
+OK       secondary fold2 HARM-ISO mean                 mine=-1.025931 theirs=-1.025931
+OK       secondary fold2 HARM torsion median           mine=1.203186 theirs=1.203186
+OK       secondary fold3 HARM-ISO mean                 mine=-0.898926 theirs=-0.898926
+OK       secondary fold3 HARM torsion median           mine=1.258219 theirs=1.258219
+OK       secondary HARM channel bond                   mine=2.041693 theirs=2.041693
+OK       original-protocol HARM-ISO on the 1,406       mine=-1.151324 theirs=-1.151324
+OK       original-protocol HARM S on the 1,406         mine=0.769709 theirs=0.769709
+OK       primary DiD                                   mine=0.116787 theirs=0.116787
+OK       primary DiD CI lo                             mine=0.075478 theirs=0.075478
+OK       primary DiD CI hi                             mine=0.156079 theirs=0.156079
+OK       secondary DiD                                 mine=0.211512 theirs=0.211512
+OK       secondary DiD CI lo                           mine=0.145668 theirs=0.145668
+OK       secondary DiD CI hi                           mine=0.282602 theirs=0.282602
+OK       crop all_corpus_post_exclusion overlap median mine=0.822917 theirs=0.822917
+OK       crop all_corpus_post_exclusion overlap min    mine=0.375000 theirs=0.375000
+OK       crop all_corpus_post_exclusion recall_pair median mine=0.930131 theirs=0.930131
+OK       crop all_corpus_post_exclusion recall_pair min mine=0.377246 theirs=0.377246
+OK       crop test_list_systems overlap median         mine=0.822917 theirs=0.822917
+OK       crop test_list_systems overlap min            mine=0.583333 theirs=0.583333
+OK       crop test_list_systems recall_pair median     mine=0.929329 theirs=0.929329
+OK       crop test_list_systems recall_pair min        mine=0.639394 theirs=0.639394
+EXTRA MISMATCH count: 0
+TABLE CELLS checked 72, mismatches 0
+  primary ISO bond_length_ratio                 1.1103
+  primary ISO bond_angle_ratio                  1.3016
+  primary ISO dihedral_ratio                    1.0795
+  primary ISO planar_improper_ratio             2.8755
+  primary ISO RMSF                              0.4074
+  primary ISO any-clash                         0.0000
+  primary HARM bond_length_ratio                1.6755
+  primary HARM bond_angle_ratio                 1.4088
+  primary HARM dihedral_ratio                   1.1363
+  primary HARM planar_improper_ratio            1.9829
+  primary HARM RMSF                             1.5423
+  primary HARM any-clash                        0.0183
+  primary LAP bond_length_ratio                 2.3109
+  primary LAP bond_angle_ratio                  2.0801
+  primary LAP dihedral_ratio                    1.1004
+  primary LAP planar_improper_ratio             2.6725
+  primary LAP RMSF                              0.9371
+  primary LAP any-clash                         0.0002
+  secondary ISO bond_length_ratio               1.1058
+  secondary ISO bond_angle_ratio                1.2975
+  secondary ISO dihedral_ratio                  1.0746
+  secondary ISO planar_improper_ratio           2.8733
+  secondary ISO RMSF                            0.4059
+  secondary ISO any-clash                       0.0000
+  secondary HARM bond_length_ratio              2.0417
+  secondary HARM bond_angle_ratio               1.6294
+  secondary HARM dihedral_ratio                 1.2564
+  secondary HARM planar_improper_ratio          2.1760
+  secondary HARM RMSF                           1.7480
+  secondary HARM any-clash                      0.0367
+  secondary LAP bond_length_ratio               2.3848
+  secondary LAP bond_angle_ratio                2.1508
+  secondary LAP dihedral_ratio                  1.1370
+  secondary LAP planar_improper_ratio           2.7480
+  secondary LAP RMSF                            0.9684
+  secondary LAP any-clash                       0.0005
+  control A_s4.0_off bond_length_ratio          2.0400
+  control A_s4.0_off bond_angle_ratio           1.4273
+  control A_s4.0_off dihedral_ratio             0.6834
+  control A_s4.0_off planar_improper_ratio      1.2325
+  control A_s4.0_off RMSF                       0.9203
+  control A_s4.0_off any-clash                  0.0107
+  control A_s4.0_on bond_length_ratio           0.6902
+  control A_s4.0_on bond_angle_ratio            0.6614
+  control A_s4.0_on dihedral_ratio              0.6643
+  control A_s4.0_on planar_improper_ratio       1.1818
+  control A_s4.0_on RMSF                        0.8885
+  control A_s4.0_on any-clash                   0.0000
+  control A_s5.0_off bond_length_ratio          2.7458
+  control A_s5.0_off bond_angle_ratio           1.8290
+  control A_s5.0_off dihedral_ratio             0.8362
+  control A_s5.0_off planar_improper_ratio      1.5146
+  control A_s5.0_off RMSF                       1.1503
+  control A_s5.0_off any-clash                  0.0562
+  control A_s5.0_on bond_length_ratio           0.9301
+  control A_s5.0_on bond_angle_ratio            0.8505
+  control A_s5.0_on dihedral_ratio              0.8019
+  control A_s5.0_on planar_improper_ratio       1.4309
+  control A_s5.0_on RMSF                        1.0983
+  control A_s5.0_on any-clash                   0.0007
+  control B_off bond_length_ratio               4.1604
+  control B_off bond_angle_ratio                2.3646
+  control B_off dihedral_ratio                  0.8608
+  control B_off planar_improper_ratio           1.1576
+  control B_off RMSF                            1.0716
+  control B_off any-clash                       0.5405
+  control B_on bond_length_ratio                1.4363
+  control B_on bond_angle_ratio                 1.1541
+  control B_on dihedral_ratio                   0.8771
+  control B_on planar_improper_ratio            1.1880
+  control B_on RMSF                             0.9201
+  control B_on any-clash                        0.2055
+s* used ISO primary [1.547, 1.262, 1.546]
+s* used ISO secondary [1.408, 1.494, 1.435]
+s* used HARM primary [3.746, 3.339, 4.349]
+s* used HARM secondary [4.199, 4.194, 4.758]
+s* used LAP primary [3.385, 2.573, 3.044]
+s* used LAP secondary [3.29, 2.882, 3.112]

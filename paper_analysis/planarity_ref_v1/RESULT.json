@@ -1,0 +1,13 @@
+{
+ "status": "post-hoc; plan PLAN.md",
+ "n_files": 100,
+ "n_read": 100,
+ "pooled_mean_deg": 1.1831777804944408,
+ "n_centres": 291,
+ "median_of_molecule_means_deg": 0.6405651100973995,
+ "iqr_of_molecule_means_deg": [
+  0.31099770299779944,
+  1.4691037284830935
+ ],
+ "n_molecules_with_centres": 66
+}
