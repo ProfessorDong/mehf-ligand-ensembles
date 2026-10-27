@@ -3,7 +3,7 @@ message: "If you use this code or data, please cite the paper below and the MISA
 title: "MEHF: ligand conformational ensembles by flow matching with chemistry-aware noise"
 type: software
 license: MIT
-repository-code: "https://github.com/ProfessorDong/MEHF"
+repository-code: "https://github.com/ProfessorDong/mehf-ligand-ensembles"
 authors:
   - family-names: Ding
     given-names: Tianqi
