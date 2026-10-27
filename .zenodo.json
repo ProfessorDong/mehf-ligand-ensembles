@@ -1,0 +1,16 @@
+{
+  "title": "MEHF: ligand conformational ensembles by flow matching with chemistry-aware noise (code, checkpoints and result record)",
+  "upload_type": "software",
+  "description": "Code, trained checkpoints and the complete pre-registered result record for T. Ding, D. Xiang and L. Dong, \"Generating Ligand Conformational Ensembles by Flow Matching with Chemistry-Aware Noise\" (submitted to IEEE Transactions on Computational Biology and Bioinformatics). Includes the original-protocol runs, the clean-protocol replication (cleanrun/) and the post-hoc analyses (paper_analysis/). Trajectory data derive from MISATO (doi:10.5281/zenodo.7711953, CC BY 4.0).",
+  "creators": [
+    {"name": "Ding, Tianqi", "affiliation": "Baylor University", "orcid": "0009-0002-9025-0849"},
+    {"name": "Xiang, Dawei", "affiliation": "University of Connecticut", "orcid": "0009-0001-2935-0288"},
+    {"name": "Dong, Liang", "affiliation": "Baylor University", "orcid": "0000-0002-8585-1087"}
+  ],
+  "license": "MIT",
+  "keywords": ["flow matching", "molecular dynamics", "ligand conformational ensembles", "Wilson B matrix", "MISATO", "equivariant neural networks"],
+  "related_identifiers": [
+    {"identifier": "10.5281/zenodo.7711953", "relation": "isDerivedFrom", "scheme": "doi"},
+    {"identifier": "10.1038/s43588-024-00627-2", "relation": "references", "scheme": "doi"}
+  ]
+}
