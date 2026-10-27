@@ -1,0 +1,34 @@
+{
+  "n_systems": 400,
+  "n_systems_with_periodic_break": 0,
+  "fraction_broken": 0.0,
+  "aromatic_all": {
+    "n": 1659,
+    "sd_median": 6.33399151998633,
+    "mad_median": 5.2161611495799125,
+    "sd_first_half": 6.282330955039311,
+    "sd_second_half": 6.277871015693709
+  },
+  "aromatic_clean_systems_only": {
+    "n": 1659,
+    "sd_median": 6.33399151998633,
+    "mad_median": 5.2161611495799125,
+    "sd_first_half": 6.282330955039311,
+    "sd_second_half": 6.277871015693709
+  },
+  "aromatic_broken_systems_only": null,
+  "aromatic_carbon": {
+    "n": 1573,
+    "sd_median": 6.297318827175202,
+    "mad_median": 5.184597699120454,
+    "sd_first_half": 6.240023690363852,
+    "sd_second_half": 6.2226260662986865
+  },
+  "aromatic_nitrogen": {
+    "n": 86,
+    "sd_median": 7.947595221864704,
+    "mad_median": 6.742514540733172,
+    "sd_first_half": 7.743531390754648,
+    "sd_second_half": 7.897534470441471
+  }
+}

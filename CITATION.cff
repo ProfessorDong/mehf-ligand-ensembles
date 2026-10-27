@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper below and the MISATO dataset."
+title: "MEHF: ligand conformational ensembles by flow matching with chemistry-aware noise"
+type: software
+license: MIT
+repository-code: "https://github.com/ProfessorDong/MEHF"
+authors:
+  - family-names: Ding
+    given-names: Tianqi
+    affiliation: Baylor University
+    orcid: "https://orcid.org/0009-0002-9025-0849"
+  - family-names: Xiang
+    given-names: Dawei
+    affiliation: University of Connecticut
+    orcid: "https://orcid.org/0009-0001-2935-0288"
+  - family-names: Dong
+    given-names: Liang
+    affiliation: Baylor University
+    orcid: "https://orcid.org/0000-0002-8585-1087"
+preferred-citation:
+  type: article
+  title: "Generating Ligand Conformational Ensembles by Flow Matching with Chemistry-Aware Noise"
+  authors:
+    - family-names: Ding
+      given-names: Tianqi
+    - family-names: Xiang
+      given-names: Dawei
+    - family-names: Dong
+      given-names: Liang
+  journal: "IEEE Transactions on Computational Biology and Bioinformatics"
+  status: submitted
+  year: 2026
+references:
+  - type: article
+    title: "MISATO: machine learning dataset of protein-ligand complexes for structure-based drug discovery"
+    authors:
+      - family-names: Siebenmorgen
+        given-names: Till
+    journal: "Nature Computational Science"
+    volume: 4
+    start: 367
+    end: 378
+    year: 2024
+    doi: "10.1038/s43588-024-00627-2"

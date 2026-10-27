@@ -1,0 +1,204 @@
+{
+  "n_systems": 400,
+  "Bnorm_predicted": {
+    "bond_length": 1.4142135623730951,
+    "bond_angle": 1.635236985883086,
+    "dihedral": 2.1213203435596424
+  },
+  "tau": {
+    "bond_length": 0.0326,
+    "bond_angle": 0.048415433450322704,
+    "dihedral": 0.25481807079117214
+  },
+  "by_sigma": {
+    "0.01": {
+      "bond_length": {
+        "implied_Bnorm": 1.4024437791807285,
+        "error_vs_predicted_pct": -0.8322493508417961,
+        "ratio_to_thermal_width": 0.4301974782762971,
+        "first_order_ratio": 0.4338078412187409
+      },
+      "bond_angle": {
+        "implied_Bnorm": 1.5248062062633836,
+        "error_vs_predicted_pct": -6.753197278012024,
+        "ratio_to_thermal_width": 0.3149421780614505,
+        "first_order_ratio": 0.33775118166832946
+      },
+      "dihedral": {
+        "implied_Bnorm": 2.0416244092661486,
+        "error_vs_predicted_pct": -3.756902371461801,
+        "ratio_to_thermal_width": 0.08012086438482205,
+        "first_order_ratio": 0.08324842649397897
+      },
+      "bond_over_angle_measured": 1.3659570176477234
+    },
+    "0.02": {
+      "bond_length": {
+        "implied_Bnorm": 1.402281664756164,
+        "error_vs_predicted_pct": -0.8437125717355665,
+        "ratio_to_thermal_width": 0.8602954998504074,
+        "first_order_ratio": 0.8676156824374818
+      },
+      "bond_angle": {
+        "implied_Bnorm": 1.523959597254266,
+        "error_vs_predicted_pct": -6.804970141298883,
+        "ratio_to_thermal_width": 0.629534629207831,
+        "first_order_ratio": 0.6755023633366589
+      },
+      "dihedral": {
+        "implied_Bnorm": 2.043462565781658,
+        "error_vs_predicted_pct": -3.6702508423285485,
+        "ratio_to_thermal_width": 0.16038600083871693,
+        "first_order_ratio": 0.16649685298795794
+      },
+      "bond_over_angle_measured": 1.3665578666148235
+    },
+    "0.05": {
+      "bond_length": {
+        "implied_Bnorm": 1.4008958382947787,
+        "error_vs_predicted_pct": -0.941705300574891,
+        "ratio_to_thermal_width": 2.1486132489183722,
+        "first_order_ratio": 2.1690392060937045
+      },
+      "bond_angle": {
+        "implied_Bnorm": 1.5193445276215338,
+        "error_vs_predicted_pct": -7.087196489685931,
+        "ratio_to_thermal_width": 1.5690704588862945,
+        "first_order_ratio": 1.6887559083416477
+      },
+      "dihedral": {
+        "implied_Bnorm": 2.052823343131189,
+        "error_vs_predicted_pct": -3.2289795662598264,
+        "ratio_to_thermal_width": 0.40280175906627785,
+        "first_order_ratio": 0.4162421324698949
+      },
+      "bond_over_angle_measured": 1.369354216536222
+    },
+    "0.08": {
+      "bond_length": {
+        "implied_Bnorm": 1.3979418651972972,
+        "error_vs_predicted_pct": -1.1505827414420744,
+        "ratio_to_thermal_width": 3.430532184533245,
+        "first_order_ratio": 3.470462729749927
+      },
+      "bond_angle": {
+        "implied_Bnorm": 1.5141999589486994,
+        "error_vs_predicted_pct": -7.40180340704698,
+        "ratio_to_thermal_width": 2.5020120255700933,
+        "first_order_ratio": 2.7020094533466357
+      },
+      "dihedral": {
+        "implied_Bnorm": 2.0684283400466756,
+        "error_vs_predicted_pct": -2.4933529569707624,
+        "ratio_to_thermal_width": 0.6493819951228778,
+        "first_order_ratio": 0.6659874119518318
+      },
+      "bond_over_angle_measured": 1.371109390951702
+    },
+    "0.1": {
+      "bond_length": {
+        "implied_Bnorm": 1.3953579364504953,
+        "error_vs_predicted_pct": -1.3332940953387218,
+        "ratio_to_thermal_width": 4.280239068866551,
+        "first_order_ratio": 4.338078412187409
+      },
+      "bond_angle": {
+        "implied_Bnorm": 1.5081250713993828,
+        "error_vs_predicted_pct": -7.773302315263997,
+        "ratio_to_thermal_width": 3.1149676124387375,
+        "first_order_ratio": 3.3775118166832954
+      },
+      "dihedral": {
+        "implied_Bnorm": 2.083168216177401,
+        "error_vs_predicted_pct": -1.7985085325783912,
+        "ratio_to_thermal_width": 0.8175119644024752,
+        "first_order_ratio": 0.8324842649397898
+      },
+      "bond_over_angle_measured": 1.374087824147716
+    },
+    "0.15": {
+      "bond_length": {
+        "implied_Bnorm": 1.3865792229145366,
+        "error_vs_predicted_pct": -1.9540428824757705,
+        "ratio_to_thermal_width": 6.3799657496067645,
+        "first_order_ratio": 6.507117618281113
+      },
+      "bond_angle": {
+        "implied_Bnorm": 1.487649282249777,
+        "error_vs_predicted_pct": -9.025462664275919,
+        "ratio_to_thermal_width": 4.609013623030554,
+        "first_order_ratio": 5.066267725024942
+      },
+      "dihedral": {
+        "implied_Bnorm": 2.141007462382876,
+        "error_vs_predicted_pct": 0.9280596814622566,
+        "ratio_to_thermal_width": 1.26031532363582,
+        "first_order_ratio": 1.2487263974096847
+      },
+      "bond_over_angle_measured": 1.3842366873742846
+    },
+    "0.2": {
+      "bond_length": {
+        "implied_Bnorm": 1.3744156651157458,
+        "error_vs_predicted_pct": -2.8141363027637256,
+        "ratio_to_thermal_width": 8.431997945495374,
+        "first_order_ratio": 8.676156824374818
+      },
+      "bond_angle": {
+        "implied_Bnorm": 1.4558708911996883,
+        "error_vs_predicted_pct": -10.968813464461459,
+        "ratio_to_thermal_width": 6.014077691542322,
+        "first_order_ratio": 6.755023633366591
+      },
+      "dihedral": {
+        "implied_Bnorm": 2.244244430274672,
+        "error_vs_predicted_pct": 5.79469701915738,
+        "ratio_to_thermal_width": 1.76144841165042,
+        "first_order_ratio": 1.6649685298795796
+      },
+      "bond_over_angle_measured": 1.40204340182592
+    },
+    "0.2823": {
+      "bond_length": {
+        "implied_Bnorm": 1.3458831479528077,
+        "error_vs_predicted_pct": -4.831689939787232,
+        "ratio_to_thermal_width": 11.654687505125082,
+        "first_order_ratio": 12.246395357605055
+      },
+      "bond_angle": {
+        "implied_Bnorm": 1.3698137791202618,
+        "error_vs_predicted_pct": -16.231482595746584,
+        "ratio_to_thermal_width": 7.987090113371121,
+        "first_order_ratio": 9.534715858496941
+      },
+      "dihedral": {
+        "implied_Bnorm": 2.412046635815298,
+        "error_vs_predicted_pct": 13.704968848213062,
+        "ratio_to_thermal_width": 2.672183974929647,
+        "first_order_ratio": 2.3501030799250264
+      },
+      "bond_over_angle_measured": 1.4591906864321047
+    },
+    "0.4": {
+      "bond_length": {
+        "implied_Bnorm": 1.2925923535969657,
+        "error_vs_predicted_pct": -8.599918146170605,
+        "ratio_to_thermal_width": 15.860028878490379,
+        "first_order_ratio": 17.352313648749636
+      },
+      "bond_angle": {
+        "implied_Bnorm": 1.2191523563172393,
+        "error_vs_predicted_pct": -25.444913071186814,
+        "ratio_to_thermal_width": 10.072427483836671,
+        "first_order_ratio": 13.510047266733181
+      },
+      "dihedral": {
+        "implied_Bnorm": 2.475743261621414,
+        "error_vs_predicted_pct": 16.70765658462685,
+        "ratio_to_thermal_width": 3.8862915081879397,
+        "first_order_ratio": 3.329937059759159
+      },
+      "bond_over_angle_measured": 1.574598467344752
+    }
+  }
+}

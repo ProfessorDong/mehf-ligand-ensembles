@@ -1,0 +1,114 @@
+{
+  "status": "ADDED post-hoc comparison; Sigma*/ISO/ANISO numbers are the frozen confirmatory runs",
+  "n_examples_scored": 1410,
+  "n_targets_scored": 60,
+  "arms": {
+    "ISO": {
+      "median_spread": 1.9740626879708723,
+      "q25_spread": 1.6353158158431929,
+      "q75_spread": 2.4489227599185925,
+      "channel_ratio_median": {
+        "bond_length_ratio": 1.0167883605951644,
+        "bond_angle_ratio": 1.241094103169079,
+        "dihedral_ratio": 1.0709872858349416,
+        "planar_improper_ratio": 2.8717335248249114
+      },
+      "internal_rmsf_ratio_median": 0.37940892186239195,
+      "per_fold_median_spread": {
+        "1": 2.007527314164597,
+        "2": 1.8506795649877699,
+        "3": 2.031968606640714
+      },
+      "n_per_fold": {
+        "1": 1410,
+        "2": 1410,
+        "3": 1410
+      }
+    },
+    "ANISO_v3": {
+      "median_spread": 2.527263127029129,
+      "q25_spread": 2.2406567038691687,
+      "q75_spread": 2.875696333771266,
+      "channel_ratio_median": {
+        "bond_length_ratio": 1.0397433216576246,
+        "bond_angle_ratio": 1.3294987203233646,
+        "dihedral_ratio": 1.2072993911999776,
+        "planar_improper_ratio": 3.4772833264831826
+      },
+      "internal_rmsf_ratio_median": 0.42662015045200863,
+      "per_fold_median_spread": {
+        "1": 2.6014191580622437,
+        "2": 2.4737491803199525,
+        "3": 2.5145448346231825
+      },
+      "n_per_fold": {
+        "1": 1410,
+        "2": 1410,
+        "3": 1410
+      }
+    },
+    "SIGMA_star": {
+      "median_spread": 0.7697089915584384,
+      "q25_spread": 0.4707228981124922,
+      "q75_spread": 1.3301036615739803,
+      "channel_ratio_median": {
+        "bond_length_ratio": 1.6567376331809638,
+        "bond_angle_ratio": 1.398292249922408,
+        "dihedral_ratio": 1.1546651778120145,
+        "planar_improper_ratio": 1.8941222609043775
+      },
+      "internal_rmsf_ratio_median": 1.4884854452425071,
+      "per_fold_median_spread": {
+        "1": 0.7397900072145533,
+        "2": 0.7579312252303249,
+        "3": 0.8040762009254943
+      },
+      "n_per_fold": {
+        "1": 1410,
+        "2": 1410,
+        "3": 1410
+      }
+    },
+    "LAPLACIAN": {
+      "median_spread": 1.3524803646574914,
+      "q25_spread": 0.9564498213655765,
+      "q75_spread": 2.006594418149575,
+      "channel_ratio_median": {
+        "bond_length_ratio": 2.1793031461605774,
+        "bond_angle_ratio": 1.9618428180258536,
+        "dihedral_ratio": 1.0963915261892143,
+        "planar_improper_ratio": 2.620319541951813
+      },
+      "internal_rmsf_ratio_median": 0.851146802812073,
+      "per_fold_median_spread": {
+        "1": 1.353219373902403,
+        "2": 1.3193353152439677,
+        "3": 1.3796862051952499
+      },
+      "n_per_fold": {
+        "1": 1410,
+        "2": 1410,
+        "3": 1410
+      }
+    }
+  },
+  "PRIMARY_sigma_star_minus_laplacian": {
+    "mean_difference": -0.5801222987719918,
+    "median_difference": -0.6375111313723336,
+    "ci95_cluster_bootstrap": [
+      -0.7502117898743773,
+      -0.4040390127250699
+    ],
+    "fraction_first_lower": 0.8595744680851064
+  },
+  "laplacian_minus_iso": {
+    "mean_difference": -0.5722908098252988,
+    "median_difference": -0.5699218221963611,
+    "ci95_cluster_bootstrap": [
+      -0.7177832532500211,
+      -0.4708057068969466
+    ],
+    "fraction_first_lower": 0.8936170212765957
+  },
+  "READING": "Sigma* more uniform than LAPLACIAN"
+}

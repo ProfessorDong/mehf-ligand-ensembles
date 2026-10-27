@@ -1,0 +1,176 @@
+{
+  "n_systems": 400,
+  "n_centres_total": 2666,
+  "isomorphism_ok": 354,
+  "isomorphism_failed": 39,
+  "no_smiles": 7,
+  "no_planarity_prefilter": {
+    "published": {
+      "label": "ring atom, 3 heavy neighbours",
+      "n_centres": 2666,
+      "n_systems": 400,
+      "tau_sd_published_protocol_deg": 6.284407687811514,
+      "tau_sd_iqr": [
+        5.802035568748327,
+        6.891992491854992
+      ],
+      "mad_published_protocol_deg": 6.946061443818138,
+      "mad_iqr": [
+        5.383651557290817,
+        19.695806849693287
+      ],
+      "per_centre_sd_median": 6.166261557603859,
+      "per_centre_mad_median": 5.542427695823472,
+      "per_centre_absmean_median": 1.3750872773833458
+    },
+    "sp2": {
+      "label": "+ no hydrogen on centre",
+      "n_centres": 2177,
+      "n_systems": 377,
+      "tau_sd_published_protocol_deg": 6.696200419034312,
+      "tau_sd_iqr": [
+        6.173948842462372,
+        7.328965971251198
+      ],
+      "mad_published_protocol_deg": 5.676197353987582,
+      "mad_iqr": [
+        5.111595502184356,
+        6.43142048743759
+      ],
+      "per_centre_sd_median": 6.391274610391145,
+      "per_centre_mad_median": 5.276340923201179,
+      "per_centre_absmean_median": 1.0347549633101596
+    },
+    "not_sp2": {
+      "label": "centres carrying a hydrogen (the contaminant)",
+      "n_centres": 489,
+      "n_systems": 177,
+      "tau_sd_published_protocol_deg": 4.015207585145704,
+      "tau_sd_iqr": [
+        3.780350243031248,
+        4.281786177777651
+      ],
+      "mad_published_protocol_deg": 52.14062758233279,
+      "mad_iqr": [
+        50.50182478501862,
+        54.561070229371445
+      ],
+      "per_centre_sd_median": 3.9697166604538094,
+      "per_centre_mad_median": 52.5225256853723,
+      "per_centre_absmean_median": 52.5225256853723
+    },
+    "aromatic": {
+      "label": "+ RDKit aromatic",
+      "n_centres": 1816,
+      "n_systems": 319,
+      "tau_sd_published_protocol_deg": 6.425431476698852,
+      "tau_sd_iqr": [
+        6.103570349849131,
+        7.0034381304774564
+      ],
+      "mad_published_protocol_deg": 5.3453240698314195,
+      "mad_iqr": [
+        5.029743999410284,
+        5.945210380909954
+      ],
+      "per_centre_sd_median": 6.357016288082933,
+      "per_centre_mad_median": 5.236786907580786,
+      "per_centre_absmean_median": 0.9910876897768439
+    },
+    "sp2_nonaromatic": {
+      "label": "sp2 but not aromatic",
+      "n_centres": 180,
+      "n_systems": 108,
+      "tau_sd_published_protocol_deg": 8.569074554626768,
+      "tau_sd_iqr": [
+        6.579266931658208,
+        10.745933626803126
+      ],
+      "mad_published_protocol_deg": 9.935857718147846,
+      "mad_iqr": [
+        5.821398425896065,
+        15.551013675921936
+      ],
+      "per_centre_sd_median": 7.342776201021822,
+      "per_centre_mad_median": 7.96532599844106,
+      "per_centre_absmean_median": 2.944062785214822
+    }
+  },
+  "planarity_prefilter_10deg": {
+    "published": {
+      "label": "ring atom, 3 heavy neighbours",
+      "n_centres": 2047,
+      "n_systems": 370,
+      "tau_sd_published_protocol_deg": 6.4658360296481145,
+      "tau_sd_iqr": [
+        6.116216254367924,
+        6.93334828989461
+      ],
+      "mad_published_protocol_deg": 5.357681145940874,
+      "mad_iqr": [
+        5.030712252514235,
+        5.8150757636970125
+      ],
+      "per_centre_sd_median": 6.344085477169004,
+      "per_centre_mad_median": 5.218919422212727,
+      "per_centre_absmean_median": 0.9722182645188076
+    },
+    "sp2": {
+      "label": "+ no hydrogen on centre",
+      "n_centres": 2047,
+      "n_systems": 370,
+      "tau_sd_published_protocol_deg": 6.4658360296481145,
+      "tau_sd_iqr": [
+        6.116216254367924,
+        6.93334828989461
+      ],
+      "mad_published_protocol_deg": 5.357681145940874,
+      "mad_iqr": [
+        5.030712252514235,
+        5.8150757636970125
+      ],
+      "per_centre_sd_median": 6.344085477169004,
+      "per_centre_mad_median": 5.218919422212727,
+      "per_centre_absmean_median": 0.9722182645188076
+    },
+    "not_sp2": {
+      "n_centres": 0
+    },
+    "aromatic": {
+      "label": "+ RDKit aromatic",
+      "n_centres": 1768,
+      "n_systems": 319,
+      "tau_sd_published_protocol_deg": 6.392485701084382,
+      "tau_sd_iqr": [
+        6.103570349849131,
+        6.862264988703765
+      ],
+      "mad_published_protocol_deg": 5.300471257683036,
+      "mad_iqr": [
+        5.014568404757824,
+        5.74104450885522
+      ],
+      "per_centre_sd_median": 6.340026237013493,
+      "per_centre_mad_median": 5.2184736099822775,
+      "per_centre_absmean_median": 0.9706689631143989
+    },
+    "sp2_nonaromatic": {
+      "label": "sp2 but not aromatic",
+      "n_centres": 107,
+      "n_systems": 62,
+      "tau_sd_published_protocol_deg": 6.7605302353738885,
+      "tau_sd_iqr": [
+        6.077905531096277,
+        7.9850133823760086
+      ],
+      "mad_published_protocol_deg": 5.718682166445404,
+      "mad_iqr": [
+        5.100712579097315,
+        7.034402006177128
+      ],
+      "per_centre_sd_median": 6.451293098740297,
+      "per_centre_mad_median": 5.512310083444166,
+      "per_centre_absmean_median": 1.214353442695829
+    }
+  }
+}

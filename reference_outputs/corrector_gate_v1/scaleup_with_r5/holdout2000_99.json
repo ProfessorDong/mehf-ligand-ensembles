@@ -1,0 +1,87 @@
+{
+  "n_molecules": 2000,
+  "sweeps": 32,
+  "ideal_classes": {
+    "bond": 9,
+    "angle": 24
+  },
+  "arms": {
+    "A_raw": {
+      "bond_rms": 0.10775854339851804,
+      "angle_rms": 12.008450320212008,
+      "planarity": 4.583838835974553,
+      "rmsd_from_raw": 0.0,
+      "clashes": 0.0,
+      "wasserstein_bond": 0.0582787858094254,
+      "wasserstein_angle": 5.716733950910896
+    },
+    "B_mmff_free": {
+      "bond_rms": 0.02808519047652724,
+      "angle_rms": 5.639968221025789,
+      "planarity": 0.6286514596987106,
+      "rmsd_from_raw": 1.5786461075951976,
+      "clashes": 2.0,
+      "wasserstein_bond": 0.020343079005254065,
+      "wasserstein_angle": 1.2808094283861462
+    },
+    "C_mmff_restrained": {
+      "bond_rms": 0.03619740753067364,
+      "angle_rms": 7.699878091461745,
+      "planarity": 3.6680597851091123,
+      "rmsd_from_raw": 0.1551506929855158,
+      "clashes": 0.0,
+      "wasserstein_bond": 0.018942222229222778,
+      "wasserstein_angle": 2.5973319068316236
+    },
+    "D_projection": {
+      "bond_rms": 0.011766761767821486,
+      "angle_rms": 1.128624932577098,
+      "planarity": 10.061421589526676,
+      "rmsd_from_raw": 0.2232267438347184,
+      "clashes": 0.0,
+      "wasserstein_bond": 0.022895765451895,
+      "wasserstein_angle": 3.3379984877308515
+    },
+    "E_projection_plus_improper": {
+      "bond_rms": 0.012323042176439604,
+      "angle_rms": 1.2259873460287938,
+      "planarity": 0.29853539910180726,
+      "rmsd_from_raw": 0.2250071880154598,
+      "clashes": 0.0,
+      "wasserstein_bond": 0.0226003286141745,
+      "wasserstein_angle": 3.2793715744251077
+    },
+    "F_soft_target": {
+      "bond_rms": 0.04117443745755312,
+      "angle_rms": 3.5621582234528297,
+      "planarity": 0.629933716708412,
+      "rmsd_from_raw": 0.22914918740526224,
+      "clashes": 0.0,
+      "wasserstein_bond": 0.019175969446077638,
+      "wasserstein_angle": 2.3737038705059272
+    },
+    "G_mmff_restraint5": {
+      "bond_rms": 0.02872137114367098,
+      "angle_rms": 5.87230821773036,
+      "planarity": 2.0788719735132846,
+      "rmsd_from_raw": 0.39998429278940495,
+      "clashes": 0.0,
+      "wasserstein_bond": 0.02007093982927483,
+      "wasserstein_angle": 1.3204615718060981
+    }
+  },
+  "gate": {
+    "P1_bond_within_1.5x_of_C": true,
+    "P1_angle_within_1.5x_of_C": true,
+    "P1_bond_30pct_below_A": true,
+    "P1_angle_30pct_below_A": true,
+    "P2_D_rmsd_below_0.25": true,
+    "P2_B_rmsd_above_0.5": true,
+    "P3_D_planarity_unchanged": false,
+    "E_planarity_below_raw": true,
+    "E_planarity_beats_C": true,
+    "E_control_angle_unmoved_vs_D": true,
+    "E_control_bond_unmoved_vs_D": true,
+    "C_matches_D_on_both": false
+  }
+}

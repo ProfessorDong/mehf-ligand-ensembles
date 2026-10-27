@@ -1,0 +1,37 @@
+{
+  "n_examples": 96,
+  "sigma_M_median": 0.1632873800498149,
+  "n_heavy_median": 24.5,
+  "b_bond": 1.4142135623730951,
+  "b_angle_deg_per_A": 87.36162106573086,
+  "b_dih_deg_per_A": 114.63376084812958,
+  "kappa_bond_at_sigma_M": 0.9889546446042969,
+  "kappa_angle_at_sigma_M": 0.9798102055897452,
+  "bond": {
+    "predicted_median": 0.22837259831472204,
+    "measured_median": 0.0456648210164952,
+    "pred_over_meas_median": 4.923393015874995,
+    "pred_over_meas_iqr": [
+      4.638523672351257,
+      5.323201662487846
+    ]
+  },
+  "angle": {
+    "predicted_median": 14.016108403173726,
+    "measured_median": 13.875683989212764,
+    "pred_over_meas_median": 1.0036734069915703,
+    "pred_over_meas_iqr": [
+      0.9566874786257007,
+      1.0432077997158622
+    ]
+  },
+  "dih": {
+    "predicted_median": 18.85265584966527,
+    "measured_median": 24.878975435028185,
+    "pred_over_meas_median": 0.7603787777572195,
+    "pred_over_meas_iqr": [
+      0.6893246931680432,
+      0.8008394738762966
+    ]
+  }
+}

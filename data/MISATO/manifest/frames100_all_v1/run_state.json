@@ -1,0 +1,27 @@
+{
+  "free_disk_bytes": 330844614656,
+  "heartbeat_monotonic": 115325.759544857,
+  "heartbeat_utc": "2026-09-17T22:36:32Z",
+  "host": "cloudsys01.engr.uconn.edu",
+  "paused": false,
+  "peak_worker_group_rss_bytes": 1257111552,
+  "pid": 2073666,
+  "progress": {
+    "counts": {
+      "failed": 0,
+      "rejected": 110,
+      "written": 16524
+    },
+    "systems_done_this_run": 16634,
+    "systems_this_run": 16646,
+    "written_bytes_this_run": 7566482748
+  },
+  "stopping": false,
+  "system_mem_available_bytes": 1056717611008,
+  "thresholds": {
+    "disk_floor_bytes": 26843545600,
+    "min_available_bytes": 107374182400,
+    "rss_budget_bytes": 25769803776
+  },
+  "worker_group_rss_bytes": 1130192896
+}

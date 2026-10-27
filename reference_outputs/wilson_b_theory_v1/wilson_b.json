@@ -1,0 +1,99 @@
+{
+  "n_systems": 600,
+  "P0_fd_bond_max_relerr": 3.219251633401947e-10,
+  "P0_fd_angle_max_relerr": 3.2627476367261467e-10,
+  "P1_b_bond_mean": 1.4142135623730951,
+  "P2_b_angle_mean_deg_per_A": 88.12840120233687,
+  "b_dihedral_mean_deg_per_A": 116.43801088660922,
+  "sigma_median": 0.38354014369840583,
+  "sigma_heavy_median": 0.27961907994510726,
+  "achieved_unit_rmsf_median": 1.6875455193666231,
+  "rmsf_physical_median": 0.6405005218082673,
+  "rmsf_heavy_physical_median": 0.46395975109648446,
+  "bond_length": {
+    "physical_spread_median": 0.032637386269248315,
+    "physical_spread_half_median": 0.032393019164549695,
+    "lag1_autocorr_median": -0.009949484513198405,
+    "synthetic_spread_measured_median": 0.4982240520450746,
+    "synthetic_spread_predicted_median": 0.5424076729328114,
+    "P3P4_pred_over_meas_synth_median": 1.0866875508695513,
+    "P3P4_pred_over_meas_synth_iqr": [
+      1.0512887534317406,
+      1.15847857386603
+    ],
+    "ratio_measured_median": 15.309659263049216,
+    "ratio_predicted_median": 16.59713348443978,
+    "ratio_predicted_iqr": [
+      12.021751896984007,
+      23.65379029271838
+    ],
+    "C2_ratio_heavymatched_median": 11.546498022032635,
+    "C2_ratio_heavymatched_iqr": [
+      8.224675690750798,
+      16.352321513817103
+    ],
+    "C2_ratio_heavymatched_predicted_median": 12.185233239187825
+  },
+  "bond_angle": {
+    "physical_spread_median": 2.794063870251649,
+    "physical_spread_half_median": 2.7752735562664252,
+    "lag1_autocorr_median": 0.0014298792488682207,
+    "synthetic_spread_measured_median": 27.17644056624694,
+    "synthetic_spread_predicted_median": 33.77950199161421,
+    "P3P4_pred_over_meas_synth_median": 1.2411953962250206,
+    "P3P4_pred_over_meas_synth_iqr": [
+      1.1147961243085796,
+      1.468228034524406
+    ],
+    "ratio_measured_median": 9.80870663609836,
+    "ratio_predicted_median": 12.086995161337423,
+    "ratio_predicted_iqr": [
+      8.90433044854132,
+      16.156955702737758
+    ],
+    "C2_ratio_heavymatched_median": 7.882346378712937,
+    "C2_ratio_heavymatched_iqr": [
+      5.942097067682875,
+      9.82392649212121
+    ],
+    "C2_ratio_heavymatched_predicted_median": 8.909152909815726
+  },
+  "dihedral": {
+    "physical_spread_median": 14.910552653004327,
+    "physical_spread_half_median": 13.347102075174417,
+    "lag1_autocorr_median": 0.13360235144292898,
+    "synthetic_spread_measured_median": 53.996965992077655,
+    "synthetic_spread_predicted_median": 46.40227777076239,
+    "P3P4_pred_over_meas_synth_median": 0.8641570086026054,
+    "P3P4_pred_over_meas_synth_iqr": [
+      0.8344379388178218,
+      0.919899066504255
+    ],
+    "ratio_measured_median": 3.548621220044393,
+    "ratio_predicted_median": 3.1640138283308685,
+    "ratio_predicted_iqr": [
+      2.4665346761762637,
+      3.863591515478746
+    ],
+    "C2_ratio_heavymatched_median": 2.4713052888431943,
+    "C2_ratio_heavymatched_iqr": [
+      1.7979756457923495,
+      3.2064460626804507
+    ],
+    "C2_ratio_heavymatched_predicted_median": 2.219847235987391
+  },
+  "implied_force_constants": {
+    "f_bond_kcal_per_mol_A2": 555.8585863150382,
+    "f_angle_kcal_per_mol_rad2": 248.98184291130897,
+    "f_dihedral_kcal_per_mol_rad2": 8.743060299995804,
+    "lambda_bond": 1111.7171726300764,
+    "lambda_angle": 583.4711255130378,
+    "lambda_dihedral": 39.88356427517884
+  },
+  "condition_number_form": {
+    "mean_mode_compliance_A2_per_kcal": 0.24844290124673843,
+    "R_bond_from_lambda": 16.61921296975393,
+    "R_angle_from_lambda": 12.039902790976303,
+    "R_dihedral_from_lambda": 3.1478228064149674
+  }
+}

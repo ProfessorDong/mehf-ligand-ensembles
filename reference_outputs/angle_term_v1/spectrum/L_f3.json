@@ -1,0 +1,55 @@
+{
+  "checkpoint": "outputs/internal_calibration_v1/full_f3/checkpoint.pt",
+  "rigid_scale": 0.32,
+  "internal_scale": 1.5,
+  "n_examples_sampled": 96,
+  "steps": 16,
+  "heavy_atoms_only": true,
+  "prediction": "bond_length > bond_angle > dihedral, all above 1",
+  "angle_loss_weight": 0.0,
+  "angle_projection": false,
+  "restore_projection_amplitude": false,
+  "angle_target_width_radian": 0.0,
+  "projection_iterations": 32,
+  "projection_angle_relaxation": 1.0,
+  "bond_length": {
+    "ratio_median": 0.14420756928204437,
+    "ratio_q25": 0.12116667269606758,
+    "ratio_q75": 0.18924043045437727,
+    "reference_median": 0.03242174113802879,
+    "generated_median": 0.004641213907353108,
+    "n_examples": 96
+  },
+  "bond_angle": {
+    "ratio_median": 5.157736807015681,
+    "ratio_q25": 4.691337470134244,
+    "ratio_q75": 5.841714278912543,
+    "reference_median": 2.7396582154097002,
+    "generated_median": 14.079439449886447,
+    "n_examples": 96
+  },
+  "dihedral": {
+    "ratio_median": 1.7996140370450906,
+    "ratio_q25": 1.376258975787,
+    "ratio_q75": 2.937480656777474,
+    "reference_median": 15.360916305544219,
+    "generated_median": 26.993780315802116,
+    "n_examples": 96
+  },
+  "internal_rmsf": {
+    "ratio_median": 0.7316035297103172,
+    "ratio_q25": 0.4876034670564229,
+    "ratio_q75": 0.9642237254867025,
+    "reference_median": 0.423954641219601,
+    "generated_median": 0.274306240800843,
+    "n_examples": 96
+  },
+  "planar_improper": {
+    "ratio_median": 4.817391149644068,
+    "ratio_q25": 4.129452535101765,
+    "ratio_q75": 5.478071482714464,
+    "reference_median": 6.412818701000066,
+    "generated_median": 30.509620664413447,
+    "n_examples": 91
+  }
+}

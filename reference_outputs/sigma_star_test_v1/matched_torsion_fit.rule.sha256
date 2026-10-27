@@ -1,0 +1,3 @@
+bb0eb593b15db2cc5f87f2bebf07b71d2bb90edd6e466b8d30dff701c362f80a  scripts/matched_torsion_fit.py
+ca54723b142a141ade9b0fec78eaf27a19a10ca71a280a234647567f97a33bc3  scripts/matched_torsion_fit.py
+# second line: after fixing the input FILENAME format only (s{scale:g} -> s{scale:.1f}); the rule text and logic are byte-identical

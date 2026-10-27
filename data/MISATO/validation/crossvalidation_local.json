@@ -1,0 +1,1893 @@
+{
+  "status": "misato_store_crossvalidation",
+  "source": "/home/ieb24002/MDWM_TCBB/data/MISATO/raw/MD.hdf5",
+  "source_is_remote": false,
+  "cache_root": "/home/ieb24002/MDWM_TCBB/data/processed/misato_atomic_window_cache_3k_v1",
+  "cache_windows_total": 26686,
+  "cache_systems_total": 2980,
+  "n_systems_sampled": 40,
+  "n_systems_compared": 40,
+  "seed": 20260917,
+  "cache_window_kwargs": {
+    "context_frames": 6,
+    "future_frames": 5,
+    "frame_stride": 1,
+    "window_stride": 10,
+    "pocket_radius_angstrom": 8.0,
+    "max_pocket_atoms": 600,
+    "max_ligand_atoms": 300,
+    "min_ligand_atoms": 6,
+    "broken_bond_angstrom": 2.6
+  },
+  "store_frames": 100,
+  "worst_max_abs_deviation": {
+    "reference_vs_cache": {
+      "product_init": 0.0,
+      "target_delta": 0.0,
+      "context_ligand_coords": 0.0,
+      "pocket_init": 0.0,
+      "product_features": 0.0,
+      "edit_features": 0.0,
+      "pocket_features": 0.0,
+      "bond_index": 0.0
+    },
+    "store_vs_cache": {
+      "product_init": 0.0,
+      "target_delta": 0.0,
+      "context_ligand_coords": 0.0,
+      "pocket_init": 0.0,
+      "product_features": 0.0,
+      "edit_features": 0.0,
+      "pocket_features": 0.0,
+      "bond_index": 0.0
+    }
+  },
+  "coordinate_tolerance": 0.001,
+  "reference_path_bit_exact_vs_cache": true,
+  "store_path_within_tolerance_vs_cache": true,
+  "window_sets_agree": true,
+  "verdict": "PASS",
+  "per_system": [
+    {
+      "system_id": "5WBO",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 31,
+        "n_pocket_atoms": 332,
+        "min_pocket_ligand_distance_angstrom": 2.2567265033721924,
+        "bond_length_max_angstrom": 1.658920168876648,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "2JDK",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 61,
+        "n_pocket_atoms": 184,
+        "min_pocket_ligand_distance_angstrom": 1.4653644561767578,
+        "bond_length_max_angstrom": 1.6679588556289673,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6DQB",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 55,
+        "n_pocket_atoms": 502,
+        "min_pocket_ligand_distance_angstrom": 1.6935679912567139,
+        "bond_length_max_angstrom": 1.859507441520691,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3U4W",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 99,
+        "n_pocket_atoms": 519,
+        "min_pocket_ligand_distance_angstrom": 1.823854684829712,
+        "bond_length_max_angstrom": 1.6886372566223145,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3KPV",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 15,
+        "n_pocket_atoms": 386,
+        "min_pocket_ligand_distance_angstrom": 1.8423328399658203,
+        "bond_length_max_angstrom": 1.4798365831375122,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5LL4",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 35,
+        "n_pocket_atoms": 382,
+        "min_pocket_ligand_distance_angstrom": 1.756787896156311,
+        "bond_length_max_angstrom": 1.8810714483261108,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3GNW",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 76,
+        "n_pocket_atoms": 513,
+        "min_pocket_ligand_distance_angstrom": 1.7302087545394897,
+        "bond_length_max_angstrom": 1.9187790155410767,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "1B46",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 61,
+        "n_pocket_atoms": 515,
+        "min_pocket_ligand_distance_angstrom": 1.6035624742507935,
+        "bond_length_max_angstrom": 1.6488665342330933,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "2ORK",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 27,
+        "n_pocket_atoms": 138,
+        "min_pocket_ligand_distance_angstrom": 1.4782752990722656,
+        "bond_length_max_angstrom": 1.6695252656936646,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4HVB",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 59,
+        "n_pocket_atoms": 421,
+        "min_pocket_ligand_distance_angstrom": 1.509689211845398,
+        "bond_length_max_angstrom": 1.674267292022705,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5KOQ",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 66,
+        "n_pocket_atoms": 442,
+        "min_pocket_ligand_distance_angstrom": 1.5652955770492554,
+        "bond_length_max_angstrom": 1.6732001304626465,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4ABI",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 185,
+        "n_pocket_atoms": 476,
+        "min_pocket_ligand_distance_angstrom": 1.6113828420639038,
+        "bond_length_max_angstrom": 2.206331968307495,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5JF2",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 30,
+        "n_pocket_atoms": 318,
+        "min_pocket_ligand_distance_angstrom": 1.4779192209243774,
+        "bond_length_max_angstrom": 1.6824564933776855,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5EXL",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 67,
+        "n_pocket_atoms": 399,
+        "min_pocket_ligand_distance_angstrom": 1.5639021396636963,
+        "bond_length_max_angstrom": 1.7162318229675293,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3CHF",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 83,
+        "n_pocket_atoms": 435,
+        "min_pocket_ligand_distance_angstrom": 1.589642882347107,
+        "bond_length_max_angstrom": 1.688232660293579,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6CZV",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 39,
+        "n_pocket_atoms": 297,
+        "min_pocket_ligand_distance_angstrom": 1.5685722827911377,
+        "bond_length_max_angstrom": 1.6323872804641724,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3D8Y",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 46,
+        "n_pocket_atoms": 248,
+        "min_pocket_ligand_distance_angstrom": 1.553467035293579,
+        "bond_length_max_angstrom": 1.6560559272766113,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4ZLO",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 43,
+        "n_pocket_atoms": 337,
+        "min_pocket_ligand_distance_angstrom": 1.5799721479415894,
+        "bond_length_max_angstrom": 1.6646108627319336,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6FFE",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 45,
+        "n_pocket_atoms": 293,
+        "min_pocket_ligand_distance_angstrom": 2.312836170196533,
+        "bond_length_max_angstrom": 1.65697181224823,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4L6S",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 48,
+        "n_pocket_atoms": 433,
+        "min_pocket_ligand_distance_angstrom": 1.6857259273529053,
+        "bond_length_max_angstrom": 1.8307197093963623,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "1G48",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 34,
+        "n_pocket_atoms": 405,
+        "min_pocket_ligand_distance_angstrom": 1.6919492483139038,
+        "bond_length_max_angstrom": 1.9062416553497314,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4HW3",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 43,
+        "n_pocket_atoms": 374,
+        "min_pocket_ligand_distance_angstrom": 2.350843667984009,
+        "bond_length_max_angstrom": 1.864073634147644,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6SFI",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 68,
+        "n_pocket_atoms": 532,
+        "min_pocket_ligand_distance_angstrom": 1.643539547920227,
+        "bond_length_max_angstrom": 1.8366026878356934,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "1LZQ",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 99,
+        "n_pocket_atoms": 465,
+        "min_pocket_ligand_distance_angstrom": 1.5589758157730103,
+        "bond_length_max_angstrom": 1.6916929483413696,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "2Q2Z",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 68,
+        "n_pocket_atoms": 414,
+        "min_pocket_ligand_distance_angstrom": 1.6404364109039307,
+        "bond_length_max_angstrom": 1.6616849899291992,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5NQ5",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 55,
+        "n_pocket_atoms": 419,
+        "min_pocket_ligand_distance_angstrom": 1.6743930578231812,
+        "bond_length_max_angstrom": 1.651278018951416,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "2HIW",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 52,
+        "n_pocket_atoms": 491,
+        "min_pocket_ligand_distance_angstrom": 1.707594871520996,
+        "bond_length_max_angstrom": 1.6413147449493408,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3QS8",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 27,
+        "n_pocket_atoms": 370,
+        "min_pocket_ligand_distance_angstrom": 2.187042236328125,
+        "bond_length_max_angstrom": 1.6251225471496582,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "1H3C",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 56,
+        "n_pocket_atoms": 604,
+        "min_pocket_ligand_distance_angstrom": 1.6118521690368652,
+        "bond_length_max_angstrom": 2.0155205726623535,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5AQZ",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 37,
+        "n_pocket_atoms": 306,
+        "min_pocket_ligand_distance_angstrom": 1.5069032907485962,
+        "bond_length_max_angstrom": 1.6608667373657227,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "1A61",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 72,
+        "n_pocket_atoms": 416,
+        "min_pocket_ligand_distance_angstrom": 1.5403554439544678,
+        "bond_length_max_angstrom": 1.8500688076019287,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5AM4",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 44,
+        "n_pocket_atoms": 401,
+        "min_pocket_ligand_distance_angstrom": 1.617836833000183,
+        "bond_length_max_angstrom": 1.6611018180847168,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5XYX",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 30,
+        "n_pocket_atoms": 328,
+        "min_pocket_ligand_distance_angstrom": 1.7807401418685913,
+        "bond_length_max_angstrom": 1.846205472946167,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5G22",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 62,
+        "n_pocket_atoms": 529,
+        "min_pocket_ligand_distance_angstrom": 1.5670504570007324,
+        "bond_length_max_angstrom": 1.9382126331329346,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "2RKG",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 94,
+        "n_pocket_atoms": 457,
+        "min_pocket_ligand_distance_angstrom": 1.5466012954711914,
+        "bond_length_max_angstrom": 1.6871243715286255,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5VGI",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 53,
+        "n_pocket_atoms": 468,
+        "min_pocket_ligand_distance_angstrom": 2.0889549255371094,
+        "bond_length_max_angstrom": 1.6672660112380981,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4CRJ",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 36,
+        "n_pocket_atoms": 313,
+        "min_pocket_ligand_distance_angstrom": 1.6582086086273193,
+        "bond_length_max_angstrom": 1.9684699773788452,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3IUE",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 44,
+        "n_pocket_atoms": 457,
+        "min_pocket_ligand_distance_angstrom": 2.222054958343506,
+        "bond_length_max_angstrom": 1.9578630924224854,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3EJS",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 56,
+        "n_pocket_atoms": 437,
+        "min_pocket_ligand_distance_angstrom": 1.4256746768951416,
+        "bond_length_max_angstrom": 1.7045046091079712,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3B4F",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 38,
+        "n_pocket_atoms": 369,
+        "min_pocket_ligand_distance_angstrom": 1.5883781909942627,
+        "bond_length_max_angstrom": 1.8738411664962769,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    }
+  ],
+  "generated_utc": "2026-09-17T21:54:42Z"
+}

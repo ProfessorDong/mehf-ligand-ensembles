@@ -1,0 +1,114 @@
+{
+  "operating_point": "torsion",
+  "scales": {
+    "MEHF-iso": 1.1090897330797107,
+    "MEHF-lap": 2.436334413438594,
+    "MEHF ($\\Sigma^*$)": 3.2452895917489304
+  },
+  "displayed_ratios": {
+    "2XK4->2XKF": {
+      "MEHF-iso": {
+        "bond_length": 1.0039324417951714,
+        "bond_angle": 1.0889629681054525,
+        "dihedral": 0.7344149127804871,
+        "planar_improper": 2.685316028810585,
+        "internal_rmsf": 0.40077683260455155
+      },
+      "MEHF-lap": {
+        "bond_length": 2.0638268260486754,
+        "bond_angle": 1.7972356452279774,
+        "dihedral": 0.747731216892662,
+        "planar_improper": 2.0718833155199183,
+        "internal_rmsf": 1.0114682961909636
+      },
+      "MEHF ($\\Sigma^*$)": {
+        "bond_length": 1.1932286713707467,
+        "bond_angle": 1.0624234604800398,
+        "dihedral": 0.783775772392413,
+        "planar_improper": 1.5233848354015282,
+        "internal_rmsf": 1.5105543138343624
+      }
+    },
+    "4HKI->4L0B": {
+      "MEHF-iso": {
+        "bond_length": 0.997647272172495,
+        "bond_angle": 1.3143840929796364,
+        "dihedral": 1.0686499347899425,
+        "planar_improper": 3.1700765464497622,
+        "internal_rmsf": 0.5199167740599561
+      },
+      "MEHF-lap": {
+        "bond_length": 2.2378435453232206,
+        "bond_angle": 1.9708472818861504,
+        "dihedral": 1.0554882931864151,
+        "planar_improper": 2.9533746851777742,
+        "internal_rmsf": 0.9648031689053842
+      },
+      "MEHF ($\\Sigma^*$)": {
+        "bond_length": 1.989087441064603,
+        "bond_angle": 1.2625437324340054,
+        "dihedral": 1.2494574178660656,
+        "planar_improper": 2.112282725715165,
+        "internal_rmsf": 1.9751163845276418
+      }
+    }
+  },
+  "rule": "scored test examples with 18-32 heavy atoms; minimise sum over the four priors of |spread - median| / IQR; one example per UniProt target",
+  "sampling": "fold-1 checkpoint of each prior, rigid 0.32, projection on, 16 steps, seed 20260918; frames superposed on the input pose for display",
+  "examples": [
+    {
+      "example": "2XK4->2XKF",
+      "uniprot": "P51955",
+      "representativeness_score": 0.27499248319758507,
+      "per_prior": {
+        "MEHF-iso": {
+          "spread": 2.0399400574308815,
+          "bond_angle_ratio": 1.081393895030714,
+          "planar_improper_ratio": 2.8062615118421816
+        },
+        "MEHF-lap": {
+          "spread": 1.414828431543203,
+          "bond_angle_ratio": 1.6264964484370417,
+          "planar_improper_ratio": 2.1359822845540024
+        },
+        "MEHF ($\\Sigma^*$)": {
+          "spread": 0.6609460452516459,
+          "bond_angle_ratio": 1.0443431032712747,
+          "planar_improper_ratio": 1.4732371630683225
+        },
+        "MEHF-gs": {
+          "spread": 2.522124163875168,
+          "bond_angle_ratio": 1.291563329390196,
+          "planar_improper_ratio": 3.4330754337862572
+        }
+      }
+    },
+    {
+      "example": "4HKI->4L0B",
+      "uniprot": "Q9H2K2",
+      "representativeness_score": 0.3178505603993124,
+      "per_prior": {
+        "MEHF-iso": {
+          "spread": 1.9116283973137829,
+          "bond_angle_ratio": 1.1290777036079744,
+          "planar_improper_ratio": 2.8467395934005837
+        },
+        "MEHF-lap": {
+          "spread": 1.5252413388747066,
+          "bond_angle_ratio": 1.7850931754464778,
+          "planar_improper_ratio": 2.5102347439529846
+        },
+        "MEHF ($\\Sigma^*$)": {
+          "spread": 0.8112186831546274,
+          "bond_angle_ratio": 1.5766926123042146,
+          "planar_improper_ratio": 2.166313583525172
+        },
+        "MEHF-gs": {
+          "spread": 2.5092918645361384,
+          "bond_angle_ratio": 1.1998422320305717,
+          "planar_improper_ratio": 3.5324382023540113
+        }
+      }
+    }
+  ]
+}

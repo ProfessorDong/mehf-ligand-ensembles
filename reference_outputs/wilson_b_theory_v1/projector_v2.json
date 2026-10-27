@@ -1,0 +1,71 @@
+{
+  "validation": {
+    "n-butane(C4 chain)": {
+      "n_dih": 1,
+      "dof": 6,
+      "rank_bond": 3,
+      "rank_bond_angle": 5,
+      "dih_perp_frac_after_bond": 1.0,
+      "dih_perp_frac_after_bond_angle": 1.0
+    },
+    "n-hexane(C6 chain)": {
+      "n_dih": 3,
+      "dof": 12,
+      "rank_bond": 5,
+      "rank_bond_angle": 9,
+      "dih_perp_frac_after_bond": 1.0,
+      "dih_perp_frac_after_bond_angle": 1.0
+    },
+    "cyclohexane": {
+      "n_dih": 6,
+      "dof": 12,
+      "rank_bond": 6,
+      "rank_bond_angle": 12,
+      "dih_perp_frac_after_bond": 0.9372422249686573,
+      "dih_perp_frac_after_bond_angle": 1.6088732493095722e-11
+    },
+    "benzene(planar C6)": {
+      "n_dih": 6,
+      "dof": 12,
+      "rank_bond": 6,
+      "rank_bond_angle": 9,
+      "dih_perp_frac_after_bond": 1.0,
+      "dih_perp_frac_after_bond_angle": 0.9999999994449861
+    }
+  },
+  "corpus": {
+    "n_systems": 120,
+    "rot_frac": {
+      "n": 120,
+      "median": 0.3217579521927348,
+      "iqr": [
+        0.24319727891156462,
+        0.5263157894736842
+      ]
+    },
+    "extra_all": {
+      "n": 120,
+      "median": 0.09853143022853289,
+      "iqr": [
+        0.05576694255003702,
+        0.1755721360567163
+      ]
+    },
+    "extra_rot": {
+      "n": 116,
+      "median": 0.28339121643072174,
+      "iqr": [
+        0.22151373651712541,
+        0.3315800439412043
+      ]
+    },
+    "extra_ring": {
+      "n": 108,
+      "median": 4.174797848559779e-10,
+      "iqr": [
+        2.0624112815045457e-10,
+        7.639231347901401e-10
+      ]
+    }
+  }
+}

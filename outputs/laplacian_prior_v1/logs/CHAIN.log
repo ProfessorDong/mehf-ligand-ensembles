@@ -1,0 +1,16 @@
+[11:16] f1, f3 launched; f2 attempt 1 OOM (3 concurrent on one 48GB card), requeued
+[12:08] grid f1 start
+[12:08] grid f3 start
+[12:08] starting f2 (attempt 2; attempt 1 ran out of GPU memory with three concurrent runs)
+[12:30] grid f1 done
+[12:31] grid f3 done
+[12:54] f2 finished rc=0
+[12:55] grid f2 start
+[13:05] grid f2 done
+[13:05] all grids done; applying the matched-torsion rule (fitting folds only)
+[13:05] fold 1: scale 2.436334413438594 (matched=True), fixed before the test read
+[13:05] fold 2: scale 2.482539286712936 (matched=True), fixed before the test read
+[13:05] fold 3: scale 2.4483873096435924 (matched=True), fixed before the test read
+[13:05] TEST READ START (LAPLACIAN arm only)
+[13:44] TEST READ END; files: 3/3
+[13:44] decision written rc=0

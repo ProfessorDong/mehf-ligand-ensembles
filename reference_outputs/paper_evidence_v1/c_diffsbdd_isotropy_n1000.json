@@ -1,0 +1,43 @@
+{
+  "generated_dir": "data/external/diffsbdd/crossdocked_fullatom_cond",
+  "n_molecules": 1000,
+  "n_read_failures": 1,
+  "n_relax_failures": 5,
+  "arm": "A: raw vs MMFF-relaxed, identical molecules",
+  "restraint_kcal_per_mol_A2": 1.0,
+  "measured_excess": {
+    "bond_angstrom": 0.12453625112006221,
+    "angle_degrees": 12.7763464019501,
+    "dihedral_degrees": 47.77853451675723
+  },
+  "mean_B_norm": {
+    "bond_per_angstrom": 1.4142135623730951,
+    "angle_deg_per_angstrom": 85.61587396959311,
+    "dihedral_deg_per_angstrom": 180.3668776157485
+  },
+  "implied_sigma_angstrom": 0.08806042767054675,
+  "predicted_from_bond_channel": {
+    "angle_degrees": 7.53937047715,
+    "dihedral_degrees": 15.88318438044398
+  },
+  "relative_error": {
+    "angle": -0.409896206633906,
+    "dihedral": -0.6675665224752066
+  },
+  "in_physical_widths": {
+    "bond": 3.8201304024558964,
+    "angle": 4.605748522692898,
+    "dihedral": 3.2725023641614546
+  },
+  "aromatic_out_of_plane_mean_abs_degrees": {
+    "raw": 5.815092138247559,
+    "relaxed": 1.8288292770389336,
+    "n": 1273
+  },
+  "verdict": {
+    "P1_angle_within_35pct": false,
+    "P1_dihedral_within_35pct": false,
+    "P2_sigma_in_range": true,
+    "P3_ordering_bond_gt_angle_gt_torsion": false
+  }
+}

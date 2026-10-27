@@ -1,0 +1,15 @@
+raw                    n= 200 W(b)=0.0486 W(a)=5.334 plan=4.140 RMSD=0.000 clash%=17.0 status={}
+mmff_0                 n= 200 W(b)=0.0262 W(a)=1.810 plan=0.566 RMSD=1.675 clash%=68.0 status={'0': 200}
+mmff_0.2               n= 200 W(b)=0.0262 W(a)=1.789 plan=0.941 RMSD=0.923 clash%=38.0 status={'0': 200}
+mmff_1                 n= 200 W(b)=0.0262 W(a)=1.758 plan=1.266 RMSD=0.630 clash%=26.0 status={'0': 200}
+mmff_5                 n= 200 W(b)=0.0260 W(a)=1.664 plan=2.138 RMSD=0.399 clash%=19.5 status={'0': 200}
+mmff_20                n= 200 W(b)=0.0251 W(a)=1.746 plan=2.896 RMSD=0.267 clash%=17.5 status={'0': 200}
+mmff_100               n= 200 W(b)=0.0234 W(a)=2.426 plan=3.172 RMSD=0.153 clash%=17.0 status={'0': 200}
+mmff_1000              n= 200 W(b)=0.0203 W(a)=4.260 plan=3.655 RMSD=0.055 clash%=17.5 status={'0': 200}
+mmffH_0                n= 200 W(b)=0.0219 W(a)=1.603 plan=0.983 RMSD=1.433 clash%=65.0 status={'0': 200}
+mmffH_0.2              n= 200 W(b)=0.0218 W(a)=1.602 plan=1.398 RMSD=0.958 clash%=43.5 status={'0': 200}
+mmffH_1                n= 200 W(b)=0.0217 W(a)=1.592 plan=1.589 RMSD=0.721 clash%=30.5 status={'0': 200}
+mmffH_5                n= 200 W(b)=0.0211 W(a)=1.628 plan=2.538 RMSD=0.463 clash%=22.0 status={'0': 200}
+mmffH_20               n= 200 W(b)=0.0194 W(a)=1.772 plan=2.965 RMSD=0.299 clash%=18.0 status={'0': 200}
+mmffH_100              n= 200 W(b)=0.0166 W(a)=2.330 plan=3.407 RMSD=0.175 clash%=17.0 status={'0': 200}
+mmffH_1000             n= 200 W(b)=0.0197 W(a)=4.055 plan=3.755 RMSD=0.061 clash%=17.5 status={'0': 200}

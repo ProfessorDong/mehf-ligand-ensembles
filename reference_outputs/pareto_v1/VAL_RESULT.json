@@ -1,0 +1,125 @@
+{
+  "n_examples_paired": 1392,
+  "n_targets": 106,
+  "per_fold_medians": {
+    "ANISO": {
+      "f1": {
+        "bond_angle": 1.426544524932733,
+        "bond_length": 0.9880035258989834,
+        "dihedral": 1.494517818781477,
+        "internal_rmsf": 0.5822496546560956,
+        "planar_improper": 3.8357002532060354
+      },
+      "f2": {
+        "bond_angle": 1.4668689222292803,
+        "bond_length": 1.0569470084134323,
+        "dihedral": 1.5406948898937345,
+        "internal_rmsf": 0.6397160213688742,
+        "planar_improper": 3.8406528253367465
+      },
+      "f3": {
+        "bond_angle": 1.4674126008575787,
+        "bond_length": 1.049224271156611,
+        "dihedral": 1.5388467721026986,
+        "internal_rmsf": 0.6344461687588812,
+        "planar_improper": 3.854320053804424
+      }
+    },
+    "ISO": {
+      "f1": {
+        "bond_angle": 2.3074272277801526,
+        "bond_length": 1.7360645921211058,
+        "dihedral": 1.8365186697758822,
+        "internal_rmsf": 0.6459066958896648,
+        "planar_improper": 4.245518270078082
+      },
+      "f2": {
+        "bond_angle": 1.8734878305420652,
+        "bond_length": 1.458798527187727,
+        "dihedral": 1.5292389722249147,
+        "internal_rmsf": 0.5451538261506587,
+        "planar_improper": 3.669788813165301
+      },
+      "f3": {
+        "bond_angle": 2.3212752389454794,
+        "bond_length": 1.7180408872074162,
+        "dihedral": 1.8739703400471837,
+        "internal_rmsf": 0.6503353717523803,
+        "planar_improper": 4.308583590621597
+      }
+    }
+  },
+  "arm_medians": {
+    "ANISO": {
+      "bond_angle": 1.4532036843126215,
+      "bond_length": 1.0335319553787468,
+      "dihedral": 1.5203469773788165,
+      "internal_rmsf": 0.6176706771158824,
+      "planar_improper": 3.845327415142391
+    },
+    "ISO": {
+      "bond_angle": 2.1710603000947484,
+      "bond_length": 1.6365148049247769,
+      "dihedral": 1.7500538022540084,
+      "internal_rmsf": 0.6127327194705754,
+      "planar_improper": 4.08115183525936
+    }
+  },
+  "paired_difference_aniso_minus_iso": {
+    "bond_angle": {
+      "median": -0.7242064306560552,
+      "ci95": [
+        -0.7629954131144155,
+        -0.6946187302851791
+      ],
+      "fraction_aniso_lower": 1.0,
+      "n": 1392
+    },
+    "bond_length": {
+      "median": -0.6034713049586258,
+      "ci95": [
+        -0.6280397982287227,
+        -0.5806976258387343
+      ],
+      "fraction_aniso_lower": 0.9992816091954023,
+      "n": 1392
+    },
+    "dihedral": {
+      "median": -0.1672779605977313,
+      "ci95": [
+        -0.19540710854702617,
+        -0.1335183497475796
+      ],
+      "fraction_aniso_lower": 0.9166666666666666,
+      "n": 1392
+    },
+    "internal_rmsf": {
+      "median": 0.00127785214791179,
+      "ci95": [
+        -0.0032570562095094843,
+        0.006035447822861167
+      ],
+      "fraction_aniso_lower": 0.47629310344827586,
+      "n": 1392
+    },
+    "planar_improper": {
+      "median": -0.23348967073064797,
+      "ci95": [
+        -0.2951754116044417,
+        -0.17382431889023753
+      ],
+      "fraction_aniso_lower": 0.7550866616428034,
+      "n": 1327
+    }
+  },
+  "decision_conditions": {
+    "median_D_below_0": true,
+    "upper_CI_below_0": true,
+    "rmsf_not_traded": true
+  },
+  "VERDICT": "CONFIRMED",
+  "secondary_old_bar": {
+    "aniso_angle_in_0.8_1.35": false,
+    "aniso_rmsf_at_least_0.60": true
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "n_molecules": 40,
+  "sweeps": 32,
+  "ideal_classes": {
+    "bond": 0,
+    "angle": 0
+  },
+  "arms": {
+    "A_raw": {
+      "bond_rms": null,
+      "angle_rms": null,
+      "planarity": 4.1352070277674295,
+      "rmsd_from_raw": 0.0
+    },
+    "B_mmff_free": {
+      "bond_rms": null,
+      "angle_rms": null,
+      "planarity": 0.792292077917811,
+      "rmsd_from_raw": 1.7097060268640623
+    },
+    "C_mmff_restrained": {
+      "bond_rms": null,
+      "angle_rms": null,
+      "planarity": 3.5523366835720847,
+      "rmsd_from_raw": 0.17132173410507034
+    },
+    "D_projection": {
+      "bond_rms": null,
+      "angle_rms": null,
+      "planarity": 4.1352070277674295,
+      "rmsd_from_raw": 0.0
+    }
+  }
+}

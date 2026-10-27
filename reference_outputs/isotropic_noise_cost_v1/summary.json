@@ -1,0 +1,29 @@
+{
+  "n_systems_analysed": 2000,
+  "store": "/home/ieb24002/MDWM_TCBB/data/MISATO/extracted/frames100_all_v1",
+  "seed": 20260923,
+  "design": "physical arm = real MD ensemble; synthetic arm = one frame plus isotropic per-atom Gaussian noise rescaled to the SAME internal RMSF; ratio = synthetic internal-coordinate spread / physical",
+  "bond_length": {
+    "ratio_median": 25.988459341168316,
+    "ratio_q25": 18.365793940454672,
+    "ratio_q75": 35.92484984907263,
+    "physical_spread_median": 0.018787189566106408,
+    "synthetic_spread_median": 0.48816187353058027
+  },
+  "bond_angle": {
+    "ratio_median": 8.199096738053587,
+    "ratio_q25": 6.732517394900714,
+    "ratio_q75": 9.292069830064015,
+    "physical_spread_median": 3.486985290856145,
+    "synthetic_spread_median": 28.780014824796005
+  },
+  "dihedral": {
+    "ratio_median": 2.1159804898706276,
+    "ratio_q25": 1.608596282618002,
+    "ratio_q75": 2.7959933025986086,
+    "physical_spread_median": 25.435459555336145,
+    "synthetic_spread_median": 56.75421999595925
+  },
+  "internal_rmsf_median_angstrom": 0.6445748327789476,
+  "rmsf_match_check_median_ratio": 1.0000197167786906
+}

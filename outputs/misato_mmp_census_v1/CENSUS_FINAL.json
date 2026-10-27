@@ -1,0 +1,210 @@
+{
+  "census": "MISATO MMP feasibility, CPU-only, read-only on data/",
+  "date": "2026-09-16",
+  "inventory": {
+    "misato_systems_with_71feature_traces": 16971,
+    "frames_per_trace": 100,
+    "misato_systems_with_cached_real_coordinates": 2980,
+    "cached_windows": 26686,
+    "window_shape": "6 context + 5 target frames, stride 1, 9 windows/system",
+    "systems_with_both": 2970,
+    "identifier": "4-char RCSB PDB entry ID; no UniProt and NO SMILES stored locally",
+    "rejected_systems": 20,
+    "rejection_reasons": {
+      "no usable pocket": 1,
+      "ligand bond graph disconnected (PBC break / multi-fragment)": 7,
+      "ligand atom count above cap": 12
+    },
+    "leakage_excluded_systems": 325
+  },
+  "ligand_identity": {
+    "local_smiles_available": 0,
+    "resolution_source": "RCSB Data API GraphQL (data.rcsb.org), 20 MB fetched, keyed by PDB ID",
+    "entries_resolved": 16960,
+    "with_uniprot": 16839,
+    "with_ligand_smiles": 15401,
+    "with_both": 15312,
+    "no_nonpolymer_ligand": 922,
+    "selection_rule": "largest non-buffer nonpolymer component (>=6 heavy atoms)",
+    "validation_against_cached_coords": {
+      "n_validated": 2764,
+      "largest_nonbuffer_is_also_closest_atomcount": 0.956,
+      "within_0_atoms": 0.459,
+      "within_1_atom": 0.769,
+      "within_3_atoms": 0.899,
+      "note": "MISATO atom counts are all-atom (heavy+H); residual deltas are protonation/tautomer differences"
+    }
+  },
+  "mmp_results_leakage_excluded": {
+    "n_pairs": 12917,
+    "n_pairs_both_endpoints_have_trace_md": 12917,
+    "n_pairs_both_endpoints_have_cached_coords": 596,
+    "n_targets": 702,
+    "n_distinct_ligands": 4266,
+    "pairs_per_target": {
+      "median": 4.0,
+      "mean": 18.400284900284902,
+      "max": 2117,
+      "n_targets_ge_10": 214,
+      "n_targets_ge_30": 75,
+      "n_targets_ge_50": 38,
+      "top_15": {
+        "P00918": 2117,
+        "P56817": 443,
+        "Q9H2K2": 380,
+        "P00800": 373,
+        "P00734": 356,
+        "P02754": 349,
+        "Q6XEC0": 320,
+        "P40337": 273,
+        "P13053": 256,
+        "O60885": 186,
+        "Q04609": 179,
+        "P00742": 150,
+        "O96935": 142,
+        "O14965": 139,
+        "P12497": 136
+      },
+      "share_of_pairs_from_top1_target": 0.16389254470852366,
+      "share_of_pairs_from_top5_targets": 0.28404428272818766,
+      "share_of_pairs_from_top20_targets": 0.49802585739722843
+    },
+    "same_context_groups_core_level": {
+      "n": 2639,
+      "median_size": 4.0,
+      "size_distribution": {
+        "3": 952,
+        "4": 555,
+        "5": 276,
+        "6": 133,
+        "7": 184,
+        "8": 63,
+        "9": 70,
+        "10": 66,
+        "11": 48,
+        "12": 78,
+        "13": 42,
+        "14": 45,
+        "15": 16,
+        "18": 19,
+        "20": 21,
+        "24": 25,
+        "45": 46
+      },
+      "n_with_all_members_cached_coords": 95
+    },
+    "same_context_groups_parent_level": {
+      "n": 1566,
+      "median_size": 4.0,
+      "mean_size": 7.1,
+      "max_size": 64,
+      "distinct_parent_molecules": 1515
+    },
+    "cross_target_recurrence": {
+      "n_transformations": 10747,
+      "n_on_ge2_targets": 710,
+      "fraction_on_ge2_targets": 0.06606494835768122,
+      "n_on_ge3_targets": 283,
+      "fraction_on_ge3_targets": 0.026332930120033498,
+      "targets_per_transformation_distribution": {
+        "1": 10037,
+        "2": 427,
+        "3": 133,
+        "4": 51,
+        "5": 37,
+        "6": 14,
+        "7": 12,
+        "8": 8,
+        "9": 3,
+        "10": 7,
+        "11": 3,
+        "12": 2,
+        "13": 5,
+        "14": 2,
+        "15": 1,
+        "17": 1,
+        "18": 1,
+        "21": 2,
+        "32": 1
+      }
+    },
+    "cross_scaffold_recurrence_all_pairs": {
+      "n_on_ge2_scaffolds": 506,
+      "fraction": 0.0453
+    },
+    "recurrence_by_min_fragment_size": {
+      "1": {
+        "n_tx": 10135,
+        "n_ge2_targets": 572,
+        "frac_ge2": 0.0564,
+        "n_ge3_targets": 204,
+        "frac_ge3": 0.0201
+      },
+      "2": {
+        "n_tx": 9633,
+        "n_ge2_targets": 487,
+        "frac_ge2": 0.0506,
+        "n_ge3_targets": 168,
+        "frac_ge3": 0.0174
+      },
+      "3": {
+        "n_tx": 8930,
+        "n_ge2_targets": 395,
+        "frac_ge2": 0.0442,
+        "n_ge3_targets": 133,
+        "frac_ge3": 0.0149
+      },
+      "4": {
+        "n_tx": 8161,
+        "n_ge2_targets": 329,
+        "frac_ge2": 0.0403,
+        "n_ge3_targets": 108,
+        "frac_ge3": 0.0132
+      }
+    }
+  },
+  "comparison": {
+    "current_corpus_source": "outputs/ecross_feasibility/summary.json (project's own measurement)",
+    "current": {
+      "n_molecules": 96,
+      "n_congeneric_series": 3,
+      "n_targets": 3,
+      "n_pairs": 600,
+      "n_distinct_transformations": 559,
+      "n_transformations_recurring_ge2_contexts": 29,
+      "n_transformations_recurring_ge3_contexts": 0,
+      "same_context_groups_reported_by_task": 88,
+      "same_context_group_median_size_reported_by_task": 4,
+      "cross_scaffold_recurrence_reported_by_task": 0.038,
+      "cross_scaffold_recurring_transformations_reported_by_task": 4
+    },
+    "misato_leakage_excluded": {
+      "n_molecules": 4266,
+      "n_targets": 702,
+      "n_pairs": 12917,
+      "n_distinct_transformations": 10747,
+      "n_transformations_on_ge2_targets": 710,
+      "fraction_on_ge2_targets": 0.06606494835768122,
+      "same_context_groups": 2639,
+      "same_context_group_median_size": 4.0
+    }
+  },
+  "raw_misato": {
+    "MD_hdf5_gb": 132.84,
+    "parameter_restart_files_gb": 54.28,
+    "QM_hdf5_gb": 0.34,
+    "frames_per_system": 100,
+    "atom_selection": "protein+ligand all-atom, solvent stripped",
+    "replicas_per_system": 1,
+    "disk_free_gib": 444,
+    "disk_free_gb": 476,
+    "margin_after_full_download_gib": 320,
+    "streaming_alternative": {
+      "systems_needing_extraction": 3684,
+      "network_gb_streamed": 51.7,
+      "disk_gb_11frame": 0.39,
+      "disk_gb_100frame_EXTRAPOLATED": 3.53,
+      "wall_hours_2_workers": 14.3
+    }
+  }
+}

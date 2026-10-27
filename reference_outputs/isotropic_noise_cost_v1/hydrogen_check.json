@@ -1,0 +1,29 @@
+{
+  "n_systems": 600,
+  "n_systems_containing_hydrogen": 600,
+  "note": "heavy_heavy is the confound-free number: those bonds are never frozen by SHAKE/RATTLE, so their fluctuation is physical",
+  "any_hydrogen": {
+    "n_systems_with_this_bond_type": 600,
+    "ratio_median": 219131.70028650458,
+    "ratio_q25": 166471.0281341078,
+    "ratio_q75": 292985.727842043,
+    "physical_spread_median_angstrom": 2.091496727111716e-06,
+    "synthetic_spread_median_angstrom": 0.47483155362417545
+  },
+  "heavy_heavy": {
+    "n_systems_with_this_bond_type": 600,
+    "ratio_median": 15.309659263049216,
+    "ratio_q25": 11.47510063590105,
+    "ratio_q75": 20.243507934781128,
+    "physical_spread_median_angstrom": 0.032637386269248315,
+    "synthetic_spread_median_angstrom": 0.4982240520450746
+  },
+  "all": {
+    "n_systems_with_this_bond_type": 600,
+    "ratio_median": 26.836716169677608,
+    "ratio_q25": 19.246413655968624,
+    "ratio_q75": 36.57631016516807,
+    "physical_spread_median_angstrom": 0.018655710140369017,
+    "synthetic_spread_median_angstrom": 0.48656700031711897
+  }
+}

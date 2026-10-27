@@ -1,0 +1,72 @@
+{
+  "n_molecules": 200,
+  "sweeps": 32,
+  "ideal_classes": {
+    "bond": 8,
+    "angle": 21
+  },
+  "arms": {
+    "A_raw": {
+      "bond_rms": 0.10751959895223008,
+      "angle_rms": 12.156799763904115,
+      "planarity": 4.139807126485504,
+      "rmsd_from_raw": 0.0,
+      "wasserstein_bond": 0.056434729235542457,
+      "wasserstein_angle": 5.557794095304955
+    },
+    "B_mmff_free": {
+      "bond_rms": 0.02850196528311373,
+      "angle_rms": 5.494042705526811,
+      "planarity": 0.5661518259274975,
+      "rmsd_from_raw": 1.6748224117025559,
+      "wasserstein_bond": 0.02022578153977537,
+      "wasserstein_angle": 1.5057468913541885
+    },
+    "C_mmff_restrained": {
+      "bond_rms": 0.03596652329775634,
+      "angle_rms": 7.591719018269306,
+      "planarity": 3.1721960471692316,
+      "rmsd_from_raw": 0.15264465527376386,
+      "wasserstein_bond": 0.019162243655323735,
+      "wasserstein_angle": 2.6629283171927196
+    },
+    "D_projection": {
+      "bond_rms": 0.010766318560900302,
+      "angle_rms": 1.1689999131359965,
+      "planarity": 8.91292413547182,
+      "rmsd_from_raw": 0.22018871828630976,
+      "wasserstein_bond": 0.024501270164604603,
+      "wasserstein_angle": 3.4788258362360636
+    },
+    "E_projection_plus_improper": {
+      "bond_rms": 0.010892246448651484,
+      "angle_rms": 1.2620601900874449,
+      "planarity": 0.3625884747538868,
+      "rmsd_from_raw": 0.2230391590890593,
+      "wasserstein_bond": 0.024335217260058446,
+      "wasserstein_angle": 3.4394659169816633
+    },
+    "F_soft_target": {
+      "bond_rms": 0.04109781893393575,
+      "angle_rms": 3.333995424411974,
+      "planarity": 0.6024074665928287,
+      "rmsd_from_raw": 0.22801040470594702,
+      "wasserstein_bond": 0.021366049184439663,
+      "wasserstein_angle": 2.346476742068873
+    }
+  },
+  "gate": {
+    "P1_bond_within_1.5x_of_C": true,
+    "P1_angle_within_1.5x_of_C": true,
+    "P1_bond_30pct_below_A": true,
+    "P1_angle_30pct_below_A": true,
+    "P2_D_rmsd_below_0.25": true,
+    "P2_B_rmsd_above_0.5": true,
+    "P3_D_planarity_unchanged": false,
+    "E_planarity_below_raw": true,
+    "E_planarity_beats_C": true,
+    "E_control_angle_unmoved_vs_D": true,
+    "E_control_bond_unmoved_vs_D": true,
+    "C_matches_D_on_both": false
+  }
+}

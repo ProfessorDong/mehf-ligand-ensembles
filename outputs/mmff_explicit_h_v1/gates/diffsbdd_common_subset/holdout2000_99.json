@@ -1,0 +1,212 @@
+{
+  "n_molecules": 2000,
+  "sweeps": 32,
+  "split_seed": 99,
+  "ideal_classes": {
+    "bond": 9,
+    "angle": 24
+  },
+  "arms": {
+    "A_raw": {
+      "bond_rms": 0.10775854339851809,
+      "angle_rms": 12.008450320212008,
+      "planarity": 4.583838835974553,
+      "rmsd_from_raw": 0.0,
+      "clashes": 0.0,
+      "wasserstein_bond": 0.0582887138880447,
+      "wasserstein_angle": 5.716567667679727
+    },
+    "B_mmff_free": {
+      "bond_rms": 0.028085190476527487,
+      "angle_rms": 5.6424468749476056,
+      "planarity": 0.6286514596987112,
+      "rmsd_from_raw": 1.5794476420997616,
+      "clashes": 2.0,
+      "wasserstein_bond": 0.020338617795510466,
+      "wasserstein_angle": 1.280295395836069
+    },
+    "C_mmff_restrained": {
+      "bond_rms": 0.03619740753067368,
+      "angle_rms": 7.699878091461745,
+      "planarity": 3.668059785109112,
+      "rmsd_from_raw": 0.15511826440978219,
+      "clashes": 0.0,
+      "wasserstein_bond": 0.01894179743887199,
+      "wasserstein_angle": 2.5972240880570006
+    },
+    "D_projection": {
+      "bond_rms": 0.011786880330800966,
+      "angle_rms": 1.130498254408633,
+      "planarity": 10.061421589526251,
+      "rmsd_from_raw": 0.223431885806221,
+      "clashes": 0.0,
+      "wasserstein_bond": 0.022888316183212052,
+      "wasserstein_angle": 3.33779117702293
+    },
+    "E_projection_plus_improper": {
+      "bond_rms": 0.012324439403247081,
+      "angle_rms": 1.2270074165239098,
+      "planarity": 0.2985353991018851,
+      "rmsd_from_raw": 0.22511538182475038,
+      "clashes": 0.0,
+      "wasserstein_bond": 0.022592873977061514,
+      "wasserstein_angle": 3.2791430332742806
+    },
+    "F_soft_target": {
+      "bond_rms": 0.04118224334523775,
+      "angle_rms": 3.562158223452733,
+      "planarity": 0.6299337167083721,
+      "rmsd_from_raw": 0.229224214698925,
+      "clashes": 0.0,
+      "wasserstein_bond": 0.01917685793769001,
+      "wasserstein_angle": 2.3736850654830595
+    },
+    "G_mmff_restraint5": {
+      "bond_rms": 0.02872137114367108,
+      "angle_rms": 5.873428413512195,
+      "planarity": 2.0788719735132846,
+      "rmsd_from_raw": 0.3994019522790542,
+      "clashes": 0.0,
+      "wasserstein_bond": 0.020066561060834043,
+      "wasserstein_angle": 1.320328522585682
+    },
+    "HB_mmffH_free": {
+      "bond_rms": 0.02852109422395019,
+      "angle_rms": 5.723617817330562,
+      "planarity": 1.0819520842332473,
+      "rmsd_from_raw": 1.438702255756923,
+      "clashes": 2.0,
+      "wasserstein_bond": 0.014010327259671326,
+      "wasserstein_angle": 1.3092179649806794
+    },
+    "HC_mmffH_restraint100": {
+      "bond_rms": 0.03612586418829447,
+      "angle_rms": 7.46311817082377,
+      "planarity": 3.7129650950962327,
+      "rmsd_from_raw": 0.17824533151383465,
+      "clashes": 0.0,
+      "wasserstein_bond": 0.012794581130487937,
+      "wasserstein_angle": 2.43151279016876
+    },
+    "HG_mmffH_restraint5": {
+      "bond_rms": 0.02908382407775936,
+      "angle_rms": 5.928227043074926,
+      "planarity": 2.2649751581937867,
+      "rmsd_from_raw": 0.4592635643176276,
+      "clashes": 0.0,
+      "wasserstein_bond": 0.01315248243735374,
+      "wasserstein_angle": 1.4177614106513436
+    }
+  },
+  "extra_fields": {
+    "A_raw": {
+      "n_evaluated": 1998,
+      "n_with_receptor": 1998,
+      "clash_mean": 0.7222222222222222,
+      "frac_with_clash": 0.18468468468468469
+    },
+    "B_mmff_free": {
+      "n_evaluated": 1998,
+      "n_with_receptor": 1998,
+      "clash_mean": 5.368868868868869,
+      "frac_with_clash": 0.6986986986986987
+    },
+    "C_mmff_restrained": {
+      "n_evaluated": 1998,
+      "n_with_receptor": 1998,
+      "clash_mean": 0.7767767767767768,
+      "frac_with_clash": 0.2017017017017017
+    },
+    "D_projection": {
+      "n_evaluated": 1998,
+      "n_with_receptor": 1998,
+      "clash_mean": 0.7672672672672672,
+      "frac_with_clash": 0.19369369369369369
+    },
+    "E_projection_plus_improper": {
+      "n_evaluated": 1998,
+      "n_with_receptor": 1998,
+      "clash_mean": 0.7702702702702703,
+      "frac_with_clash": 0.19369369369369369
+    },
+    "F_soft_target": {
+      "n_evaluated": 1998,
+      "n_with_receptor": 1998,
+      "clash_mean": 0.7727727727727728,
+      "frac_with_clash": 0.19369369369369369
+    },
+    "G_mmff_restraint5": {
+      "n_evaluated": 1998,
+      "n_with_receptor": 1998,
+      "clash_mean": 0.8443443443443444,
+      "frac_with_clash": 0.22422422422422422
+    },
+    "HB_mmffH_free": {
+      "n_evaluated": 1998,
+      "n_with_receptor": 1998,
+      "clash_mean": 4.555055055055055,
+      "frac_with_clash": 0.6576576576576577
+    },
+    "HC_mmffH_restraint100": {
+      "n_evaluated": 1998,
+      "n_with_receptor": 1998,
+      "clash_mean": 0.7912912912912913,
+      "frac_with_clash": 0.2057057057057057
+    },
+    "HG_mmffH_restraint5": {
+      "n_evaluated": 1998,
+      "n_with_receptor": 1998,
+      "clash_mean": 0.9229229229229229,
+      "frac_with_clash": 0.25175175175175174
+    }
+  },
+  "minimize_status": {
+    "B_mmff_free": {
+      "0": 2000
+    },
+    "C_mmff_restrained": {
+      "0": 2000
+    },
+    "G_mmff_restraint5": {
+      "0": 2000
+    },
+    "HB_mmffH_free": {
+      "0": 1998,
+      "removehs_order_mismatch": 2
+    },
+    "HC_mmffH_restraint100": {
+      "0": 1998,
+      "removehs_order_mismatch": 2
+    },
+    "HG_mmffH_restraint5": {
+      "0": 1998,
+      "removehs_order_mismatch": 2
+    }
+  },
+  "excluded_common_subset": [
+    {
+      "file": "3gs6-A-rec-2oxn-oan-lig-tt-docked-4-pocket10_3gs6-A-rec-2oxn-oan-lig-tt-docked-4_gen.sdf",
+      "index": 5,
+      "minimize_code": {
+        "B": 0,
+        "C": 0,
+        "G": 0,
+        "HB": "removehs_order_mismatch",
+        "HC": "removehs_order_mismatch",
+        "HG": "removehs_order_mismatch"
+      }
+    },
+    {
+      "file": "4tqr-A-rec-2xca-doc-lig-tt-min-0-pocket10_4tqr-A-rec-2xca-doc-lig-tt-min-0_gen.sdf",
+      "index": 5,
+      "minimize_code": {
+        "B": 0,
+        "C": 0,
+        "G": 0,
+        "HB": "removehs_order_mismatch",
+        "HC": "removehs_order_mismatch",
+        "HG": "removehs_order_mismatch"
+      }
+    }
+  ]
+}

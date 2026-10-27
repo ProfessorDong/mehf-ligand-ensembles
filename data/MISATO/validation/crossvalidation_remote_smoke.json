@@ -1,0 +1,146 @@
+{
+  "status": "misato_store_crossvalidation",
+  "source": "https://zenodo.org/api/records/7711953/files/MD.hdf5/content",
+  "source_is_remote": true,
+  "cache_root": "/home/ieb24002/MDWM_TCBB/data/processed/misato_atomic_window_cache_3k_v1",
+  "cache_windows_total": 26686,
+  "cache_systems_total": 2980,
+  "n_systems_sampled": 2,
+  "n_systems_compared": 2,
+  "seed": 20260917,
+  "cache_window_kwargs": {
+    "context_frames": 6,
+    "future_frames": 5,
+    "frame_stride": 1,
+    "window_stride": 10,
+    "pocket_radius_angstrom": 8.0,
+    "max_pocket_atoms": 600,
+    "max_ligand_atoms": 300,
+    "min_ligand_atoms": 6,
+    "broken_bond_angstrom": 2.6
+  },
+  "store_frames": 100,
+  "worst_max_abs_deviation": {
+    "reference_vs_cache": {
+      "product_init": 0.0,
+      "target_delta": 0.0,
+      "context_ligand_coords": 0.0,
+      "pocket_init": 0.0,
+      "product_features": 0.0,
+      "edit_features": 0.0,
+      "pocket_features": 0.0,
+      "bond_index": 0.0
+    },
+    "store_vs_cache": {
+      "product_init": 0.0,
+      "target_delta": 0.0,
+      "context_ligand_coords": 0.0,
+      "pocket_init": 0.0,
+      "product_features": 0.0,
+      "edit_features": 0.0,
+      "pocket_features": 0.0,
+      "bond_index": 0.0
+    }
+  },
+  "coordinate_tolerance": 0.001,
+  "reference_path_bit_exact_vs_cache": true,
+  "store_path_within_tolerance_vs_cache": true,
+  "window_sets_agree": true,
+  "verdict": "PASS",
+  "per_system": [
+    {
+      "system_id": "5WBO",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 31,
+        "n_pocket_atoms": 332,
+        "min_pocket_ligand_distance_angstrom": 2.2567265033721924,
+        "bond_length_max_angstrom": 1.658920168876648,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "2JDK",
+      "reference_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "store_qc": {
+        "n_frames": 100,
+        "n_ligand_atoms": 61,
+        "n_pocket_atoms": 184,
+        "min_pocket_ligand_distance_angstrom": 1.4653644561767578,
+        "bond_length_max_angstrom": 1.6679588556289673,
+        "pocket_truncated_at_cap": false
+      },
+      "status": "compared"
+    }
+  ],
+  "generated_utc": "2026-09-17T20:27:10Z",
+  "network_bytes_fetched": 34669315
+}

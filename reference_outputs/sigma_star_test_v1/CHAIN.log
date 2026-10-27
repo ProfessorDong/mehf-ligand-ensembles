@@ -1,0 +1,38 @@
+[14:39:51] START ISO f1 scale=1.1090897330797107 gpu=1
+[14:39:51] START ISO f3 scale=1.1070911128142067 gpu=1
+[14:39:51] START ISO f2 scale=1.3085511944557766 gpu=1
+[14:39:52] END   ISO f2 rc=0
+[14:39:52] END   ISO f1 rc=0
+[14:39:52] END   ISO f3 rc=0
+[14:39:52] START ANISO_v3 f2 scale=1.0 gpu=1
+[14:39:52] START ANISO_v3 f1 scale=1.0 gpu=1
+[14:39:52] START ANISO_v3 f3 scale=1.0 gpu=1
+[14:39:52] END   ANISO_v3 f2 rc=0
+[14:39:52] START SIGMA_star f2 scale=3.3291757906919934 gpu=1
+[14:39:52] END   ANISO_v3 f3 rc=0
+[14:39:52] END   ANISO_v3 f1 rc=0
+[14:39:52] START SIGMA_star f3 scale=3.786814861114942 gpu=1
+[14:39:52] START SIGMA_star f1 scale=3.2452895917489304 gpu=1
+[14:39:53] END   SIGMA_star f3 rc=0
+[14:39:53] END   SIGMA_star f2 rc=0
+[14:39:53] END   SIGMA_star f1 rc=0
+[14:40:54] RESTART: previous 9 launches failed at conda env resolution (MDWM_GPU does not exist); no test number was produced. Env corrected to MDWM, command otherwise identical.
+[14:40:54] START ISO f1 scale=1.1090897330797107 gpu=1
+[14:40:54] START ISO f2 scale=1.3085511944557766 gpu=1
+[14:40:54] START ISO f3 scale=1.1070911128142067 gpu=1
+[15:19:44] END   ISO f3 rc=0
+[15:19:44] START ANISO_v3 f3 scale=1.0 gpu=1
+[15:19:44] END   ISO f1 rc=0
+[15:19:44] START ANISO_v3 f1 scale=1.0 gpu=1
+[15:19:46] END   ISO f2 rc=0
+[15:19:46] START ANISO_v3 f2 scale=1.0 gpu=1
+[15:58:30] END   ANISO_v3 f3 rc=0
+[15:58:30] START SIGMA_star f3 scale=3.786814861114942 gpu=1
+[15:58:32] END   ANISO_v3 f1 rc=0
+[15:58:32] START SIGMA_star f1 scale=3.2452895917489304 gpu=1
+[15:58:33] END   ANISO_v3 f2 rc=0
+[15:58:33] START SIGMA_star f2 scale=3.3291757906919934 gpu=1
+[16:42:53] END   SIGMA_star f1 rc=0
+[16:44:20] END   SIGMA_star f3 rc=0
+[16:44:20] END   SIGMA_star f2 rc=0
+[16:46:00] TEST READ COMPLETE — verdict CONFIRMED, written to TEST_RESULT.md/.json. test is now spent.

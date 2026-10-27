@@ -1,0 +1,150 @@
+{
+  "checkpoint": "outputs/internal_calibration_v1/full_f1/checkpoint.pt",
+  "n_pairs_evaluated": 1000,
+  "n_targets": 70,
+  "n_skipped": 6,
+  "n_samples_per_side": 50,
+  "b4_widening_bins": 1,
+  "b4_calibration_curve": {
+    "0": 0.5590674537899438,
+    "1": 0.5248611938056397,
+    "2": 0.5383189506366346,
+    "3": 0.5642656295857171,
+    "5": 0.6157368781678061,
+    "8": 0.6702391711860987
+  },
+  "b3_prior_systems": 400,
+  "product_init_mode": "product_frame0",
+  "frame_alignment": "pocket",
+  "max_pocket_atoms": 96,
+  "disable_mapping": false,
+  "sampling_steps": 16,
+  "sampling_temperature": 1.0,
+  "calibration": "none",
+  "device": "cuda:0",
+  "cuda_visible_devices": "0",
+  "peak_gpu_memory_gb": 1.6230778694152832,
+  "median_mapped_torsions": 6.0,
+  "metric_wiring_check_max_abs_difference": 0.0,
+  "MEHF": {
+    "median": 0.5625215386434712,
+    "mean": 0.5644925576292776,
+    "q25": 0.5094525511083772,
+    "q75": 0.6152384371037669
+  },
+  "floor": {
+    "median": 0.2574175983875981,
+    "mean": 0.2616419453271752,
+    "q25": 0.22308267817015548,
+    "q75": 0.2947083781648784
+  },
+  "B1_copy_parent": {
+    "median": 0.566661756657949,
+    "mean": 0.5811341448522005,
+    "q25": 0.4685927732084644,
+    "q75": 0.6929312341088835
+  },
+  "B4_parent_widened": {
+    "median": 0.5479494472552131,
+    "mean": 0.5632118843379922,
+    "q25": 0.44799629915856576,
+    "q75": 0.6716671335246136
+  },
+  "B3_prior": {
+    "median": 0.7781719063936492,
+    "mean": 0.7728825535652386,
+    "q25": 0.7460750016648509,
+    "q75": 0.8067205535705049
+  },
+  "B2_static": {
+    "median": 0.7756556047322966,
+    "mean": 0.7755915538520617,
+    "q25": 0.7353070926003975,
+    "q75": 0.8178769087007736
+  },
+  "probe_transferred_parent": {
+    "median": 0.5614370492667354,
+    "mean": 0.5644785507749506,
+    "q25": 0.4883605956785889,
+    "q75": 0.6429848344866674
+  },
+  "recovery_fraction_median": {
+    "point": 0.01338818504328327,
+    "ci_low": -0.1192542861550408,
+    "ci_high": 0.1498893134385378,
+    "n_resamples": 2000
+  },
+  "recovery_fraction_mean": {
+    "point": 0.05208761668567546,
+    "ci_low": -0.048702427337188645,
+    "ci_high": 0.1339753983627066,
+    "n_resamples": 2000
+  },
+  "median_difference_MEHF_minus_B1_copy_parent": {
+    "point": -0.004140218014477837,
+    "ci_low": -0.053696922186702856,
+    "ci_high": 0.0326883376465869,
+    "n_resamples": 2000
+  },
+  "median_difference_MEHF_minus_B4_parent_widened": {
+    "point": 0.014572091388258102,
+    "ci_low": -0.03424515054666914,
+    "ci_high": 0.05278582877476182,
+    "n_resamples": 2000
+  },
+  "median_difference_MEHF_minus_B3_prior": {
+    "point": -0.21565036775017798,
+    "ci_low": -0.2426375868527189,
+    "ci_high": -0.19006258209478238,
+    "n_resamples": 2000
+  },
+  "median_difference_MEHF_minus_B2_static": {
+    "point": -0.21313406608882535,
+    "ci_low": -0.23182566137770208,
+    "ci_high": -0.20030511147426372,
+    "n_resamples": 2000
+  },
+  "median_difference_MEHF_minus_floor": {
+    "point": 0.3051039402558731,
+    "ci_low": 0.28927329847726957,
+    "ci_high": 0.317797418306125,
+    "n_resamples": 2000
+  },
+  "MEHF_vs_probe_js": {
+    "median": 0.5648259414043004,
+    "mean": 0.5669118012740492
+  },
+  "spread_MEHF_degrees": {
+    "median": 25.09221693860831,
+    "mean": 25.723311597146974
+  },
+  "spread_reference_degrees": {
+    "median": 22.351376008984467,
+    "mean": 24.53409015148982
+  },
+  "spread_probe_degrees": {
+    "median": 16.593768697751532,
+    "mean": 19.646100816960722
+  },
+  "spread_parent_degrees": {
+    "median": 21.86223565344011,
+    "mean": 24.42005993609486
+  },
+  "MEHF_energy_score": {
+    "median": 5.049115157804966,
+    "mean": 6.435889183393172
+  },
+  "MEHF_rmsf_spearman": {
+    "median": 0.28790787756305,
+    "mean": 0.2729404162096923
+  },
+  "MEHF_rmsf_mae_angstrom": {
+    "median": 0.21027450738939915,
+    "mean": 0.26718976806296846
+  },
+  "MEHF_rmsf_mean_ratio": {
+    "median": 0.5777060992462091,
+    "mean": 0.6121244936719602
+  },
+  "note": "torsion JS distance on fully-mapped product torsions, lower is better; every predictor uses the same pairs, torsions, frame draws and 50 samples per side; R = (B1 - MEHF) / (B1 - floor)"
+}

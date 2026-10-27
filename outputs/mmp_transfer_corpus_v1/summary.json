@@ -1,0 +1,23 @@
+{
+  "n_unique_clean_pairs": 6281,
+  "status_counts": {
+    "ok": 6230,
+    "mcs_failed": 51
+  },
+  "n_mcs_ok": 6230,
+  "n_transformation_agrees": 4918,
+  "agreement_rate_among_ok": 0.7894060995184591,
+  "n_same_split": 4913,
+  "split_counts": {
+    "train": 4734,
+    "test": 131,
+    "val": 48
+  },
+  "n_uniprot_targets": 517,
+  "n_unique_systems": 3231,
+  "mcs_fraction_median": 0.7894736842105263,
+  "mapped_atoms_median": 19.0,
+  "unmapped_a_median": 3.0,
+  "unmapped_b_median": 4.0,
+  "note": "transformation_agrees is a CROSS-CHECK: the mapping comes from MCS on the stored coordinates only. The census transformation never enters the mapping."
+}

@@ -1,0 +1,78 @@
+{
+  "n_molecules": 2000,
+  "sweeps": 32,
+  "ideal_classes": {
+    "bond": 9,
+    "angle": 26
+  },
+  "arms": {
+    "A_raw": {
+      "bond_rms": 0.10751204037259644,
+      "angle_rms": 12.320830244397952,
+      "planarity": 4.583838835974553,
+      "rmsd_from_raw": 0.0,
+      "clashes": 0.0,
+      "wasserstein_bond": 0.055584259634802784,
+      "wasserstein_angle": 5.720072480591332
+    },
+    "B_mmff_free": {
+      "bond_rms": 0.027008455177785277,
+      "angle_rms": 5.462403634176516,
+      "planarity": 0.6286514596987106,
+      "rmsd_from_raw": 1.5786461075951976,
+      "clashes": 2.0,
+      "wasserstein_bond": 0.02580959834974989,
+      "wasserstein_angle": 1.9853042809422126
+    },
+    "C_mmff_restrained": {
+      "bond_rms": 0.035409876285464485,
+      "angle_rms": 7.694927898079939,
+      "planarity": 3.6680597851091123,
+      "rmsd_from_raw": 0.1551506929855158,
+      "clashes": 0.0,
+      "wasserstein_bond": 0.024101620867872642,
+      "wasserstein_angle": 2.7435459032441156
+    },
+    "D_projection": {
+      "bond_rms": 0.01309296293495114,
+      "angle_rms": 1.2268409969300695,
+      "planarity": 9.984868025493284,
+      "rmsd_from_raw": 0.23022730903352148,
+      "clashes": 0.0,
+      "wasserstein_bond": 0.024066863018872505,
+      "wasserstein_angle": 3.4466815919162657
+    },
+    "E_projection_plus_improper": {
+      "bond_rms": 0.013746744895763241,
+      "angle_rms": 1.3559818240761596,
+      "planarity": 0.32422455445173404,
+      "rmsd_from_raw": 0.23245588203414547,
+      "clashes": 0.0,
+      "wasserstein_bond": 0.023618918921323936,
+      "wasserstein_angle": 3.3837657452934913
+    },
+    "F_soft_target": {
+      "bond_rms": 0.040104226907672735,
+      "angle_rms": 3.4695050011777515,
+      "planarity": 0.59978817107328,
+      "rmsd_from_raw": 0.23569848594652443,
+      "clashes": 0.0,
+      "wasserstein_bond": 0.017101858438626143,
+      "wasserstein_angle": 2.4954339155508074
+    }
+  },
+  "gate": {
+    "P1_bond_within_1.5x_of_C": true,
+    "P1_angle_within_1.5x_of_C": true,
+    "P1_bond_30pct_below_A": true,
+    "P1_angle_30pct_below_A": true,
+    "P2_D_rmsd_below_0.25": true,
+    "P2_B_rmsd_above_0.5": true,
+    "P3_D_planarity_unchanged": false,
+    "E_planarity_below_raw": true,
+    "E_planarity_beats_C": true,
+    "E_control_angle_unmoved_vs_D": true,
+    "E_control_bond_unmoved_vs_D": true,
+    "C_matches_D_on_both": false
+  }
+}

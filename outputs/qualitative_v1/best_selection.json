@@ -1,0 +1,477 @@
+{
+  "note": "deliberately chosen best case for an illustrative figure; not a typical example",
+  "rule": "shortlist by fold-1 MEHF test ratios (sum |ln ratio| over four channels and internal RMSF, 18-32 heavy atoms); final choice = smallest same score on the re-sampled, displayed ensemble",
+  "columns": [
+    {
+      "label": "MEHF-iso",
+      "checkpoint": "outputs/internal_calibration_v1/full_f1/checkpoint.pt",
+      "internal_scale": 1.1090897330797107
+    },
+    {
+      "label": "MEHF-iso, 2.6$\\times$ noise scale",
+      "checkpoint": "outputs/internal_calibration_v1/full_f1/checkpoint.pt",
+      "internal_scale": 2.8294384593647908
+    },
+    {
+      "label": "MEHF ($\\Sigma^*$)",
+      "checkpoint": "outputs/sigma_star_v1/full_f1/checkpoint.pt",
+      "internal_scale": 3.2452895917489304
+    }
+  ],
+  "ranking": [
+    "4UHG->4UI4",
+    "6HPW->6T1O",
+    "5J82->5J20",
+    "5I89->5I86",
+    "6EY9->4EFU",
+    "6IMO->6IMT",
+    "4LCH->5DRQ",
+    "1UY7->1UY8",
+    "6MMC->6MMO",
+    "4PHW->4MVH",
+    "1UYF->1UYI",
+    "2G79->2G78",
+    "6NJI->6NJH",
+    "4QEW->2YEK",
+    "3WS9->3WS8",
+    "1XOM->1XON"
+  ],
+  "displayed_score": {
+    "4UHG->4UI4": 0.4694155452290504,
+    "1XOM->1XON": 1.129565745678256,
+    "1UY7->1UY8": 0.8079626991386288,
+    "2G79->2G78": 0.9387485625620247,
+    "6MMC->6MMO": 0.8446562063964275,
+    "5J82->5J20": 0.5988457138313278,
+    "1UYF->1UYI": 0.9366772914199539,
+    "6IMO->6IMT": 0.770303501964519,
+    "6HPW->6T1O": 0.5564778199950131,
+    "5I89->5I86": 0.669643659371618,
+    "6NJI->6NJH": 0.9837614768984538,
+    "3WS9->3WS8": 1.0940165937107211,
+    "4PHW->4MVH": 0.9259936208570214,
+    "6EY9->4EFU": 0.6787255320398835,
+    "4QEW->2YEK": 1.0809010451261871,
+    "4LCH->5DRQ": 0.7770577575005702
+  },
+  "displayed_ratios": {
+    "4UHG->4UI4": {
+      "MEHF-iso": {
+        "bond_length": 0.9937645674683617,
+        "bond_angle": 1.0604753697174252,
+        "dihedral": 1.5559526415700684,
+        "planar_improper": 2.6708978992938373,
+        "internal_rmsf": 0.29029267604772857
+      },
+      "MEHF-iso, 2.6$\\times$ noise scale": {
+        "bond_length": 2.5252059885831653,
+        "bond_angle": 2.8793111725454534,
+        "dihedral": 3.300107665457582,
+        "planar_improper": 5.134327215031908,
+        "internal_rmsf": 0.6859125183483434
+      },
+      "MEHF ($\\Sigma^*$)": {
+        "bond_length": 1.0045000046383064,
+        "bond_angle": 0.735946587435985,
+        "dihedral": 0.9996269174614455,
+        "planar_improper": 0.9336639932095584,
+        "internal_rmsf": 1.0934262261844678
+      }
+    },
+    "1XOM->1XON": {
+      "MEHF-iso": {
+        "bond_length": 1.0132624378555646,
+        "bond_angle": 1.225996121993284,
+        "dihedral": 1.2653057971938404,
+        "planar_improper": 3.168749161498515,
+        "internal_rmsf": 0.37341212901663595
+      },
+      "MEHF-iso, 2.6$\\times$ noise scale": {
+        "bond_length": 2.5192162471617743,
+        "bond_angle": 3.341343179321172,
+        "dihedral": 2.722799680245686,
+        "planar_improper": 5.493936168410645,
+        "internal_rmsf": 0.9042099456230028
+      },
+      "MEHF ($\\Sigma^*$)": {
+        "bond_length": 1.2731162962704043,
+        "bond_angle": 0.8974291887326965,
+        "dihedral": 1.1421145951075045,
+        "planar_improper": 1.3584400822675191,
+        "internal_rmsf": 1.4058730797185077
+      }
+    },
+    "1UY7->1UY8": {
+      "MEHF-iso": {
+        "bond_length": 1.0666614562715306,
+        "bond_angle": 1.2764752152193777,
+        "dihedral": 1.200488022699109,
+        "planar_improper": 2.794107421050316,
+        "internal_rmsf": 0.32885969702508494
+      },
+      "MEHF-iso, 2.6$\\times$ noise scale": {
+        "bond_length": 2.742134949867771,
+        "bond_angle": 3.4455503025772614,
+        "dihedral": 2.569009749022718,
+        "planar_improper": 5.084217863218437,
+        "internal_rmsf": 0.7793753630406635
+      },
+      "MEHF ($\\Sigma^*$)": {
+        "bond_length": 1.1910737414721682,
+        "bond_angle": 0.9476326772999686,
+        "dihedral": 1.0989471119585197,
+        "planar_improper": 1.2824264091906903,
+        "internal_rmsf": 1.2664436615925907
+      }
+    },
+    "2G79->2G78": {
+      "MEHF-iso": {
+        "bond_length": 0.8467055890754674,
+        "bond_angle": 1.2894313428017825,
+        "dihedral": 1.27109506795966,
+        "planar_improper": 2.6919430635140955,
+        "internal_rmsf": 0.3525651976739832
+      },
+      "MEHF-iso, 2.6$\\times$ noise scale": {
+        "bond_length": 2.124470957168629,
+        "bond_angle": 3.4914565241119115,
+        "dihedral": 3.4698746268320275,
+        "planar_improper": 5.50976066282288,
+        "internal_rmsf": 0.8860301943277604
+      },
+      "MEHF ($\\Sigma^*$)": {
+        "bond_length": 1.1204568257754843,
+        "bond_angle": 0.8452803144767803,
+        "dihedral": 0.9413618793215512,
+        "planar_improper": 1.379252151855156,
+        "internal_rmsf": 1.316472786917616
+      }
+    },
+    "6MMC->6MMO": {
+      "MEHF-iso": {
+        "bond_length": 0.979202041017738,
+        "bond_angle": 1.2675254207221456,
+        "dihedral": 0.803674140935566,
+        "planar_improper": 2.6493152983737804,
+        "internal_rmsf": 0.22935383693836744
+      },
+      "MEHF-iso, 2.6$\\times$ noise scale": {
+        "bond_length": 2.4532798259135853,
+        "bond_angle": 3.3330612149723984,
+        "dihedral": 1.811880952616418,
+        "planar_improper": 4.418626376623356,
+        "internal_rmsf": 0.5617025387690879
+      },
+      "MEHF ($\\Sigma^*$)": {
+        "bond_length": 1.1586045568551757,
+        "bond_angle": 1.1149307014815217,
+        "dihedral": 0.8949030503522168,
+        "planar_improper": 1.4103317481517113,
+        "internal_rmsf": 0.8747800527448469
+      }
+    },
+    "5J82->5J20": {
+      "MEHF-iso": {
+        "bond_length": 0.9756089262364037,
+        "bond_angle": 1.2526926069176423,
+        "dihedral": 1.2874668951747152,
+        "planar_improper": 2.534172377870229,
+        "internal_rmsf": 0.2985627346027184
+      },
+      "MEHF-iso, 2.6$\\times$ noise scale": {
+        "bond_length": 2.4661510569238554,
+        "bond_angle": 3.177357118366862,
+        "dihedral": 2.640373323176955,
+        "planar_improper": 4.751578504320103,
+        "internal_rmsf": 0.6989758721767494
+      },
+      "MEHF ($\\Sigma^*$)": {
+        "bond_length": 1.1329757047600557,
+        "bond_angle": 0.8070616891638251,
+        "dihedral": 0.9646897080867373,
+        "planar_improper": 1.0419317267694683,
+        "internal_rmsf": 1.2003555553389391
+      }
+    },
+    "1UYF->1UYI": {
+      "MEHF-iso": {
+        "bond_length": 0.9492417737708225,
+        "bond_angle": 1.2583797734812228,
+        "dihedral": 1.4427588739471204,
+        "planar_improper": 2.978496000653658,
+        "internal_rmsf": 0.3118817349690527
+      },
+      "MEHF-iso, 2.6$\\times$ noise scale": {
+        "bond_length": 2.3530372286394994,
+        "bond_angle": 3.166531149157738,
+        "dihedral": 2.861813105356582,
+        "planar_improper": 5.37319925045249,
+        "internal_rmsf": 0.7231755200808917
+      },
+      "MEHF ($\\Sigma^*$)": {
+        "bond_length": 1.194440296608329,
+        "bond_angle": 0.8881148253334042,
+        "dihedral": 1.2387042282905154,
+        "planar_improper": 1.2838058229204306,
+        "internal_rmsf": 1.1929754071538583
+      }
+    },
+    "6IMO->6IMT": {
+      "MEHF-iso": {
+        "bond_length": 1.181224545106487,
+        "bond_angle": 1.3163017723504837,
+        "dihedral": 1.2021419191562603,
+        "planar_improper": 2.4408917140060544,
+        "internal_rmsf": 0.25871493069479407
+      },
+      "MEHF-iso, 2.6$\\times$ noise scale": {
+        "bond_length": 2.9820251735839096,
+        "bond_angle": 3.527437691601854,
+        "dihedral": 2.8588115353170367,
+        "planar_improper": 4.775050969143345,
+        "internal_rmsf": 0.6248436200987421
+      },
+      "MEHF ($\\Sigma^*$)": {
+        "bond_length": 1.2983500100923917,
+        "bond_angle": 1.0941939072225615,
+        "dihedral": 1.1370465420836893,
+        "planar_improper": 1.2297782433848352,
+        "internal_rmsf": 0.91950175984478
+      }
+    },
+    "6HPW->6T1O": {
+      "MEHF-iso": {
+        "bond_length": 0.982983286102978,
+        "bond_angle": 1.1001301643401602,
+        "dihedral": 1.2248322968035437,
+        "planar_improper": 2.379226708006185,
+        "internal_rmsf": 0.23656514388162136
+      },
+      "MEHF-iso, 2.6$\\times$ noise scale": {
+        "bond_length": 2.5247678900404367,
+        "bond_angle": 2.769874850538509,
+        "dihedral": 2.84254424338144,
+        "planar_improper": 4.5752579232694,
+        "internal_rmsf": 0.5730809116865342
+      },
+      "MEHF ($\\Sigma^*$)": {
+        "bond_length": 1.0772436782961865,
+        "bond_angle": 0.7753750941323605,
+        "dihedral": 1.0117749108385552,
+        "planar_improper": 1.2015159573536198,
+        "internal_rmsf": 0.9681447833840402
+      }
+    },
+    "5I89->5I86": {
+      "MEHF-iso": {
+        "bond_length": 1.1172927143449602,
+        "bond_angle": 1.2393976159671845,
+        "dihedral": 1.1323666044044685,
+        "planar_improper": 2.5489183197763827,
+        "internal_rmsf": 0.21520778681963393
+      },
+      "MEHF-iso, 2.6$\\times$ noise scale": {
+        "bond_length": 2.828717682194555,
+        "bond_angle": 3.4548607352590426,
+        "dihedral": 2.835120011376305,
+        "planar_improper": 5.333310586456172,
+        "internal_rmsf": 0.5508307299531157
+      },
+      "MEHF ($\\Sigma^*$)": {
+        "bond_length": 1.3296505019026061,
+        "bond_angle": 0.9451394747812956,
+        "dihedral": 0.9964700595355268,
+        "planar_improper": 1.161966443820203,
+        "internal_rmsf": 0.8397468541163228
+      }
+    },
+    "6NJI->6NJH": {
+      "MEHF-iso": {
+        "bond_length": 1.0581836528923876,
+        "bond_angle": 1.1595396137405143,
+        "dihedral": 0.9902417169927671,
+        "planar_improper": 3.335368039670692,
+        "internal_rmsf": 0.2693837908526219
+      },
+      "MEHF-iso, 2.6$\\times$ noise scale": {
+        "bond_length": 2.579783228040387,
+        "bond_angle": 3.378255115058856,
+        "dihedral": 2.0543472484203065,
+        "planar_improper": 6.068833820381851,
+        "internal_rmsf": 0.6598041853967609
+      },
+      "MEHF ($\\Sigma^*$)": {
+        "bond_length": 1.2967228378151578,
+        "bond_angle": 1.042915578971664,
+        "dihedral": 0.8828749306551829,
+        "planar_improper": 1.6217144607333542,
+        "internal_rmsf": 1.07664037476041
+      }
+    },
+    "3WS9->3WS8": {
+      "MEHF-iso": {
+        "bond_length": 1.1430873277753677,
+        "bond_angle": 1.4077381019543276,
+        "dihedral": 1.3864606266315256,
+        "planar_improper": 2.058908462013131,
+        "internal_rmsf": 0.2977472647046398
+      },
+      "MEHF-iso, 2.6$\\times$ noise scale": {
+        "bond_length": 2.870821596724368,
+        "bond_angle": 3.7424625793191573,
+        "dihedral": 3.067315970745206,
+        "planar_improper": 3.820152260816444,
+        "internal_rmsf": 0.725716795304694
+      },
+      "MEHF ($\\Sigma^*$)": {
+        "bond_length": 1.8539168820444123,
+        "bond_angle": 1.1018912436813124,
+        "dihedral": 1.224945255179781,
+        "planar_improper": 1.0590799464927667,
+        "internal_rmsf": 1.1268106784743182
+      }
+    },
+    "4PHW->4MVH": {
+      "MEHF-iso": {
+        "bond_length": 1.1429229277310509,
+        "bond_angle": 1.3086497891574038,
+        "dihedral": 1.4665147631135693,
+        "planar_improper": 2.9431643802951477,
+        "internal_rmsf": 0.31621893146250285
+      },
+      "MEHF-iso, 2.6$\\times$ noise scale": {
+        "bond_length": 2.8757351380386145,
+        "bond_angle": 3.3523438497750386,
+        "dihedral": 3.1893537264284295,
+        "planar_improper": 5.518180492981889,
+        "internal_rmsf": 0.7555786575776362
+      },
+      "MEHF ($\\Sigma^*$)": {
+        "bond_length": 1.1228551095105803,
+        "bond_angle": 0.8442674601964909,
+        "dihedral": 1.1867428944740428,
+        "planar_improper": 1.2259734402712763,
+        "internal_rmsf": 1.3045855069397259
+      }
+    },
+    "6EY9->4EFU": {
+      "MEHF-iso": {
+        "bond_length": 1.0789338918201197,
+        "bond_angle": 1.135184128339789,
+        "dihedral": 1.2331027797878162,
+        "planar_improper": 2.3648248561480414,
+        "internal_rmsf": 0.27906689127249523
+      },
+      "MEHF-iso, 2.6$\\times$ noise scale": {
+        "bond_length": 2.7765216521166267,
+        "bond_angle": 3.158720918935838,
+        "dihedral": 2.7778240807343635,
+        "planar_improper": 4.646808193639922,
+        "internal_rmsf": 0.6929204973815883
+      },
+      "MEHF ($\\Sigma^*$)": {
+        "bond_length": 1.1506115385462807,
+        "bond_angle": 0.7176400221195621,
+        "dihedral": 0.9181635834183068,
+        "planar_improper": 1.0287576020023526,
+        "internal_rmsf": 1.097366468115781
+      }
+    },
+    "4QEW->2YEK": {
+      "MEHF-iso": {
+        "bond_length": 1.0470301004330131,
+        "bond_angle": 1.1980012172659598,
+        "dihedral": 1.298798751368678,
+        "planar_improper": 2.2168877699611493,
+        "internal_rmsf": 0.45080041722307035
+      },
+      "MEHF-iso, 2.6$\\times$ noise scale": {
+        "bond_length": 2.6464712358910667,
+        "bond_angle": 3.183399770390731,
+        "dihedral": 2.8928823399250727,
+        "planar_improper": 4.065902997574055,
+        "internal_rmsf": 1.0834371320291956
+      },
+      "MEHF ($\\Sigma^*$)": {
+        "bond_length": 1.177833555188027,
+        "bond_angle": 0.9910533175821066,
+        "dihedral": 1.2393326637655053,
+        "planar_improper": 1.3830481423010865,
+        "internal_rmsf": 1.4468291915037346
+      }
+    },
+    "4LCH->5DRQ": {
+      "MEHF-iso": {
+        "bond_length": 0.9419637524223161,
+        "bond_angle": 1.113637298801142,
+        "dihedral": 1.1169784717491358,
+        "planar_improper": 2.71838570679155,
+        "internal_rmsf": 0.31275657426321074
+      },
+      "MEHF-iso, 2.6$\\times$ noise scale": {
+        "bond_length": 2.2412811855663577,
+        "bond_angle": 3.0863092640946572,
+        "dihedral": 1.755373553639599,
+        "planar_improper": 5.3443769341096825,
+        "internal_rmsf": 0.764508187069731
+      },
+      "MEHF ($\\Sigma^*$)": {
+        "bond_length": 1.3708690230778515,
+        "bond_angle": 0.853716195839623,
+        "dihedral": 0.966944208570174,
+        "planar_improper": 1.2198901621949458,
+        "internal_rmsf": 1.0736683261166142
+      }
+    }
+  },
+  "panel_statistics": {
+    "4UHG->4UI4": {
+      "reference": {
+        "oop_pooled_sd_deg": 6.308547326028972,
+        "mean_rmsf_angstrom": 0.5251059786340777
+      },
+      "MEHF-iso": {
+        "oop_pooled_sd_deg": 19.202780799529943,
+        "mean_rmsf_angstrom": 0.1524344197463478,
+        "rmsf_profile_pearson_r": 0.0694035831950505,
+        "rmsf_profile_mae_angstrom": 0.37267155888773
+      },
+      "MEHF-iso, 2.6$\\times$ noise scale": {
+        "oop_pooled_sd_deg": 33.503624908099574,
+        "mean_rmsf_angstrom": 0.36017676420467165,
+        "rmsf_profile_pearson_r": 0.34103482440315036,
+        "rmsf_profile_mae_angstrom": 0.20943759726330666
+      },
+      "MEHF ($\\Sigma^*$)": {
+        "oop_pooled_sd_deg": 8.09231908959995,
+        "mean_rmsf_angstrom": 0.5741646485647613,
+        "rmsf_profile_pearson_r": 0.5471148319573867,
+        "rmsf_profile_mae_angstrom": 0.21085675731393158
+      }
+    },
+    "6HPW->6T1O": {
+      "reference": {
+        "oop_pooled_sd_deg": 7.102271164631718,
+        "mean_rmsf_angstrom": 0.6185165142312845
+      },
+      "MEHF-iso": {
+        "oop_pooled_sd_deg": 18.652895321037377,
+        "mean_rmsf_angstrom": 0.14631944818228274,
+        "rmsf_profile_pearson_r": 0.2365232646088901,
+        "rmsf_profile_mae_angstrom": 0.47219706604900163
+      },
+      "MEHF-iso, 2.6$\\times$ noise scale": {
+        "oop_pooled_sd_deg": 34.195662634293186,
+        "mean_rmsf_angstrom": 0.35446000786884174,
+        "rmsf_profile_pearson_r": 0.20913630577788214,
+        "rmsf_profile_mae_angstrom": 0.30608114193677144
+      },
+      "MEHF ($\\Sigma^*$)": {
+        "oop_pooled_sd_deg": 9.005325129295459,
+        "mean_rmsf_angstrom": 0.5988135366898986,
+        "rmsf_profile_pearson_r": 0.5058902894776213,
+        "rmsf_profile_mae_angstrom": 0.28984733291001874
+      }
+    }
+  }
+}

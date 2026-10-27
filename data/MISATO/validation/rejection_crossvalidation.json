@@ -1,0 +1,53 @@
+{
+  "status": "misato_store_rejection_path_crossvalidation",
+  "note": "the window comparison only covers systems the cache accepted; this checks that the store's reject rules fire on the same systems for the same reasons, one per distinct reason class",
+  "checked": [
+    {
+      "system": "3EQB",
+      "cache_reason": "3EQB: ligand bond graph is disconnected, so the geometry is broken across the periodic boundary or the entry is multi-fragment",
+      "store_result": "rejected: ligand bond graph is disconnected, so the geometry is broken across the periodic boundary or the entry is multi-fragment"
+    },
+    {
+      "system": "1SJH",
+      "cache_reason": "1SJH: ligand has 3699 atoms, above the cap",
+      "store_result": "rejected: ligand has 3699 atoms, above the cap"
+    },
+    {
+      "system": "5J7J",
+      "cache_reason": "5J7J: ligand has 302 atoms, above the cap",
+      "store_result": "rejected: ligand has 302 atoms, above the cap"
+    },
+    {
+      "system": "4E4A",
+      "cache_reason": "4E4A: no window had a usable pocket",
+      "store_result": "ACCEPTED (no rejection)",
+      "store_result_explained": "EXPECTED DIFFERENCE, not a defect. The reference rejects a system when no WINDOW ANCHOR frame has >=3 protein heavy atoms within 8 A. The store selects its pocket as a union over ALL 100 frames, so it finds 27 atoms and keeps the system. Measured downstream: at each of the 9 window anchor frames, 0 protein heavy atoms are within 8 A of the ligand (the ligand barely contacts the protein; closest approach over the whole trajectory is 4.93 A), and windows_from_system with the cache convention therefore yields 0 windows -- exactly what the cache holds for 4E4A. The store is strictly more permissive at the SYSTEM level and identical at the WINDOW level, which is the intended behaviour for a reusable store: keep the frames, let the consumer decide.",
+      "measured": {
+        "n_ligand_atoms": 15,
+        "n_pocket_union_atoms": 27,
+        "min_pocket_ligand_distance_angstrom": 4.93,
+        "heavy_atoms_within_8A_at_each_window_anchor": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "windows_reproduced_with_cache_convention": 0,
+        "windows_in_cache": 0
+      }
+    }
+  ],
+  "generated_utc": "2026-09-17T20:39:24Z",
+  "verdict": "PASS - 3 of 4 reason classes reproduce the reference rejection verbatim; the 4th differs only at the system level and is identical at the window level (see store_result_explained)",
+  "reason_classes_checked": [
+    "disconnected bond graph (periodic-boundary damage)",
+    "ligand above the atom cap (large ligand)",
+    "ligand just above the 300-atom cap (boundary case)",
+    "no usable pocket at any window anchor"
+  ]
+}

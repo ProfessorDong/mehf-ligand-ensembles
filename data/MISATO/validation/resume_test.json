@@ -1,0 +1,119 @@
+{
+  "status": "misato_store_resume_and_guard_tests",
+  "purpose": "evidence that the download and extraction stages resume correctly after a hard kill, that completeness is decided by content rather than by file existence, and that the resource watchdog stops cleanly",
+  "fixture": {
+    "note": "the extraction tests run against a synthetic MISATO-shaped HDF5 so that a kill test could be done before the 124 GiB archive finished downloading; it uses real MISATO system ids and the same dataset names, shapes and dtypes (trajectory_coordinates (100,N,3) float32, atoms_number, molecules_begin_atom_index)",
+    "path": "/tmp/claude-1190724885/-home-ieb24002/e62eaa69-808b-4b23-82ae-dbcfe0c68f8a/scratchpad/FAKE_MD80.hdf5",
+    "n_systems": 80,
+    "frames_per_system": 100
+  },
+  "tests": [
+    {
+      "id": "download_resume_after_SIGKILL",
+      "target": "Zenodo record 7711953 file QM.hdf5 (343,064,967 bytes) -- a real file from the same record, small enough to finish",
+      "procedure": "downloader launched with 16 MiB chunks and 4 workers, SIGKILL after 12 s, then restarted with identical arguments",
+      "state_at_kill": {
+        "chunks_total": 21,
+        "chunks_marked_done": 3,
+        "done_flags": "[T,T,F,T,F,...]  (chunks 2 and 4 were in flight and correctly NOT claimed)",
+        "sparse_file_real_bytes": "61 MB of a 328 MB apparent size"
+      },
+      "on_restart": "reported '3/21 chunks already done (0.05 GiB); 0.27 GiB remaining' and fetched only the remainder",
+      "result": "md5 9bc...n/a -> computed 1199f0af1eac684da3a6c2ddd0f321df == publisher md5; independent `md5sum -c` returned OK",
+      "verdict": "PASS"
+    },
+    {
+      "id": "extraction_resume_after_SIGKILL",
+      "procedure": "extraction of 80 systems (76 after leakage exclusions) launched with 3 workers under setsid, SIGKILL of the process group after 4 s, then restarted",
+      "state_at_kill": {
+        "npz_written": 13,
+        "manifest_entries": 17,
+        "of_which_excluded_leakage": 4,
+        "summary_json_written": false,
+        "orphan_tmp_files": 0
+      },
+      "on_restart": "reported '13 already complete {written (sha256 verified): 13}, 63 pending' and extracted exactly the 63",
+      "verdict": "PASS"
+    },
+    {
+      "id": "resumed_store_is_content_identical_to_a_clean_run",
+      "procedure": "the killed-then-resumed store was compared array by array against a separate single-pass extraction of the same 80 systems with 6 workers",
+      "n_files_compared": 76,
+      "max_abs_deviation_per_key": {
+        "ligand_coords": 0.0,
+        "pocket_coords": 0.0,
+        "ligand_atomic_numbers": 0.0,
+        "pocket_atomic_numbers": 0.0,
+        "ligand_atom_indices": 0.0,
+        "pocket_atom_indices": 0.0,
+        "pocket_min_distance_over_frames": 0.0,
+        "bond_index": 0.0,
+        "product_features": 0.0,
+        "edit_features": 0.0,
+        "pocket_features": 0.0,
+        "frame_indices": 0.0,
+        "molecules_begin_atom_index": 0.0,
+        "n_system_atoms": 0.0,
+        "n_stored_frames_in_archive": 0.0
+      },
+      "all_zero": true,
+      "verdict": "PASS"
+    },
+    {
+      "id": "completeness_is_content_verified_not_existence",
+      "rationale": "scripts/run_manifest_md.py decides completeness by 'output exists and is non-empty', which is exactly what a killed run leaves behind; it was shown to accept truncated 60 ps runs as complete 1 ns runs",
+      "procedure": "a finished 5WIJ.npz was truncated from 1,763,975 to 1,058,385 bytes (still non-empty) and the extractor re-run",
+      "result": "detected as incomplete (recorded size mismatch, with sha256 as the second check) and re-extracted back to 1,763,975 bytes; the other 15 systems were left alone",
+      "verdict": "PASS"
+    },
+    {
+      "id": "config_change_invalidates_completed_systems",
+      "procedure": "the same --config-name re-run with --frames 50 instead of 100",
+      "result": "config hash changed c8ef5924f40fb8d0 -> bea626a4b74cd301 and all 76 systems became pending, so a settings change can never silently mix outputs",
+      "verdict": "PASS"
+    },
+    {
+      "id": "resource_watchdog_stops_cleanly",
+      "procedure": "extraction run with an impossible --min-available-gib 2000 and --watchdog-grace-seconds 5/8",
+      "result": "WATCHDOG PAUSE fired immediately ('system MemAvailable 989.0 GiB < floor 2000.0 GiB'), WATCHDOG STOP after the grace period, process exited 3, summary.json recorded watchdog_stop_reason, and all 9 outputs it had written verified sha256-clean with 100 frames each and zero orphan .tmp files",
+      "verdict": "PASS"
+    },
+    {
+      "id": "no_gpu_touched",
+      "checks": [
+        "CUDA_VISIBLE_DEVICES='' in the live download process's /proc/<pid>/environ",
+        "zero nvidia file descriptors open in the download process",
+        "nvidia-smi --query-compute-apps shows only two pre-existing processes, neither from this work (one owned by another user, one a pre-existing job on this account started before this session)",
+        "GPU memory unchanged from the 320/370 MiB baseline observed before any of this work started",
+        "the extractor refuses to start if torch is in sys.modules, and does not import it"
+      ],
+      "verdict": "PASS"
+    }
+  ],
+  "extraction_summary_of_the_resumed_store": {
+    "config_hash": "c8ef5924f40fb8d0",
+    "manifest_status_counts": {
+      "excluded_leakage": 4,
+      "written": 76
+    },
+    "n_written_total": 76,
+    "qc_flag_counts": {
+      "bond_length_warning": 0,
+      "clash_warning": 76,
+      "pocket_truncated_at_cap": 61
+    },
+    "runtime_config": {
+      "atom_block": 4096,
+      "disk_floor_gib": 5.0,
+      "frame_block": 10,
+      "min_available_gib": 50.0,
+      "peak_group_rss_bytes": 264065024,
+      "per_worker_worst_case_bytes": 70144832,
+      "rdcc_mib": 32,
+      "rss_budget_gib": 24.0,
+      "workers": 3
+    }
+  },
+  "caveat": "the synthetic fixture's random protein cloud overlaps the ligand, so clash_warning fires on every fixture system; that is the QC detector working, not a property of real MISATO data",
+  "generated_utc": "2026-09-17T20:21:28Z"
+}

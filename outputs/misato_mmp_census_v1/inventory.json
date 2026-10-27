@@ -1,0 +1,191 @@
+{
+  "step": "inventory",
+  "traces": {
+    "per_split": {
+      "train": {
+        "n_systems": 13765,
+        "trace_shape": [
+          13765,
+          100,
+          71
+        ],
+        "frames_per_system_min": 100,
+        "frames_per_system_max": 100,
+        "frames_per_system_median": 100.0
+      },
+      "val": {
+        "n_systems": 1594,
+        "trace_shape": [
+          1594,
+          100,
+          71
+        ],
+        "frames_per_system_min": 100,
+        "frames_per_system_max": 100,
+        "frames_per_system_median": 100.0
+      },
+      "test": {
+        "n_systems": 1612,
+        "trace_shape": [
+          1612,
+          100,
+          71
+        ],
+        "frames_per_system_min": 100,
+        "frames_per_system_max": 100,
+        "frames_per_system_median": 100.0
+      }
+    },
+    "n_rows_total": 16971,
+    "n_distinct_pdb_ids": 16971,
+    "duplicate_ids_across_splits": 0,
+    "n_features": 71,
+    "id_kind": "4-character RCSB PDB entry ID"
+  },
+  "coord_cache": {
+    "n_window_rows": 26686,
+    "n_window_files_on_disk": 26686,
+    "n_distinct_pdb_ids": 2980,
+    "windows_per_system": {
+      "min": 1,
+      "max": 9,
+      "median": 9.0,
+      "mode": 9
+    },
+    "context_frames": [
+      6
+    ],
+    "future_frames": [
+      5
+    ],
+    "frame_stride": [
+      1
+    ],
+    "replicas": [
+      1
+    ],
+    "splits_present": {
+      "train": 26686
+    },
+    "smiles_column_nonempty": 0,
+    "npz_keys": [
+      "bond_index",
+      "context_ligand_coords",
+      "edit_features",
+      "pocket_features",
+      "pocket_init",
+      "product_features",
+      "product_init",
+      "target_delta"
+    ],
+    "sampled_n_windows": 300,
+    "ligand_atoms": {
+      "min": 15,
+      "max": 261,
+      "median": 49.0,
+      "mean": 57.693333333333335
+    },
+    "pocket_atoms": {
+      "min": 36,
+      "max": 515,
+      "median": 252.0,
+      "mean": 257.60333333333335
+    },
+    "context_frame_counts": {
+      "6": 300
+    },
+    "target_frame_counts": {
+      "5": 300
+    }
+  },
+  "intersection": {
+    "trace_only": 14001,
+    "cache_only": 10,
+    "both_trace_and_coords": 2970
+  },
+  "rejected_systems": {
+    "n": 20,
+    "by_reason": {
+      "no usable pocket": 1,
+      "ligand bond graph disconnected (PBC break / multi-fragment)": 7,
+      "ligand atom count above cap": 12
+    },
+    "pdb_ids": [
+      "4E4A",
+      "3EQB",
+      "1SJH",
+      "4MW4",
+      "5J7J",
+      "1HK3",
+      "4J46",
+      "1OQP",
+      "1KLU",
+      "2ROX",
+      "2FX7",
+      "3JZC",
+      "5T6Z",
+      "4J45",
+      "4U2W",
+      "1HK5",
+      "1H9L",
+      "2LLQ",
+      "4O36",
+      "3GWS"
+    ]
+  },
+  "leakage_exclusions": {
+    "n_misato_systems_considered": 16971,
+    "n_excluded": 325,
+    "source": "RCSB search API, exact UniProt accession match on polymer entities",
+    "by_accession": {
+      "P00533": {
+        "reason": "EGFR; receptor for CHEMBL203, the SEALED formal-test target",
+        "tier": "strict",
+        "n_misato_excluded": null
+      },
+      "P06493": {
+        "reason": "CDK1; receptor for CHEMBL2094127, the A1/component-power target",
+        "tier": "strict",
+        "n_misato_excluded": null
+      },
+      "P24941": {
+        "reason": "CDK2; receptor for CHEMBL301 and the prop9 reward-leakage split",
+        "tier": "strict",
+        "n_misato_excluded": null
+      },
+      "P04626": {
+        "reason": "ERBB2, EGFR paralog",
+        "tier": "homolog",
+        "n_misato_excluded": null
+      },
+      "P21860": {
+        "reason": "ERBB3, EGFR paralog",
+        "tier": "homolog",
+        "n_misato_excluded": null
+      },
+      "Q15303": {
+        "reason": "ERBB4, EGFR paralog",
+        "tier": "homolog",
+        "n_misato_excluded": null
+      },
+      "P11802": {
+        "reason": "CDK4, CDK paralog",
+        "tier": "homolog",
+        "n_misato_excluded": null
+      },
+      "Q00534": {
+        "reason": "CDK6, CDK paralog",
+        "tier": "homolog",
+        "n_misato_excluded": null
+      },
+      "P50750": {
+        "reason": "CDK9, CDK paralog",
+        "tier": "homolog",
+        "n_misato_excluded": null
+      }
+    },
+    "limitation": "This excludes systems by protein identity, not by ligand identity. A ligand chemotype shared with the sealed cohort could still appear bound to an unrelated protein; that is pretraining-set overlap of chemistry, not of the evaluation target, and is not excluded here.",
+    "overlap_with_coord_cache": 0,
+    "overlap_with_traces": 325
+  }
+}

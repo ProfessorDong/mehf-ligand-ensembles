@@ -1,0 +1,13 @@
+# Large or third-party data: rebuild or fetch, do not commit (see data/README.md)
+data/MISATO/extracted/
+data/MISATO/raw/
+data/MISATO/manifest/*/systems/
+data/MISATO/manifest/*/manifest.jsonl
+data/external/
+# Regenerated output
+outputs_retrain/
+cleanrun/rerun/
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

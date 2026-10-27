@@ -1,0 +1,65 @@
+# LAPLACIAN (HarmonicFlow-style) PRIOR. outputs/laplacian_prior_v1/PREREGISTRATION.md
+# Trained at the Stage 1 moment-matched optimum; scales RE-matched after training.
+# Reads ONLY the primary split's train; development uses a grouped fold inside it.
+# GPU 0 only.
+data:
+  pairs_csv: outputs/mmp_transfer_corpus_v1/pairs.csv
+  mappings_path: outputs/mmp_transfer_corpus_v1/atom_mappings.json
+  store: data/MISATO/extracted/frames100_all_v1
+  split: train
+  disable_mapping: false
+  product_init_mode: product_frame0     # Regime 2, PRIMARY
+  frame_alignment: pocket
+  n_frames: 50
+  max_pocket_atoms: 96
+  max_pairs: null
+  subset_seed: 20260918
+  n_folds: 5
+  held_out_fold: 3
+  fold_seed: 20260918
+
+model:
+  coarse_stride: 5
+  hidden_dim: 96
+  n_spatial_layers: 3
+  n_temporal_layers: 2
+  nhead: 8
+  dropout: 0.1
+  use_mean_backbone: false
+  mean_loss_weight: 0.0
+  bond_loss_weight: 1.0
+  clash_loss_weight: 10.0
+  clash_distance_angstrom: 1.2
+  translation_noise_angstrom: 0.5
+  rotation_noise_radian: 0.08
+  local_noise_angstrom: 0.06
+  fine_noise_fraction: 0.25
+  projection_iterations: 8
+  rigid_noise_scale: 0.35
+  internal_noise_scale: 3.5
+  laplacian_local_noise: true
+  internal_scale_head: false
+
+train:
+  seed: 2026
+  device: cuda:0
+  epochs: 8
+  batch_size: 4
+  max_pair_work_per_batch: 16000
+  num_workers: 4
+  learning_rate: 0.0003
+  minimum_learning_rate: 0.00001
+  weight_decay: 0.0001
+  gradient_clip: 1.0
+
+evaluation:
+  device: cuda:0
+  seed: 20260918
+  sampling_steps: 16
+  batch_size: 4
+  prior_systems: 400
+  calibration_examples_used: 100
+  bootstrap_resamples: 2000
+
+outputs:
+  root: outputs/laplacian_prior_v1/full_f3

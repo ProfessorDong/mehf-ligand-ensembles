@@ -1,0 +1,254 @@
+{
+  "n_molecules": 200,
+  "restraints": [
+    0.0,
+    0.2,
+    1.0,
+    5.0,
+    20.0,
+    100.0,
+    1000.0
+  ],
+  "reference_score_files": 50,
+  "arms": {
+    "raw": {
+      "planarity": 4.139807126485502,
+      "rmsd_from_raw": 0.0,
+      "rmsd_internal": 1.2078392024173081e-15,
+      "clashes": 0.0,
+      "min_receptor_distance": 2.6359231922964055,
+      "clash_mean": 0.635,
+      "frac_with_clash": 0.17,
+      "wasserstein_bond": 0.04856778656094505,
+      "wasserstein_angle": 5.333892005243575,
+      "n_evaluated": 200,
+      "n_with_receptor": 200
+    },
+    "mmff_0": {
+      "planarity": 0.5661518259274984,
+      "rmsd_from_raw": 1.6748224117025559,
+      "rmsd_internal": 1.301693569822913,
+      "clashes": 2.0,
+      "min_receptor_distance": 1.6605685944359556,
+      "clash_mean": 5.125,
+      "frac_with_clash": 0.68,
+      "wasserstein_bond": 0.02623334736213117,
+      "wasserstein_angle": 1.8103586616563472,
+      "n_evaluated": 200,
+      "n_with_receptor": 200
+    },
+    "mmff_0.2": {
+      "planarity": 0.9410544367471317,
+      "rmsd_from_raw": 0.9226331289756597,
+      "rmsd_internal": 0.9226331289636778,
+      "clashes": 0.0,
+      "min_receptor_distance": 2.1631259975201393,
+      "clash_mean": 1.31,
+      "frac_with_clash": 0.38,
+      "wasserstein_bond": 0.026242932881573703,
+      "wasserstein_angle": 1.7891397710614116,
+      "n_evaluated": 200,
+      "n_with_receptor": 200
+    },
+    "mmff_1": {
+      "planarity": 1.2664733046693244,
+      "rmsd_from_raw": 0.629754001217069,
+      "rmsd_internal": 0.6297540012125682,
+      "clashes": 0.0,
+      "min_receptor_distance": 2.331543058799232,
+      "clash_mean": 0.915,
+      "frac_with_clash": 0.26,
+      "wasserstein_bond": 0.026177820882960487,
+      "wasserstein_angle": 1.7580624027051677,
+      "n_evaluated": 200,
+      "n_with_receptor": 200
+    },
+    "mmff_5": {
+      "planarity": 2.138265192680321,
+      "rmsd_from_raw": 0.3990442536079446,
+      "rmsd_internal": 0.3990442536049146,
+      "clashes": 0.0,
+      "min_receptor_distance": 2.4660236087917626,
+      "clash_mean": 0.635,
+      "frac_with_clash": 0.195,
+      "wasserstein_bond": 0.025953707788688513,
+      "wasserstein_angle": 1.663662406245365,
+      "n_evaluated": 200,
+      "n_with_receptor": 200
+    },
+    "mmff_20": {
+      "planarity": 2.895980011491427,
+      "rmsd_from_raw": 0.2671409858310181,
+      "rmsd_internal": 0.2671409858307294,
+      "clashes": 0.0,
+      "min_receptor_distance": 2.5318006657821366,
+      "clash_mean": 0.645,
+      "frac_with_clash": 0.175,
+      "wasserstein_bond": 0.02510625235073731,
+      "wasserstein_angle": 1.7464527432308725,
+      "n_evaluated": 200,
+      "n_with_receptor": 200
+    },
+    "mmff_100": {
+      "planarity": 3.1721960471692325,
+      "rmsd_from_raw": 0.15264465527376386,
+      "rmsd_internal": 0.15264465527369303,
+      "clashes": 0.0,
+      "min_receptor_distance": 2.570532862599455,
+      "clash_mean": 0.615,
+      "frac_with_clash": 0.17,
+      "wasserstein_bond": 0.023402476740033533,
+      "wasserstein_angle": 2.4255704159903217,
+      "n_evaluated": 200,
+      "n_with_receptor": 200
+    },
+    "mmff_1000": {
+      "planarity": 3.6545356127656192,
+      "rmsd_from_raw": 0.054580777599596064,
+      "rmsd_internal": 0.05458077759928879,
+      "clashes": 0.0,
+      "min_receptor_distance": 2.6142002945683043,
+      "clash_mean": 0.635,
+      "frac_with_clash": 0.175,
+      "wasserstein_bond": 0.02025856717898666,
+      "wasserstein_angle": 4.25984514915872,
+      "n_evaluated": 200,
+      "n_with_receptor": 200
+    },
+    "mmffH_0": {
+      "planarity": 0.982883589502975,
+      "rmsd_from_raw": 1.4329550358580432,
+      "rmsd_internal": 1.201018732352478,
+      "clashes": 2.0,
+      "min_receptor_distance": 1.6822650641912769,
+      "clash_mean": 4.615,
+      "frac_with_clash": 0.65,
+      "wasserstein_bond": 0.021853738324845325,
+      "wasserstein_angle": 1.6025267067446674,
+      "n_evaluated": 200,
+      "n_with_receptor": 200
+    },
+    "mmffH_0.2": {
+      "planarity": 1.3977088818911518,
+      "rmsd_from_raw": 0.9575045819564298,
+      "rmsd_internal": 0.9575045816090546,
+      "clashes": 0.0,
+      "min_receptor_distance": 2.0639751854052992,
+      "clash_mean": 1.46,
+      "frac_with_clash": 0.435,
+      "wasserstein_bond": 0.021828964969638886,
+      "wasserstein_angle": 1.602042256372073,
+      "n_evaluated": 200,
+      "n_with_receptor": 200
+    },
+    "mmffH_1": {
+      "planarity": 1.588685750039325,
+      "rmsd_from_raw": 0.7211682401584797,
+      "rmsd_internal": 0.7211682401353858,
+      "clashes": 0.0,
+      "min_receptor_distance": 2.2871215397198372,
+      "clash_mean": 0.95,
+      "frac_with_clash": 0.305,
+      "wasserstein_bond": 0.021663729788700077,
+      "wasserstein_angle": 1.5924784931923073,
+      "n_evaluated": 200,
+      "n_with_receptor": 200
+    },
+    "mmffH_5": {
+      "planarity": 2.5375824852920785,
+      "rmsd_from_raw": 0.46317734876489225,
+      "rmsd_internal": 0.46317734875081695,
+      "clashes": 0.0,
+      "min_receptor_distance": 2.42473082439719,
+      "clash_mean": 0.72,
+      "frac_with_clash": 0.22,
+      "wasserstein_bond": 0.02108750339005983,
+      "wasserstein_angle": 1.6280053695951515,
+      "n_evaluated": 200,
+      "n_with_receptor": 200
+    },
+    "mmffH_20": {
+      "planarity": 2.9654253460942854,
+      "rmsd_from_raw": 0.2986012904759032,
+      "rmsd_internal": 0.2986012904742746,
+      "clashes": 0.0,
+      "min_receptor_distance": 2.505398846302356,
+      "clash_mean": 0.68,
+      "frac_with_clash": 0.18,
+      "wasserstein_bond": 0.019446563772340164,
+      "wasserstein_angle": 1.7722650663541302,
+      "n_evaluated": 200,
+      "n_with_receptor": 200
+    },
+    "mmffH_100": {
+      "planarity": 3.4065530330086693,
+      "rmsd_from_raw": 0.17548603461843323,
+      "rmsd_internal": 0.1754860346096831,
+      "clashes": 0.0,
+      "min_receptor_distance": 2.5751949206174642,
+      "clash_mean": 0.62,
+      "frac_with_clash": 0.17,
+      "wasserstein_bond": 0.01656331063724289,
+      "wasserstein_angle": 2.3302720872565876,
+      "n_evaluated": 200,
+      "n_with_receptor": 200
+    },
+    "mmffH_1000": {
+      "planarity": 3.7548819887108533,
+      "rmsd_from_raw": 0.06074387629037987,
+      "rmsd_internal": 0.060743876290377065,
+      "clashes": 0.0,
+      "min_receptor_distance": 2.6141749194371053,
+      "clash_mean": 0.63,
+      "frac_with_clash": 0.175,
+      "wasserstein_bond": 0.01974847502470603,
+      "wasserstein_angle": 4.055345653395497,
+      "n_evaluated": 200,
+      "n_with_receptor": 200
+    }
+  },
+  "minimize_status": {
+    "mmff_0": {
+      "0": 200
+    },
+    "mmff_0.2": {
+      "0": 200
+    },
+    "mmff_1": {
+      "0": 200
+    },
+    "mmff_5": {
+      "0": 200
+    },
+    "mmff_20": {
+      "0": 200
+    },
+    "mmff_100": {
+      "0": 200
+    },
+    "mmff_1000": {
+      "0": 200
+    },
+    "mmffH_0": {
+      "0": 200
+    },
+    "mmffH_0.2": {
+      "0": 200
+    },
+    "mmffH_1": {
+      "0": 200
+    },
+    "mmffH_5": {
+      "0": 200
+    },
+    "mmffH_20": {
+      "0": 200
+    },
+    "mmffH_100": {
+      "0": 200
+    },
+    "mmffH_1000": {
+      "0": 200
+    }
+  }
+}

@@ -1,0 +1,6238 @@
+{
+  "status": "misato_store_crossvalidation_from_stored_files",
+  "note": "reads the .npz files the bulk run wrote, never the HDF5, so a torn or raced write cannot be masked by recomputation",
+  "config_name": "frames100_pairs_v1",
+  "store": "/home/ieb24002/MDWM_TCBB/data/MISATO/extracted/frames100_pairs_v1",
+  "cache_root": "/home/ieb24002/MDWM_TCBB/data/processed/misato_atomic_window_cache_3k_v1",
+  "n_systems_sampled": 900,
+  "n_systems_present_in_store": 270,
+  "n_systems_compared": 270,
+  "worst_max_abs_deviation_store_vs_cache": {
+    "product_init": 0.0,
+    "target_delta": 0.0,
+    "context_ligand_coords": 0.0,
+    "pocket_init": 0.0,
+    "product_features": 0.0,
+    "edit_features": 0.0,
+    "pocket_features": 0.0,
+    "bond_index": 0.0
+  },
+  "coordinate_tolerance": 0.001,
+  "all_manifest_sha256_match": true,
+  "all_stored_frame_counts_correct": true,
+  "window_sets_agree": true,
+  "verdict": "PASS",
+  "per_system": [
+    {
+      "system_id": "4K9Y",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3NSH",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "2XPB",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5EI8",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "1H23",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "2QRQ",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6FUJ",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "2GG9",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "2OJI",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6FGQ",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "2VJ7",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4ELG",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5UWK",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4L0B",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6UII",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3TIB",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4CWF",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4Z2K",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "2VIQ",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5VIJ",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "2VCJ",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3O9G",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4XG4",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4YCV",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3FH8",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5AMD",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5JF2",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4GJ7",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "1ZTQ",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3BRA",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5A54",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4DWK",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5D45",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6UVP",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4HXR",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6EB2",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3RYZ",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5JRQ",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "2XHT",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6UFO",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4X6P",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3CCT",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3UVQ",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4WEY",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6UWV",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "1EBY",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3N9S",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3HVJ",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6R7J",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6G2S",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6HK4",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "1TKZ",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4HVD",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6PL3",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4MWB",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5IHH",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5MW6",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4Z2I",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3H2A",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4LWH",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6QAC",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4PNU",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "2J7E",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "1LT6",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5LPJ",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3ZLO",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4ELH",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3QCS",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3NW6",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "2WTC",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "1XH6",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3HQY",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5NWB",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6HOT",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "2P33",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6B7F",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5H09",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5DTQ",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4WW6",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "1LOL",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4W9F",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4QME",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5CST",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6HOU",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6FQO",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6RHE",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4BYJ",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3GT9",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4H3G",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6GJI",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6AFF",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5QA7",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3QA2",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "1UY8",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5FTO",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "1K6T",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4L2K",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5FL5",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3ARU",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3HV3",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4ESI",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3DDF",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5OWL",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3USN",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6NVI",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4DLJ",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4WF4",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4CPS",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4DE3",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3SHZ",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4XG9",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4ZX0",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3PS1",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6CVF",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4MX9",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3IUE",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "2BZ5",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "2N14",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5C4S",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3KQO",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3UA9",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3N4L",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3UDM",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5HRX",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4L2L",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6QWB",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5U11",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5C4T",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3I6Z",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "1JJE",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "2UW6",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4D8Z",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6BMR",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5CU2",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6PG4",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "2PK5",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3MSC",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5Y8Z",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4NUC",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6JSE",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4UVY",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "2QD8",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5AKJ",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4NKS",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "1ELC",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4CMT",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5Q0Y",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6PNO",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4KNN",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4UI8",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6C7Q",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "2CM7",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3IK1",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3EHY",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "2FJP",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4O15",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4W9D",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4C4J",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "2YKJ",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6ARO",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4ZUP",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5F00",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "1ZFQ",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3K84",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "2VVV",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3QTO",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "2OHR",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5AL1",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "1O3L",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "2C1B",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "2XK9",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5U4D",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6F1X",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6FUT",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5UWL",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "2UW0",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5DTS",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "1RMZ",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4EHV",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4A6V",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "1XH7",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3E9I",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6RJ2",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3WAW",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3QD4",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5NXO",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3UOJ",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5WG3",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5NCY",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3TI5",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5Z1C",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3DXK",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6BW8",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4LH5",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4KCG",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3FQE",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "2Q2A",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6MA4",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5VSC",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3CTH",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "1CIN",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6OE0",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4MTI",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4QP9",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3ZT3",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5JAR",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6C7J",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6GJ8",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4UI6",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5NUT",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3HVG",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "2POW",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "456C",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5JC1",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3PSD",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "1UY6",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5AJZ",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6GJN",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "1LAH",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "2XNE",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4MUL",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5ML3",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "2VUR",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4L2F",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6DKG",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6GGA",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3MHM",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "2VUK",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6E4C",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4CWO",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3D7B",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4MDN",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4IWZ",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6D5E",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6TIM",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4ZS2",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "2ZAS",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5D6Q",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "2NQ7",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5QAT",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5NCZ",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6B4N",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4L10",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4YND",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3C4C",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "2QRH",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5DTM",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "1ZD2",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "2PVK",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3HQZ",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5FAO",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5NAT",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4ENX",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4H1M",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5HU0",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6BMV",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4BF1",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "1XP6",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3F19",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6R1C",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5ADQ",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4DEA",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4F7L",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "6EY8",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5T2I",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "1I2S",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5IE1",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "4KZA",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "3HMM",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    },
+    {
+      "system_id": "5DTT",
+      "sha256_matches_manifest": true,
+      "frames_stored": 100,
+      "store_vs_cache": {
+        "n_cached_windows": 9,
+        "n_produced_windows": 9,
+        "n_matched_windows": 9,
+        "cached_starts_not_produced": [],
+        "produced_starts_not_cached": [],
+        "max_abs_deviation": {
+          "product_init": 0.0,
+          "target_delta": 0.0,
+          "context_ligand_coords": 0.0,
+          "pocket_init": 0.0,
+          "product_features": 0.0,
+          "edit_features": 0.0,
+          "pocket_features": 0.0,
+          "bond_index": 0.0
+        }
+      },
+      "status": "compared"
+    }
+  ],
+  "generated_utc": "2026-09-17T22:05:14Z"
+}

@@ -1,0 +1,65 @@
+{
+  "status": "misato_store_pipeline_reconciliation",
+  "why_this_exists": "Two extraction pipelines were launched on 2026-09-17 and a reviewer had to untangle the state. This records what happened, from the logs, so the history of the store is not folklore.",
+  "pipelines": [
+    {
+      "id": "A",
+      "log": "runlogs/misato_store_pipeline_20260917_163551.log",
+      "launched": "2026-09-17T16:35:51",
+      "extractor_version": "extract_system/v3",
+      "config_hash": "86e0c445dded22e4",
+      "stages": {
+        "gate": "PASS 17:41:21",
+        "warmup": "80 written, 10.4 s",
+        "pairs": "COMPLETED, exit 0 at 17:50:04 -- 4611 written, 11 rejected, 146 excluded = 4768; wall 505.8 s",
+        "all": "reached 1707 written / 24 rejected of 16646 before being stopped; wall 199.8 s"
+      },
+      "how_it_ended": "SIGTERM (signal 15) at 17:53:38, sent BY ME deliberately, logged as 'signal 15: stopping after the systems in flight'. watchdog_stop_reason was null and no traceback or failure appears in the log, so it was neither a resource trip nor an external kill nor a crash. It then wrote its all-stage summary at 17:53:39 and exited -- the designed clean-stop path.",
+      "why_i_stopped_it": "I had just found a defect in the QC, not in the data: the field then called 'ligand_boundary_warning' was mislabeled (see ligand_residue_finding below) and there was no detector for whole-molecule periodic-image jumps. Fixing both changed the extractor version string, which is part of the config hash (86e0c445dded22e4 -> e9ea2b3a91ff50c1), so every system had to be re-extracted regardless. Continuing A would have spent ~35 min producing output that was about to be superseded.",
+      "what_i_did_next": "deleted data/MISATO/{extracted,manifest}/frames100_pairs_v1 and .../frames100_all_v1 (A's v3 output, 2.7 GB) at 17:54 and relaunched as pipeline B."
+    },
+    {
+      "id": "B",
+      "log": "runlogs/misato_store_pipeline_20260917_175414.log",
+      "launched": "2026-09-17T17:54:14",
+      "extractor_version": "extract_system/v4",
+      "config_hash": "e9ea2b3a91ff50c1",
+      "note": "the run that produced the final store"
+    }
+  ],
+  "my_error": "I repointed runlogs/misato_store_pipeline_current.log to B without saying so, and reported 'relaunching' without stating that I had killed A and deleted its output. That is what made the state look like a duplicate launch with a half-finished pairs stage. The substance was fine; the reporting was not.",
+  "reconciliation_of_the_pairs_count": {
+    "apparent_contradiction": "A's log says its pairs stage completed with 4611 written, yet the pairs manifest was observed holding only 1248 written of 4542.",
+    "resolution": "Both statements were true of different runs. A's pairs stage really did complete (4611 written, exit 0, wall 505.8 s). I then DELETED that output. The 1248 was a snapshot of B's fresh v4 run, which had started from an empty directory ~2 minutes earlier.",
+    "is_there_a_shell_orchestration_bug": "No. The pipeline script did not advance past an incomplete stage. A's pairs stage exited 0 after processing all 4542 pending systems, and the 'go' decision for the all stage was computed from that completed stage's summary. Verified again on B: its pairs stage also reported 4611 written / 11 rejected / 146 excluded = 4768 before the all stage began.",
+    "corroboration": "A (v3) and B (v4) independently produced identical accept/reject counts -- 4611 / 11 / 146 -- from the same raw file, which is a reproducibility check on the extractor as well."
+  },
+  "double_write_hazard": {
+    "did_it_happen": "No. A's last write was its all-stage summary at 21:53:39Z; B started at 21:54:14Z, 35 s later. A was on config frames100_all_v1 and B on frames100_pairs_v1 -- different directories -- and I confirmed zero surviving extractor and pipeline processes before deleting anything. So no concurrent write to the same directory ever occurred, and this incident is NOT evidence that the design is safe.",
+    "so_i_tested_it_directly": {
+      "procedure": "four rounds of two extractors launched simultaneously on the SAME store root and the SAME config name over the same 80-system fixture, so every system was genuinely written twice by different processes (4 and 6 workers each)",
+      "written_entries_audited": 304,
+      "duplicate_manifest_entries": 0,
+      "manifest_sha256_or_size_mismatches": 0,
+      "corrupt_or_unloadable_npz": 0,
+      "npz_with_wrong_frame_count": 0,
+      "zero_length_npz": 0,
+      "orphan_tmp_files": 0,
+      "why_it_holds": "each write goes to <id>.npz.tmp<PID>, so two processes never share a temp path, and os.replace onto the final name is atomic within a filesystem: a reader sees one complete file or the other, never a blend. The manifest entry is written the same way and only AFTER the npz, so an entry never describes a file that is not fully on disk.",
+      "residual_window_i_will_not_hide": "if process X replaces the npz between process Y writing its npz and Y writing its manifest entry, the entry's sha256 would describe Y's bytes while X's bytes are on disk. The arrays would be identical but the digests would not, because np.savez_compressed embeds a zip timestamp. That was not observed in 304 audited writes, but it is not impossible. It is self-healing: the next --dry-run reports the system as pending on the sha256 check and a normal run re-extracts it. Concurrent writers on one config are not a supported mode; one writer per config is."
+    }
+  },
+  "ligand_residue_finding": {
+    "what_the_old_flag_was": "v3 recorded 'ligand_boundary_warning' when the ligand's atoms_residue codes were not exactly [0]. I had inferred 'code 0 means ligand' from five sampled systems.",
+    "what_atoms_residue_actually_is": "a residue TYPE code in 0..22, not a residue instance id. Code 0 is the code for a non-standard residue, which a small-molecule ligand is, and it appears on no protein atom.",
+    "so_what_the_flag_was_really_detecting": "a PEPTIDE or amino-acid ligand. Those are built from standard residues, so their codes legitimately collide with the protein's: 1FTJ's ligand is glutamate (code 9), 1LAF's is an amino acid (code 3), 1D8E's is a hexapeptide spanning codes 6/12/14/15/19/22. The ligand boundary in these systems is correct; only my label was wrong.",
+    "fix": "v4 splits it into ligand_residue_type_codes, ligand_residue_codes_shared_with_protein, ligand_is_nonstandard_residue_only, ligand_looks_peptidic and ligand_boundary_independently_confirmed. Nothing is called a warning, because nothing is wrong.",
+    "rates": {
+      "mmp_pair_corpus": "54 of 4611 written (1.2%) are peptidic",
+      "full_corpus_partial_v3_run": "131 of 1579 (8.3%) -- higher because the full corpus holds more peptide complexes than the MMP-pair subset"
+    },
+    "are_they_usable": "Yes. All 54 have 100 stored frames, zero clash warnings, zero bond-length warnings and sensible atom counts (ligand 11-274, pocket 82-796). The coordinates are correct.",
+    "recommendation": "keep them in the store and exclude them at corpus-construction time for small-molecule work. They are a different chemistry class, not broken data, and a store that silently dropped them could not be used for peptide work later."
+  },
+  "generated_utc": "2026-09-17T22:06:14Z"
+}

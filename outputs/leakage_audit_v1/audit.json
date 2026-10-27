@@ -1,0 +1,279 @@
+{
+  "split_counts": {
+    "train": {
+      "pairs": 3489,
+      "targets": 345,
+      "pdb_entries": 2078
+    },
+    "val": {
+      "pairs": 696,
+      "targets": 106,
+      "pdb_entries": 662
+    },
+    "test": {
+      "pairs": 728,
+      "targets": 66,
+      "pdb_entries": 491
+    }
+  },
+  "uniprot_overlap": {
+    "train&val": 0,
+    "train&test": 0,
+    "val&test": 0
+  },
+  "pdb_overlap": {
+    "train&val": 0,
+    "train&test": 0,
+    "val&test": 0
+  },
+  "checkpoints": [
+    {
+      "checkpoint": "outputs/internal_calibration_v1/full_f1",
+      "split": "train",
+      "fit_in_train": true,
+      "dev_in_train": true,
+      "fit_dev_target_overlap": 0,
+      "val_target_overlap": 0,
+      "test_target_overlap": 0,
+      "selection_metric": "dev_loss"
+    },
+    {
+      "checkpoint": "outputs/internal_calibration_v1/full_f2",
+      "split": "train",
+      "fit_in_train": true,
+      "dev_in_train": true,
+      "fit_dev_target_overlap": 0,
+      "val_target_overlap": 0,
+      "test_target_overlap": 0,
+      "selection_metric": "dev_loss"
+    },
+    {
+      "checkpoint": "outputs/internal_calibration_v1/full_f3",
+      "split": "train",
+      "fit_in_train": true,
+      "dev_in_train": true,
+      "fit_dev_target_overlap": 0,
+      "val_target_overlap": 0,
+      "test_target_overlap": 0,
+      "selection_metric": "dev_loss"
+    },
+    {
+      "checkpoint": "outputs/aniso_prior_v3/full_f1",
+      "split": "train",
+      "fit_in_train": true,
+      "dev_in_train": true,
+      "fit_dev_target_overlap": 0,
+      "val_target_overlap": 0,
+      "test_target_overlap": 0,
+      "selection_metric": "dev_loss"
+    },
+    {
+      "checkpoint": "outputs/aniso_prior_v3/full_f2",
+      "split": "train",
+      "fit_in_train": true,
+      "dev_in_train": true,
+      "fit_dev_target_overlap": 0,
+      "val_target_overlap": 0,
+      "test_target_overlap": 0,
+      "selection_metric": "dev_loss"
+    },
+    {
+      "checkpoint": "outputs/aniso_prior_v3/full_f3",
+      "split": "train",
+      "fit_in_train": true,
+      "dev_in_train": true,
+      "fit_dev_target_overlap": 0,
+      "val_target_overlap": 0,
+      "test_target_overlap": 0,
+      "selection_metric": "dev_loss"
+    },
+    {
+      "checkpoint": "outputs/sigma_star_v1/full_f1",
+      "split": "train",
+      "fit_in_train": true,
+      "dev_in_train": true,
+      "fit_dev_target_overlap": 0,
+      "val_target_overlap": 0,
+      "test_target_overlap": 0,
+      "selection_metric": "dev_loss"
+    },
+    {
+      "checkpoint": "outputs/sigma_star_v1/full_f2",
+      "split": "train",
+      "fit_in_train": true,
+      "dev_in_train": true,
+      "fit_dev_target_overlap": 0,
+      "val_target_overlap": 0,
+      "test_target_overlap": 0,
+      "selection_metric": "dev_loss"
+    },
+    {
+      "checkpoint": "outputs/sigma_star_v1/full_f3",
+      "split": "train",
+      "fit_in_train": true,
+      "dev_in_train": true,
+      "fit_dev_target_overlap": 0,
+      "val_target_overlap": 0,
+      "test_target_overlap": 0,
+      "selection_metric": "dev_loss"
+    },
+    {
+      "checkpoint": "outputs/angle_term_v1/full_f1",
+      "split": "train",
+      "fit_in_train": true,
+      "dev_in_train": true,
+      "fit_dev_target_overlap": 0,
+      "val_target_overlap": 0,
+      "test_target_overlap": 0,
+      "selection_metric": "dev_loss"
+    },
+    {
+      "checkpoint": "outputs/angle_term_v1/full_f2",
+      "split": "train",
+      "fit_in_train": true,
+      "dev_in_train": true,
+      "fit_dev_target_overlap": 0,
+      "val_target_overlap": 0,
+      "test_target_overlap": 0,
+      "selection_metric": "dev_loss"
+    },
+    {
+      "checkpoint": "outputs/angle_term_v1/full_f3",
+      "split": "train",
+      "fit_in_train": true,
+      "dev_in_train": true,
+      "fit_dev_target_overlap": 0,
+      "val_target_overlap": 0,
+      "test_target_overlap": 0,
+      "selection_metric": "dev_loss"
+    },
+    {
+      "checkpoint": "outputs/aniso_prior_v2/full_f3",
+      "split": "train",
+      "fit_in_train": true,
+      "dev_in_train": true,
+      "fit_dev_target_overlap": 0,
+      "val_target_overlap": 0,
+      "test_target_overlap": 0,
+      "selection_metric": "dev_loss"
+    },
+    {
+      "checkpoint": "outputs/angle_term_v1/retrain_control_f2",
+      "split": "train",
+      "fit_in_train": true,
+      "dev_in_train": true,
+      "fit_dev_target_overlap": 0,
+      "val_target_overlap": 0,
+      "test_target_overlap": 0,
+      "selection_metric": "dev_loss"
+    },
+    {
+      "checkpoint": "outputs/laplacian_prior_v1/full_f1",
+      "split": "train",
+      "fit_in_train": true,
+      "dev_in_train": true,
+      "fit_dev_target_overlap": 0,
+      "val_target_overlap": 0,
+      "test_target_overlap": 0,
+      "selection_metric": "dev_loss"
+    },
+    {
+      "checkpoint": "outputs/laplacian_prior_v1/full_f2",
+      "split": "train",
+      "fit_in_train": true,
+      "dev_in_train": true,
+      "fit_dev_target_overlap": 0,
+      "val_target_overlap": 0,
+      "test_target_overlap": 0,
+      "selection_metric": "dev_loss"
+    },
+    {
+      "checkpoint": "outputs/laplacian_prior_v1/full_f3",
+      "split": "train",
+      "fit_in_train": true,
+      "dev_in_train": true,
+      "fit_dev_target_overlap": 0,
+      "val_target_overlap": 0,
+      "test_target_overlap": 0,
+      "selection_metric": "dev_loss"
+    }
+  ],
+  "tau_contamination": {
+    "bond_angstrom": {
+      "n_systems": 600,
+      "n_val": 21,
+      "n_test": 15,
+      "median_all": 0.03263738626924825,
+      "median_without_val_test": 0.03264418391407325,
+      "relative_change": 0.00020827785561361445
+    },
+    "angle_deg": {
+      "n_systems": 2000,
+      "n_val": 86,
+      "n_test": 62,
+      "median_all": 2.7730481429698726,
+      "median_without_val_test": 2.7802600118993936,
+      "relative_change": 0.002600700946286949
+    },
+    "torsion_deg": {
+      "n_systems": 2000,
+      "n_val": 86,
+      "n_test": 62,
+      "median_all": 14.595613489670836,
+      "median_without_val_test": 14.653388203057725,
+      "relative_change": 0.003958361423298529
+    },
+    "oop_deg": {
+      "n_systems": 130,
+      "n_val": 8,
+      "n_test": 4,
+      "median_all": 6.480006204251406,
+      "median_without_val_test": 6.477876227756543,
+      "relative_change": -0.0003286997616555043
+    }
+  },
+  "chemical_overlap": {
+    "val": {
+      "ligand_systems": 662,
+      "identical_ligand_in_train": 32,
+      "distinct_molecules": 24
+    },
+    "test": {
+      "ligand_systems": 491,
+      "identical_ligand_in_train": 37,
+      "distinct_molecules": 31
+    }
+  },
+  "test_sensitivity_chemical_overlap": {
+    "all": {
+      "n_examples": 1410,
+      "median_spread": {
+        "ISO": 1.9740626879708723,
+        "ANISO_v3": 2.527263127029129,
+        "SIGMA_star": 0.7697089915584384
+      },
+      "paired_vs_ISO": {
+        "mean": -1.1524131085972904,
+        "ci95": [
+          -1.3702928097169647,
+          -1.020865581138548
+        ]
+      }
+    },
+    "chemically_unseen": {
+      "n_examples": 1347,
+      "median_spread": {
+        "ISO": 1.9773094230372983,
+        "ANISO_v3": 2.5355361736369417,
+        "SIGMA_star": 0.8038422275109811
+      },
+      "paired_vs_ISO": {
+        "mean": -1.1407433098286643,
+        "ci95": [
+          -1.362946677154042,
+          -1.0044664154534237
+        ]
+      }
+    }
+  }
+}

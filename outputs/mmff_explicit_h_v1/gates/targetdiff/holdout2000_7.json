@@ -1,0 +1,183 @@
+{
+  "n_molecules": 1811,
+  "sweeps": 32,
+  "split_seed": 7,
+  "ideal_classes": {
+    "bond": 9,
+    "angle": 20
+  },
+  "arms": {
+    "A_raw": {
+      "bond_rms": 0.07462900746228437,
+      "angle_rms": 9.705279819057928,
+      "planarity": 1.7597066789221776,
+      "rmsd_from_raw": 0.0,
+      "clashes": 0.0,
+      "wasserstein_bond": 0.037067875421953916,
+      "wasserstein_angle": 4.716387316751985
+    },
+    "B_mmff_free": {
+      "bond_rms": 0.029154455827523826,
+      "angle_rms": 5.3170419309405315,
+      "planarity": 0.8268515021033965,
+      "rmsd_from_raw": 1.3381804977449532,
+      "clashes": 1.0,
+      "wasserstein_bond": 0.020795733396646813,
+      "wasserstein_angle": 1.9814768301404264
+    },
+    "C_mmff_restrained": {
+      "bond_rms": 0.03493590724270777,
+      "angle_rms": 7.0999051107056665,
+      "planarity": 2.7745656755991313,
+      "rmsd_from_raw": 0.11776219722614513,
+      "clashes": 0.0,
+      "wasserstein_bond": 0.021445458197347018,
+      "wasserstein_angle": 3.0063237001636067
+    },
+    "D_projection": {
+      "bond_rms": 0.013003165012678728,
+      "angle_rms": 1.1528839809373266,
+      "planarity": 7.665954643907959,
+      "rmsd_from_raw": 0.19782572700869944,
+      "clashes": 0.0,
+      "wasserstein_bond": 0.02102646126793749,
+      "wasserstein_angle": 3.0687823512390415
+    },
+    "E_projection_plus_improper": {
+      "bond_rms": 0.013578615300983272,
+      "angle_rms": 1.204812990039578,
+      "planarity": 0.29705800339288924,
+      "rmsd_from_raw": 0.19898110564588523,
+      "clashes": 0.0,
+      "wasserstein_bond": 0.020866993467761517,
+      "wasserstein_angle": 3.0232402169750254
+    },
+    "F_soft_target": {
+      "bond_rms": 0.04091183778425253,
+      "angle_rms": 3.3238088842216738,
+      "planarity": 0.5839560248984916,
+      "rmsd_from_raw": 0.202194922811315,
+      "clashes": 0.0,
+      "wasserstein_bond": 0.020247072388912463,
+      "wasserstein_angle": 2.099284002315636
+    },
+    "G_mmff_restraint5": {
+      "bond_rms": 0.029433397506986144,
+      "angle_rms": 5.457493419244951,
+      "planarity": 2.093785873969868,
+      "rmsd_from_raw": 0.34517114960561074,
+      "clashes": 0.0,
+      "wasserstein_bond": 0.020671879232309422,
+      "wasserstein_angle": 1.881540133819935
+    },
+    "HB_mmffH_free": {
+      "bond_rms": 0.02973721616242848,
+      "angle_rms": 5.390343521688031,
+      "planarity": 1.349090014971201,
+      "rmsd_from_raw": 1.314279052192996,
+      "clashes": 1.0,
+      "wasserstein_bond": 0.013685043780357889,
+      "wasserstein_angle": 1.7729250735463162
+    },
+    "HC_mmffH_restraint100": {
+      "bond_rms": 0.03453127596831963,
+      "angle_rms": 6.900034892145982,
+      "planarity": 3.237140927600388,
+      "rmsd_from_raw": 0.15209422016157115,
+      "clashes": 0.0,
+      "wasserstein_bond": 0.013739488975680718,
+      "wasserstein_angle": 2.667368083652529
+    },
+    "HG_mmffH_restraint5": {
+      "bond_rms": 0.030414707848227102,
+      "angle_rms": 5.560808011121442,
+      "planarity": 2.4319854712795896,
+      "rmsd_from_raw": 0.4294787956946285,
+      "clashes": 0.0,
+      "wasserstein_bond": 0.013390824390761037,
+      "wasserstein_angle": 1.811688485467348
+    }
+  },
+  "extra_fields": {
+    "A_raw": {
+      "n_evaluated": 1811,
+      "n_with_receptor": 1811,
+      "clash_mean": 0.16344561016013254,
+      "frac_with_clash": 0.07012700165654334
+    },
+    "B_mmff_free": {
+      "n_evaluated": 1811,
+      "n_with_receptor": 1811,
+      "clash_mean": 3.3528437327443403,
+      "frac_with_clash": 0.5626725565985643
+    },
+    "C_mmff_restrained": {
+      "n_evaluated": 1811,
+      "n_with_receptor": 1811,
+      "clash_mean": 0.1662065157371618,
+      "frac_with_clash": 0.07288790723357261
+    },
+    "D_projection": {
+      "n_evaluated": 1811,
+      "n_with_receptor": 1811,
+      "clash_mean": 0.16565433462175594,
+      "frac_with_clash": 0.07454445057979017
+    },
+    "E_projection_plus_improper": {
+      "n_evaluated": 1811,
+      "n_with_receptor": 1811,
+      "clash_mean": 0.1662065157371618,
+      "frac_with_clash": 0.07509663169519602
+    },
+    "F_soft_target": {
+      "n_evaluated": 1811,
+      "n_with_receptor": 1811,
+      "clash_mean": 0.1684152401987852,
+      "frac_with_clash": 0.07620099392600774
+    },
+    "G_mmff_restraint5": {
+      "n_evaluated": 1811,
+      "n_with_receptor": 1811,
+      "clash_mean": 0.2026504693539481,
+      "frac_with_clash": 0.09607951408061845
+    },
+    "HB_mmffH_free": {
+      "n_evaluated": 1811,
+      "n_with_receptor": 1811,
+      "clash_mean": 3.3136388735505244,
+      "frac_with_clash": 0.5621203754831585
+    },
+    "HC_mmffH_restraint100": {
+      "n_evaluated": 1811,
+      "n_with_receptor": 1811,
+      "clash_mean": 0.16510215350635007,
+      "frac_with_clash": 0.07509663169519602
+    },
+    "HG_mmffH_restraint5": {
+      "n_evaluated": 1811,
+      "n_with_receptor": 1811,
+      "clash_mean": 0.23136388735505245,
+      "frac_with_clash": 0.12037548315847597
+    }
+  },
+  "minimize_status": {
+    "B_mmff_free": {
+      "0": 1811
+    },
+    "C_mmff_restrained": {
+      "0": 1811
+    },
+    "G_mmff_restraint5": {
+      "0": 1811
+    },
+    "HB_mmffH_free": {
+      "0": 1811
+    },
+    "HC_mmffH_restraint100": {
+      "0": 1811
+    },
+    "HG_mmffH_restraint5": {
+      "0": 1811
+    }
+  }
+}

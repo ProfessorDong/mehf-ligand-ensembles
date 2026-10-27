@@ -1,0 +1,103 @@
+{
+  "config_hash": "e9ea2b3a91ff50c1",
+  "config_name": "frames100_all_v1",
+  "extraction_config": {
+    "broken_bond_angstrom": 2.6,
+    "extractor": "misato_store_extract.extract_system/v4",
+    "frame_stride": 1,
+    "max_ligand_atoms": 300,
+    "max_pocket_atoms": 2000,
+    "min_ligand_atoms": 6,
+    "n_frames": 100,
+    "pocket_radius_angstrom": 8.0
+  },
+  "generated_utc": "2026-09-17T22:36:38Z",
+  "leakage_exclusion_path": "/home/ieb24002/MDWM_TCBB/data/processed/misato_leakage_exclusions_v1.json",
+  "leakage_exclusion_sha256": "9c44dd5f48b9dd41fae426a7bb9d96b7f06e54a4b03b971720777aeaf75cf73e",
+  "manifest_jsonl": "/home/ieb24002/MDWM_TCBB/data/MISATO/manifest/frames100_all_v1/manifest.jsonl",
+  "manifest_status_counts": {
+    "excluded_leakage": 325,
+    "rejected": 110,
+    "written": 16536
+  },
+  "mean_npz_bytes": 457909.06240928883,
+  "n_systems_excluded_for_leakage": 325,
+  "n_systems_requested": 16971,
+  "n_written_total": 16536,
+  "qc_aggregate": {
+    "bond_length_max_angstrom": {
+      "max": 2.7851016521453857,
+      "mean": 1.757240773811684,
+      "median": 1.6879807710647583,
+      "min": 1.4516279697418213
+    },
+    "ligand_centroid_step_max_angstrom": {
+      "max": 93.3515598978102,
+      "mean": 4.5643080266674705,
+      "median": 2.1747071611929636,
+      "min": 0.6185401172891672
+    },
+    "ligand_max_displacement_angstrom": {
+      "max": 141.78269958496094,
+      "mean": 14.465026205988627,
+      "median": 11.655995845794678,
+      "min": 2.005394220352173
+    },
+    "ligand_rmsd_last_vs_first_angstrom": {
+      "max": 138.6571044921875,
+      "mean": 7.387523906227034,
+      "median": 5.202467203140259,
+      "min": 0.6351321339607239
+    },
+    "min_pocket_ligand_distance_angstrom": {
+      "max": 6.966742515563965,
+      "mean": 1.7302557246504513,
+      "median": 1.641770601272583,
+      "min": 1.3613566160202026
+    },
+    "n_ligand_atoms": {
+      "max": 299.0,
+      "mean": 58.89356555394291,
+      "median": 49.0,
+      "min": 6.0
+    },
+    "n_pocket_atoms": {
+      "max": 1037.0,
+      "mean": 375.30575713594584,
+      "median": 366.0,
+      "min": 3.0
+    }
+  },
+  "qc_flag_counts": {
+    "bond_length_warning": 1,
+    "clash_warning": 0,
+    "ligand_boundary_independently_confirmed": 15426,
+    "ligand_looks_peptidic": 1108,
+    "periodic_image_jump_suspected": 1689,
+    "pocket_truncated_at_cap": 0
+  },
+  "runtime_config": {
+    "atom_block": 4096,
+    "disk_floor_gib": 25.0,
+    "frame_block": 10,
+    "min_available_gib": 100.0,
+    "peak_group_rss_bytes": 1257111552,
+    "per_worker_worst_case_bytes": 70144832,
+    "rdcc_mib": 32,
+    "rss_budget_gib": 24.0,
+    "workers": 8
+  },
+  "source_hdf5": "/home/ieb24002/MDWM_TCBB/data/MISATO/raw/MD.hdf5",
+  "source_url": "https://zenodo.org/api/records/7711953/files/MD.hdf5/content",
+  "status": "misato_store_extraction_summary",
+  "this_run_counts": {
+    "failed": 0,
+    "rejected": 110,
+    "written": 16536
+  },
+  "this_run_failures": [],
+  "wall_seconds_this_run": 1961.4527848450089,
+  "watchdog_stop_reason": null,
+  "written_bytes_total": 7571984256,
+  "written_gib_total": 7.051959872245789
+}

@@ -1,0 +1,48 @@
+{
+  "n_molecules": 200,
+  "sweeps": 32,
+  "ideal_classes": {
+    "bond": 10,
+    "angle": 36
+  },
+  "arms": {
+    "A_raw": {
+      "bond_rms": 0.10922337163117328,
+      "angle_rms": 12.649684030546315,
+      "planarity": 4.139807126485504,
+      "rmsd_from_raw": 0.0,
+      "clashes": 0.0
+    },
+    "B_mmff_free": {
+      "bond_rms": 0.028410149451587992,
+      "angle_rms": 5.607625511681969,
+      "planarity": 0.5661518259274975,
+      "rmsd_from_raw": 1.6748224117025559,
+      "clashes": 2.0
+    },
+    "C_mmff_restrained": {
+      "bond_rms": 0.03629325759939843,
+      "angle_rms": 7.680192899636523,
+      "planarity": 3.1721960471692316,
+      "rmsd_from_raw": 0.15264465527376386,
+      "clashes": 0.0
+    },
+    "D_projection": {
+      "bond_rms": 0.014872406322121938,
+      "angle_rms": 1.4186117192935375,
+      "planarity": 10.131259512095642,
+      "rmsd_from_raw": 0.23722320117187945,
+      "clashes": 0.0
+    }
+  },
+  "gate": {
+    "P1_bond_within_1.5x_of_C": true,
+    "P1_angle_within_1.5x_of_C": true,
+    "P1_bond_30pct_below_A": true,
+    "P1_angle_30pct_below_A": true,
+    "P2_D_rmsd_below_0.25": true,
+    "P2_B_rmsd_above_0.5": true,
+    "P3_D_planarity_unchanged": false,
+    "C_matches_D_on_both": false
+  }
+}

@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/home/dong/Workspace/WritePaper/TCBB_MolecularDynamics/MEHF/scripts/mehf_internal_geometry_spectrum.py", line 368, in <module>
+    main()
+  File "/home/dong/Workspace/WritePaper/TCBB_MolecularDynamics/MEHF/scripts/mehf_internal_geometry_spectrum.py", line 270, in main
+    batches = build_batches(
+              ^^^^^^^^^^^^^^
+  File "/home/dong/Workspace/WritePaper/TCBB_MolecularDynamics/MEHF/scripts/run_subspace_plane.py", line 96, in build_batches
+    build_example(
+  File "/home/dong/Workspace/WritePaper/TCBB_MolecularDynamics/MEHF/src/mdwm/data/mmp_transfer.py", line 406, in build_example
+    parent = load_system(parent_id, store, frame_alignment)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dong/Workspace/WritePaper/TCBB_MolecularDynamics/MEHF/src/mdwm/data/mmp_transfer.py", line 202, in load_system
+    return _load_system_cached(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dong/Workspace/WritePaper/TCBB_MolecularDynamics/MEHF/src/mdwm/data/mmp_transfer.py", line 160, in _load_system_cached
+    with np.load(path) as archive:
+         ^^^^^^^^^^^^^
+  File "/home/dong/anaconda3/envs/MEHF/lib/python3.12/site-packages/numpy/lib/_npyio_impl.py", line 463, in load
+    raise EOFError("No data left in file")
+EOFError: No data left in file

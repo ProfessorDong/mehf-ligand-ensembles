@@ -1,0 +1,36 @@
+{
+  "stage": "STAGE 1 -- EXPLORATORY.  The pre-registered gate returned FAIL and that verdict stands; nothing here is a confirmed result.",
+  "checkpoint": "outputs/internal_calibration_v1/full_f1/checkpoint.pt",
+  "examples": "fit",
+  "n_examples": 152,
+  "n_targets": 152,
+  "n_samples_per_side": 50,
+  "steps": 16,
+  "seed": 20260918,
+  "training_rigid_noise_scale": 0.35,
+  "training_internal_noise_scale": 3.5,
+  "window": [
+    0.85,
+    1.15
+  ],
+  "plane": [
+    {
+      "rigid_scale": 0.32,
+      "internal_scale": 2.5,
+      "internal_rmsf_ratio_median": 1.1066906775701897,
+      "internal_rmsf_ratio_q25": 0.7478054745202493,
+      "internal_rmsf_ratio_q75": 1.4008184712030258,
+      "centroid_dispersion_ratio_median": 1.040157729162924,
+      "centroid_dispersion_ratio_q25": 0.6319694067724202,
+      "centroid_dispersion_ratio_q75": 1.4288647885990968,
+      "orientation_dispersion_ratio_median": 0.6849230090490448,
+      "orientation_dispersion_ratio_q25": 0.4062595433282936,
+      "orientation_dispersion_ratio_q75": 0.9392666434814033,
+      "max_deviation": 0.10669067757018968,
+      "both_in_window": true,
+      "seconds": 97.4
+    }
+  ],
+  "cuda_visible_devices": "0",
+  "gpu_name": "NVIDIA RTX A6000"
+}

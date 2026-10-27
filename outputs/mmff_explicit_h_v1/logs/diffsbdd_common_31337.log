@@ -1,0 +1,1 @@
+{"n": 2000, "status": {"B_mmff_free": {"0": 2000}, "C_mmff_restrained": {"0": 2000}, "G_mmff_restraint5": {"0": 2000}, "HB_mmffH_free": {"0": 1998, "removehs_order_mismatch": 2}, "HC_mmffH_restraint100": {"0": 1998, "removehs_order_mismatch": 2}, "HG_mmffH_restraint5": {"0": 1998, "removehs_order_mismatch": 2}}}
